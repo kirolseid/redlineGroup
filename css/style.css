@@ -270,7 +270,7 @@ body {
   /* background-image: url("../images/Vector\ 4.png"); */
   background-repeat: no-repeat;
   background-size: contain;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 #whyUs .cover {
