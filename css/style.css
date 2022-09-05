@@ -33,6 +33,9 @@ body {
 .navbar {
   background-color: #f2f2f2 !important;
 }
+.navbar .container-fluid{
+  margin: 0 5%;
+}
 
 .navbar .nav-item {
   font-family: "Montserrat";
