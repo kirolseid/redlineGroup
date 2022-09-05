@@ -15,6 +15,7 @@ var swiper = new Swiper("#welcomesec .mySwiper", {
   });
 
 
+  
   $(document).ready(()=>{
     $('#welcomesec h3 ').delay(1500).animate({
       left: '8%',
@@ -45,5 +46,52 @@ $(document).ready(()=>{
         },3000);
         })  
 
-  
- 
+        let container = document.querySelector('#whyUs');
+
+        function isScrolledIntoView(elem) {
+          var rect = elem.getBoundingClientRect();
+          var elemTop = rect.top;
+          var elemBottom = rect.bottom;
+        
+          var isVisible = (elemTop = 100) ;
+          console.log(elemTop);
+          return isVisible;
+        }
+        
+        window.addEventListener("scroll", function() {
+          if (isScrolledIntoView(container)) {
+            $('#whyUs .whyUs .l ').delay(000).animate({
+              left:"0%" 
+            },5000);
+
+            $('#whyUs .whyUs .r ').delay(000).animate({
+              right:"0%" 
+            },5000);
+
+            $('.counter').each(function() {
+              var $this = $(this),
+                  countTo = $this.attr('data-count');
+              
+              $({ countNum: $this.text()}).animate({
+                countNum: countTo
+              },
+            
+              {
+            
+                duration: 3000,
+                easing:'linear',
+                step: function() {
+                  $this.text(Math.floor(this.countNum));
+                },
+                complete: function() {
+                  $this.text(this.countNum);
+                  //alert('finished');
+                }
+            
+              });  
+              
+              
+            
+            });
+          }
+        });
