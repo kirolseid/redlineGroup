@@ -112,12 +112,12 @@ body {
 #welcomesec .swiper-button-next {
   /* position: fixed; */
   right: 5%;
-  top: 85%;
+  top: 80%;
 
 }
 #welcomesec .swiper-button-prev {
   left: 90%;
-  top: 85%;
+  top: 80%;
   
 }
 
