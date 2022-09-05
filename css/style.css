@@ -523,7 +523,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #ffffffd3;
-/* margin-bottom: 50%; */
+margin-bottom: 25%;
   
 }
 
@@ -567,13 +567,11 @@ body {
     margin-left: 10px !important;
 }
 
-#serves .contant .right a{
-    margin-left: 70%;
+#serves  .r2 a{
+    margin-left: 50%;
  }
 
-#serves2 .contant .right a{
-    margin-left: 70%;
- }
+
 
 
 
