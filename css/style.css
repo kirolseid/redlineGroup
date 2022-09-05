@@ -1055,6 +1055,7 @@ padding: 13px 51px;
     background-color: transparent;
     padding: 13px 29px;
     margin-bottom: 40px;
+    margin-right: 40px;
 }
 
 #contact h6{
@@ -1100,7 +1101,7 @@ margin-bottom: 65px !important;
    margin-right: 10px;
    font-family: 'Montserrat';
    font-style: normal;
-   margin-left: 15px;
+   /* margin-left: 15px; */
    
    /* line-height: 22px; */
    
