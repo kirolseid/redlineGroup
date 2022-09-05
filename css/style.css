@@ -211,7 +211,7 @@ body {
 
 .welcome .contant h1 {
   position: absolute;
-  top: 42%;
+  top: 50%;
   /* left: 8%; */
   left: -40%;
 
@@ -224,7 +224,7 @@ body {
   letter-spacing: 0.1em;
 
   color: #ffffff;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   /* display: none; */
 }
 
@@ -248,10 +248,8 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
-
+  line-height: 22px;  
   color: #c4c4c4b1;
-
   opacity: 0;
 }
 
