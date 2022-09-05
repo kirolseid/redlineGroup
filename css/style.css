@@ -232,7 +232,7 @@ body {
 
 .welcome .contant .line {
   position: absolute;
-  top: 72%;
+  top: 65%;
   left: 10%;
   width: 147px;
   height: 5px;
@@ -242,7 +242,7 @@ body {
 }
 .welcome .contant p {
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 8%;
   font-family: "Montserrat";
   font-style: normal;
