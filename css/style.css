@@ -1029,11 +1029,12 @@ padding: 13px 51px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 49px;
     
     color: #FFFFFF;
     margin: 30px 0;
+    margin-bottom: 38px;
 }
 
 #contact button{
@@ -1053,7 +1054,7 @@ padding: 13px 51px;
     color: #FFFFFF;
     background-color: transparent;
     padding: 13px 29px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 
 #contact h6{
@@ -1064,7 +1065,7 @@ font-size: 25px;
 line-height: 37px;
 
 color: #FFFFFF;
-margin-bottom: 30px;
+margin-bottom: 40px;
 }
 
 #contact p{
@@ -1072,11 +1073,25 @@ margin-bottom: 30px;
     font-family: 'Montserrat-light';
 font-style: normal;
 font-weight: 200;
-font-size: 15px;
+font-size: 18px;
 line-height: 22px;
 
 color: #ffffffe4;
-margin-bottom: 15px !important;
+margin-bottom: 65px !important;
+
+}
+
+#contact .p1{
+  /* display: inline-block; */
+  font-family: 'Montserrat-light';
+font-style: normal;
+font-weight: 200;
+font-size: 18px;
+line-height: 22px;
+width: 80%;
+
+color: #ffffffe4;
+margin-bottom: 65px !important;
 
 }
 
@@ -1094,11 +1109,12 @@ margin-bottom: 15px !important;
 }
 
 #contact .social {
-    margin-top: 0px;
+    margin-top: 29px;
 }
 #contact .social ul{
     display: flex;
     justify-content: space-between;
+    width: 90%;
 
 }
 
@@ -1201,5 +1217,65 @@ margin-bottom: 15px !important;
   #software .swiper-button-prev {
     left: 50px;
   }
+
+
+#contact .container-fluid{
+margin-left: 55px;
+}
+#contact h4{
+
+  font-size: 25px;
+  margin: 25px 0;
+}
+
+#contact button{
+
+  margin-bottom: 15px;
+}
+
+#contact h6{
+ 
+font-size: 25px;
+
+margin-bottom: 15px;
+}
+
+#contact p{
+ 
+font-size: 15px;
+
+margin-bottom: 15px !important;
+
+}
+
+#contact .p1{
+  margin-bottom: 15px !important;
+}
+
+#contact  svg{
+
+ margin-right: 10px;
+
+ font-style: normal;
+ margin-left: 0 px;
+ 
+ /* line-height: 22px; */
+ 
+ color: #FFFFFF;
+ /* margin-bottom: 35px; */
+}
+
+#contact .social {
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
   
 }
+
+
