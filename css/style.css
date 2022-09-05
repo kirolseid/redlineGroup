@@ -1019,9 +1019,12 @@ padding: 13px 51px;
 #contact .col-md-5{
     background-image: url('../images/Group\ 146.png');
     /* background-attachment: fixed; */
-    background-size: 100% 100%;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
 }
-
+#contact .container-fluid{
+  margin-left: 55px;
+}
 #contact h4{
     font-family: 'Montserrat';
     font-style: normal;
@@ -1091,7 +1094,7 @@ margin-bottom: 35px !important;
 }
 
 #contact .social {
-    margin-top: 70px;
+    margin-top: 0px;
 }
 #contact .social ul{
     display: flex;
@@ -1104,8 +1107,13 @@ margin-bottom: 35px !important;
     
 }
 
-#contact img{
+#contact .social img{
     width: 100%;
+}
+
+#contact .col-md-7 img{
+  width: 90%;
+  margin-left:10% !important;
 }
 
 
@@ -1179,6 +1187,10 @@ margin-bottom: 35px !important;
     
   margin-bottom: 22%;
     
+  }
+
+  #contact .container-fluid{
+    margin-left: 20px;
   }
   
 }
