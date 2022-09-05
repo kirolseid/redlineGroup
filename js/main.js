@@ -13,5 +13,37 @@ var swiper = new Swiper("#welcomesec .mySwiper", {
       prevEl: "#software .swiper-button-prev",
     },
   });
+
+
+  $(document).ready(()=>{
+    $('#welcomesec h3 ').delay(1500).animate({
+      left: '8%',
+    },2000);
+  })
+
+$(document).ready(()=>{
+  $('#welcomesec h1 ').delay(3500).animate({
+    left: '8%', 
+  },2000);
+  })
+
+  $(document).ready(()=>{
+    $('#welcomesec .line ').delay(4000).animate({
+      opacity: "1", 
+    },3000);
+    })
+
+    $(document).ready(()=>{
+      $('#welcomesec p ').delay(5000).animate({
+        opacity: "0.7", 
+      },3000);
+      })
+
+      $(document).ready(()=>{
+        $('#welcomesec .bttn ').delay(5500).animate({
+          opacity: "1", 
+        },3000);
+        })  
+
   
-  
+ 

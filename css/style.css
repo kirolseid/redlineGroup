@@ -83,7 +83,7 @@ body {
 
 #welcomesec .swiper {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
 }
 
 #welcomesec .swiper-slide {
@@ -142,8 +142,8 @@ body {
   color: #fff !important  ;
 }
 
-.welcome .height {
-  height: 120vh;
+ .height {
+  height: 100vh !important;;
 }
 
 /* social media icons */
@@ -165,6 +165,12 @@ body {
 /* contant */
 
 .welcome .contant h6 {
+  position: absolute;
+  top: 35%;
+  animation: type 1.5s steps(7);
+  overflow:hidden;
+  
+
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
@@ -173,9 +179,32 @@ body {
   letter-spacing: 0.1em;
 
   color: #ffffff;
+  width:8ch;
+  /* font-size:3em; */
+  
+  
+}
+
+
+
+
+
+@keyframes type{
+  0%{
+    width:0ch;
+  }
+  100%{
+    width:10ch;
+  }
 }
 
 .welcome .contant h3 {
+  position: absolute;
+  top: 40%;
+
+left: -20%;
+  
+
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -186,7 +215,20 @@ body {
   color: #dc1c22;
 }
 
+
+
+
+
 .welcome .contant h1 {
+
+  position: absolute;
+  top: 40%;
+  
+  /* left: 8%; */
+
+left: -40%;
+
+
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -195,13 +237,28 @@ body {
   letter-spacing: 0.1em;
 
   color: #ffffff;
+  margin-top: 50px;
+  /* display: none; */
+}
+
+@keyframes h1leftToRight{
+  0%{
+    left:-20%
+  }
+  100%{
+    left:7%;
+  display: block;
+
+  }
 }
 
 .welcome .contant .line {
+  margin-top: 12%;
   width: 147px;
   height: 5px;
   background-color: #dc1c22;
   margin-bottom: 10px;
+  opacity:0
 }
 .welcome .contant p {
   font-family: "Montserrat";
@@ -212,7 +269,7 @@ body {
 
   color: #c4c4c4b1;
 
-  opacity: 0.7;
+  opacity: 0;
 }
 
 .welcome .contant .bttn {
@@ -223,7 +280,7 @@ body {
   font-weight: 100 !important;
   font-size: 20px;
   line-height: 28px;
-
+opacity: 0;
   color: #ffffff;
   padding: 14px 0px 14px 30px;
 }
