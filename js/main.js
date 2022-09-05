@@ -28,7 +28,7 @@ $(document).ready(()=>{
   })
 
   $(document).ready(()=>{
-    $('#welcomesec .line ').delay(4000).animate({
+    $('#welcomesec .line1 ').delay(4000).animate({
       opacity: "1", 
     },3000);
     })

@@ -231,7 +231,7 @@ body {
 
 
 
-.welcome .contant .line {
+.welcome .contant .line1 {
   position: absolute;
   top: 62%;
   left: 9%;
@@ -267,7 +267,7 @@ body {
   line-height: 28px;
   opacity: 0;
     color: #ffffff;
-  /* padding: 14px 0px 14px 30px; */
+  padding: 0 0 0 30px;
 }
 
 .welcome .contant .discover {
@@ -1219,41 +1219,7 @@ margin-bottom: 35px !important;
   
   
   .welcome .contant .line {
-    position: absolute;
-    top: 63%;
-    left: 9%;
-    width: 147px;
-    height: 5px;
-    background-color: #dc1c22;
-    /* margin-bottom: 10px; */
-    opacity:0
-  }
-  .welcome .contant p {
-    position: absolute;
-    top: 67%;
-    left: 9%;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;  
-    color: #c4c4c4b1;
-    opacity: 0;
+    top: 63%; 
   }
   
-  .welcome .contant .bttn {
-    position: absolute;
-    top: 79%;
-    left: 9%;
-    background-color: #dc1c22;
-    border-radius: 0;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 100 !important;
-    font-size: 20px;
-    line-height: 28px;
-    opacity: 0;
-      color: #ffffff;
-    /* padding: 14px 0px 14px 30px; */
-  }
 }
