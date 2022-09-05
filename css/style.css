@@ -199,9 +199,8 @@ body {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  /* font-size: 60px; */
-  font-size: 350%;
-
+  font-size: 55px;
+  /* font-size: 350%; */
   line-height: 73px;
   letter-spacing: 0.1em;
   color: #dc1c22;
@@ -221,7 +220,7 @@ body {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 400%;
+  font-size: 90px;
   line-height: 122px;
   letter-spacing: 0.1em;
 
@@ -234,8 +233,8 @@ body {
 
 .welcome .contant .line {
   position: absolute;
-  top: 65%;
-  left: 8%;
+  top: 62%;
+  left: 9%;
   width: 147px;
   height: 5px;
   background-color: #dc1c22;
@@ -244,8 +243,8 @@ body {
 }
 .welcome .contant p {
   position: absolute;
-  top: 70%;
-  left: 8%;
+  top: 67%;
+  left: 9%;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -257,8 +256,8 @@ body {
 
 .welcome .contant .bttn {
   position: absolute;
-  top: 84%;
-  left: 8%;
+  top: 79%;
+  left: 9%;
   background-color: #dc1c22;
   border-radius: 0;
   font-family: "Montserrat";
@@ -1181,4 +1180,80 @@ margin-bottom: 35px !important;
 #footer span{
     color: #DC1C22;
     
+}
+
+
+
+
+@media only screen and (max-width: 1440px)  {
+  
+  
+  .welcome .contant h3 {
+    top: 35%;
+    font-size: 50px;
+  }
+  
+  
+  
+  
+  
+  .welcome .contant h1 {
+    position: absolute;
+    top: 42%;
+    /* left: 8%; */
+    left: -40%;
+  
+  
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 122px;
+    letter-spacing: 0.1em;
+  
+    color: #ffffff;
+    /* margin-top: 50px; */
+    /* display: none; */
+  }
+  
+  
+  
+  .welcome .contant .line {
+    position: absolute;
+    top: 63%;
+    left: 9%;
+    width: 147px;
+    height: 5px;
+    background-color: #dc1c22;
+    /* margin-bottom: 10px; */
+    opacity:0
+  }
+  .welcome .contant p {
+    position: absolute;
+    top: 67%;
+    left: 9%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;  
+    color: #c4c4c4b1;
+    opacity: 0;
+  }
+  
+  .welcome .contant .bttn {
+    position: absolute;
+    top: 79%;
+    left: 9%;
+    background-color: #dc1c22;
+    border-radius: 0;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 100 !important;
+    font-size: 20px;
+    line-height: 28px;
+    opacity: 0;
+      color: #ffffff;
+    /* padding: 14px 0px 14px 30px; */
+  }
 }
