@@ -166,7 +166,7 @@ body {
 
 .welcome .contant h6 {
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 8%;
   animation: type 1.5s steps(7);
   overflow:hidden;
@@ -194,7 +194,7 @@ body {
 
 .welcome .contant h3 {
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: -20%;
   font-family: "Montserrat";
   font-style: normal;
@@ -211,7 +211,7 @@ body {
 
 .welcome .contant h1 {
   position: absolute;
-  top: 50%;
+  top: 45%;
   /* left: 8%; */
   left: -40%;
 
@@ -233,7 +233,7 @@ body {
 .welcome .contant .line {
   position: absolute;
   top: 65%;
-  left: 10%;
+  left: 8%;
   width: 147px;
   height: 5px;
   background-color: #dc1c22;
