@@ -375,7 +375,13 @@ body {
 
 #whyUs .whyUs .number {
   text-align: left;
+  display: flex;
+  justify-content: center;
 }
+#whyUs .whyUs .number .row {
+  width: 90%;
+}
+
 
 #whyUs .whyUs .number h4 {
   font-family: "Montserrat-bold";
