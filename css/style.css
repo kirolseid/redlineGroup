@@ -728,7 +728,7 @@ margin-bottom: 42%;
   
   }
   #software .swiper-button-prev {
-    left: 50px;
+    left: 140px;
   }
   
   #software .swiper-button-next,
@@ -1029,15 +1029,15 @@ padding: 13px 51px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 49px;
     
     color: #FFFFFF;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 #contact button{
-    display: block;
+    /* display: block; */
     border: 1px solid #FFFFFF;
     
     font-family: 'Montserrat';
@@ -1052,15 +1052,15 @@ padding: 13px 51px;
     
     color: #FFFFFF;
     background-color: transparent;
-    padding: 14px 35px;
-    margin-bottom: 30px;
+    padding: 13px 29px;
+    margin-bottom: 15px;
 }
 
 #contact h6{
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
-font-size: 30px;
+font-size: 25px;
 line-height: 37px;
 
 color: #FFFFFF;
@@ -1072,11 +1072,11 @@ margin-bottom: 30px;
     font-family: 'Montserrat-light';
 font-style: normal;
 font-weight: 200;
-font-size: 18px;
+font-size: 15px;
 line-height: 22px;
 
 color: #ffffffe4;
-margin-bottom: 35px !important;
+margin-bottom: 15px !important;
 
 }
 
@@ -1112,8 +1112,8 @@ margin-bottom: 35px !important;
 }
 
 #contact .col-md-7 img{
-  width: 90%;
-  margin-left:10% !important;
+  width: 100%;
+  /* margin-left:10% !important; */
 }
 
 
@@ -1131,7 +1131,7 @@ margin-bottom: 35px !important;
     text-align: center;
     
     color: #FFFFFF;
-    margin: 32px 0;
+    margin: 25px 0;
     
 }
 
@@ -1191,6 +1191,15 @@ margin-bottom: 35px !important;
 
   #contact .container-fluid{
     margin-left: 20px;
+  }
+
+  #software .swiper-button-next {
+    /* position: fixed; */
+    right: 140px;
+  
+  }
+  #software .swiper-button-prev {
+    left: 50px;
   }
   
 }
