@@ -170,25 +170,18 @@ body {
   left: 8%;
   animation: type 1.5s steps(7);
   overflow:hidden;
-  
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.1em;
-
   color: #ffffff;
-  width:8ch;
+  width:10ch;
   /* font-size:3em; */
   
   
 }
-
-
-
-
 
 @keyframes type{
   0%{
@@ -202,17 +195,13 @@ body {
 .welcome .contant h3 {
   position: absolute;
   top: 40%;
-
-left: -20%;
-  
-
+  left: -20%;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 73px;
   letter-spacing: 0.1em;
-
   color: #dc1c22;
 }
 
@@ -221,13 +210,10 @@ left: -20%;
 
 
 .welcome .contant h1 {
-
   position: absolute;
-  top: 40%;
-  
+  top: 42%;
   /* left: 8%; */
-
-left: -40%;
+  left: -40%;
 
 
   font-family: "Montserrat";
@@ -242,25 +228,16 @@ left: -40%;
   /* display: none; */
 }
 
-@keyframes h1leftToRight{
-  0%{
-    left:-20%
-  }
-  100%{
-    left:7%;
-  display: block;
 
-  }
-}
 
 .welcome .contant .line {
   position: absolute;
-  top: 70%;
+  top: 72%;
   left: 10%;
   width: 147px;
   height: 5px;
   background-color: #dc1c22;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   opacity:0
 }
 .welcome .contant p {
@@ -289,8 +266,8 @@ left: -40%;
   font-weight: 100 !important;
   font-size: 20px;
   line-height: 28px;
-opacity: 0;
-  color: #ffffff;
+  opacity: 0;
+    color: #ffffff;
   /* padding: 14px 0px 14px 30px; */
 }
 
