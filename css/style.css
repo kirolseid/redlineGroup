@@ -677,6 +677,17 @@ margin-bottom: 42%;
   color: #ffffff8a;
 }
 
+#portfolio .features ul  .active{
+  margin: 0 10%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
 #software{
     position: relative;
     margin: 45px 0;
@@ -713,11 +724,11 @@ margin-bottom: 42%;
   
   #software .swiper-button-next {
     /* position: fixed; */
-    right: 10px;
+    right: 140px;
   
   }
   #software .swiper-button-prev {
-    left: 10px;
+    left: 50px;
   }
   
   #software .swiper-button-next,
