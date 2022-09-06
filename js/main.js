@@ -138,9 +138,121 @@ window.addEventListener("scroll", function () {
     );
 
     $("#serves .sec1 h3 ").delay(000).animate(
-      {left:'5%'},
+      {left:'0%'},
       1500
     );
      
   }
 });
+
+
+
+
+let serversec2 = document.querySelector("#serves .sec2");
+function isScrolledIntoView(elem) {
+  var rect = elem.getBoundingClientRect();
+  var elemTop = rect.top;
+  var elemBottom = rect.bottom;
+
+  var isVisible = (elemTop <= 100);
+  // console.log(rect);
+  return isVisible;
+}
+
+
+window.addEventListener("scroll", function () {
+  console.log(isScrolledIntoView(serversec2));
+  if (isScrolledIntoView(serversec2)) {
+   
+    $("#serves .sec2 img ").delay(000).animate(
+      {rotate:'360deg'},
+      1500
+    );
+
+    $("#serves .sec2 p ").delay(000).animate(
+      {opacity:'1'},
+      2000
+    );
+
+    $("#serves .sec2 h3 ").delay(000).animate(
+      {left:'0%'},
+      1500
+    );
+     
+  }
+});
+
+
+
+
+
+let serversec3 = document.querySelector("#serves .sec3");
+function isScrolledIntoView(elem) {
+  var rect = elem.getBoundingClientRect();
+  var elemTop = rect.top;
+  var elemBottom = rect.bottom;
+
+  var isVisible = (elemTop <= 100);
+  // console.log(rect);
+  return isVisible;
+}
+
+
+window.addEventListener("scroll", function () {
+  console.log(isScrolledIntoView(serversec3));
+  if (isScrolledIntoView(serversec3)) {
+   
+    $("#serves .sec3 img ").delay(000).animate(
+      {rotate:'360deg'},
+      1500
+    );
+
+    $("#serves .sec3 p ").delay(000).animate(
+      {opacity:'1'},
+      2000
+    );
+
+    $("#serves .sec3 h3 ").delay(000).animate(
+      {right:'0%'},
+      1500
+    );
+     
+  }
+});
+
+
+
+let serversec4 = document.querySelector("#serves .sec4");
+function isScrolledIntoView(elem) {
+  var rect = elem.getBoundingClientRect();
+  var elemTop = rect.top;
+  var elemBottom = rect.bottom;
+
+  var isVisible = (elemTop <= 100);
+  // console.log(rect);
+  return isVisible;
+}
+
+
+window.addEventListener("scroll", function () {
+  console.log(isScrolledIntoView(serversec4));
+  if (isScrolledIntoView(serversec4)) {
+   
+    $("#serves .sec4 img ").delay(000).animate(
+      {rotate:'360deg'},
+      1500
+    );
+
+    $("#serves .sec4 p ").delay(000).animate(
+      {opacity:'1'},
+      2000
+    );
+
+    $("#serves .sec4 h3 ").delay(000).animate(
+      {right:'0%'},
+      1500
+    );
+     
+  }
+});
+

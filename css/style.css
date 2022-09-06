@@ -505,33 +505,78 @@ body {
 #serves .postion img {
   width: 80%;
 }
-#serves .postion .sec1  {
- position: relative;
-}
+
+
 
 #serves .postion .sec1 p {
   opacity: 0;
-  /* margin-top: 200px; */
-  position: absolute;
-  top: 28%;
-  width: 33%;
+  
 
 }
 
-#serves .postion .sec1 a {
-  /* opacity: 0; */
-  /* margin-top: 200px; */
-  position: absolute;
-  top: 90%;
-  width: 33%;
-
-}
 
 #serves .postion .sec1 h3 {
-  position: absolute;
+  position: relative;
   /* top: 10%; */
-  left: -50%;
+  left: -100%;
 }
+
+
+
+
+ 
+ #serves .postion .sec2 p {
+   opacity: 0;
+ }
+ 
+
+ 
+ #serves .postion .sec2 h3 {
+   position: relative;
+   
+   left: -100%;
+ }
+
+
+
+
+ 
+
+ 
+ #serves .postion .sec3 p {
+   opacity: 0;
+   
+ 
+ }
+
+ 
+ #serves .postion .sec3 h3 {
+  position: relative;
+  right: -100% ;
+   
+ }
+
+
+
+ #serves .postion .sec4 h3 {
+  position: relative;
+  /* top: 10%; */
+  right: -100% ;
+  /* overflow-x: hidden; */
+}
+
+ 
+ #serves .postion .sec4 p {
+  opacity: 0;
+}
+ 
+
+ 
+ 
+
+
+
+
 #serves .postion h3 {
     margin: 37px 0;
   font-family: "Montserrat";
@@ -560,7 +605,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #ffffffd3;
-margin-bottom: 42%;
+/* margin-bottom: 42%; */
   
 }
 
@@ -591,6 +636,7 @@ margin-bottom: 42%;
     line-height: 18px;
     color: #ffffffd7;
     text-decoration: none;
+    
     /* margin-top: 100%; */
 }
 
@@ -605,7 +651,8 @@ margin-bottom: 42%;
 }
 
 #serves  .r2 a{
-    margin-left: 50%;
+  margin-left: 50% !important;
+
  }
 
 
