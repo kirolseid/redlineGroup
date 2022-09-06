@@ -63,7 +63,7 @@ function isScrolledIntoView(elem) {
   var elemTop = rect.top;
   var elemBottom = rect.bottom;
 
-  var isVisible = (elemTop === 100);
+  var isVisible = (elemTop <= 150);
   // console.log(elemTop);
   return isVisible;
 }
@@ -117,7 +117,7 @@ function isScrolledIntoView(elem) {
   var elemTop = rect.top;
   var elemBottom = rect.bottom;
 
-  var isVisible = (elemTop <= 130);
+  var isVisible = (elemTop <= 170);
   // console.log(rect);
   return isVisible;
 }
@@ -154,7 +154,7 @@ function isScrolledIntoView(elem) {
   var elemTop = rect.top;
   var elemBottom = rect.bottom;
 
-  var isVisible = (elemTop <= 130);
+  var isVisible = (elemTop <= 170);
   // console.log(rect);
   return isVisible;
 }
@@ -192,7 +192,7 @@ function isScrolledIntoView(elem) {
   var elemTop = rect.top;
   var elemBottom = rect.bottom;
 
-  var isVisible = (elemTop <= 130);
+  var isVisible = (elemTop <= 170);
   // console.log(rect);
   return isVisible;
 }
@@ -228,7 +228,7 @@ function isScrolledIntoView(elem) {
   var elemTop = rect.top;
   var elemBottom = rect.bottom;
 
-  var isVisible = (elemTop <= 130);
+  var isVisible = (elemTop <= 170);
   // console.log(rect);
   return isVisible;
 }
@@ -264,7 +264,7 @@ function isScrolledIntoView(elem) {
   var elemTop = rect.top;
   var elemBottom = rect.bottom;
 
-  var isVisible = (elemTop <=170);
+  var isVisible = (elemTop <=350);
   // console.log(rect);
   return isVisible;
 }
