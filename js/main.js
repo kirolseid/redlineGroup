@@ -124,7 +124,7 @@ function isScrolledIntoView(elem) {
 
 
 window.addEventListener("scroll", function () {
-  console.log(isScrolledIntoView(serversec1));
+ 
   if (isScrolledIntoView(serversec1)) {
    
     $("#serves .sec1 img ").delay(000).animate(
@@ -161,7 +161,7 @@ function isScrolledIntoView(elem) {
 
 
 window.addEventListener("scroll", function () {
-  console.log(isScrolledIntoView(serversec2));
+ 
   if (isScrolledIntoView(serversec2)) {
    
     $("#serves .sec2 img ").delay(000).animate(
@@ -199,7 +199,7 @@ function isScrolledIntoView(elem) {
 
 
 window.addEventListener("scroll", function () {
-  console.log(isScrolledIntoView(serversec3));
+ 
   if (isScrolledIntoView(serversec3)) {
    
     $("#serves .sec3 img ").delay(000).animate(
@@ -235,7 +235,7 @@ function isScrolledIntoView(elem) {
 
 
 window.addEventListener("scroll", function () {
-  console.log(isScrolledIntoView(serversec4));
+ 
   if (isScrolledIntoView(serversec4)) {
    
     $("#serves .sec4 img ").delay(000).animate(
@@ -252,6 +252,49 @@ window.addEventListener("scroll", function () {
       {right:'0%'},
       1500
     );
+     
+  }
+});
+
+
+
+let portfolioSec = document.querySelector("#portfolio .portfolio");
+function isScrolledIntoView(elem) {
+  var rect = elem.getBoundingClientRect();
+  var elemTop = rect.top;
+  var elemBottom = rect.bottom;
+
+  var isVisible = (elemTop <= 100);
+  // console.log(rect);
+  return isVisible;
+}
+
+
+window.addEventListener("scroll", function () {
+ 
+  if (isScrolledIntoView(portfolioSec)) {
+   
+    $("#portfolio .portfolio ").delay(000).animate(
+      {opacity:'1'},
+      3000
+    );
+
+
+    $("#portfolio  .companies").delay(300).animate(
+      {opacity:'1'},
+      3000
+    );
+
+    $("#portfolio .features ul").delay(400).animate(
+      {opacity:'1'},
+      3000
+    );
+
+    $("#software ").delay(1000).animate(
+      {opacity:'1'},
+      3000
+    );
+   
      
   }
 });
