@@ -475,129 +475,102 @@ body {
   margin-top: 30px;
 }
 
-#serves {
-  position: relative;
-  background-image: url("../images/Group 215.png");
-
+#serves .serve1{
+  background-image: url('../images/andy-li-CpsTAUPoScw-unsplash.png');
+  background-attachment: fixed;
+  background-position: center center;
   background-size: 100% 100%;
-  height: 330vh;
+  height: 100vh;
 }
 
-#serves .postion {
-  position: absolute;
-  top: 45px;
-}
-
-#serves .postion img {
-  width: 80%;
-}
-
-#serves .postion .sec1 p {
-  opacity: 0;
-}
-
-#serves .postion .sec1 h3 {
+#serves  .contant{
   position: relative;
-  /* top: 10%; */
-  left: -100%;
+  top: 50%;
+  margin-left: 8%;
 }
 
-#serves .postion .sec2 p {
-  opacity: 0;
+#serves  .contant h2{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 73px;
+
+
+color: #FFFFFF;
 }
 
-#serves .postion .sec2 h3 {
-  position: relative;
-
-  left: -100%;
+#serves  .line{
+  width: 50%;
+  margin: 15px 3%;
+  height: 2px;
+  background-color: #ED1D24;
+  
 }
 
-#serves .postion .sec3 p {
-  opacity: 0;
+#serves  p{
+  font-family: 'Montserrat-light';
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 24px;
+width: 55%;
+margin-left: 3%;
+margin-bottom: 40px !important;
+
+
+color: #ffffffda;
 }
 
-#serves .postion .sec3 h3 {
-  position: relative;
-  right: -100%;
+#serves .serve2{
+  background-image: url('../images/eleni-afiontzi-gLU8GZpHtRA-unsplash.png');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 100vh;
 }
 
-#serves .postion .sec4 h3 {
-  position: relative;
-  /* top: 10%; */
-  right: -100%;
-  /* overflow-x: hidden; */
+
+
+
+#serves .serve3{
+  background-image: url('../images/rodolfo-cuadros-WNk-f-TnZDw-unsplash.png');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 100vh;
 }
 
-#serves .postion .sec4 p {
-  opacity: 0;
+
+#serves .serve4 {
+  background-image: url('../images/gigin-krishnan-PH45mFDrM_8-unsplash.png');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 100vh;
 }
 
-#serves .postion h3 {
-  margin: 37px 0;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 49px;
 
-  color: #dc1c22;
-}
-
-#serves .postion h3 span {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 49px;
-  color: #fff;
-}
-
-#serves .postion p {
-  width: 80%;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 100;
-  font-size: 20px;
-  line-height: 24px;
-  color: #ffffffd3;
-  margin-bottom: 42%;
-}
-
-#serves .postion .r2,
-.r1 {
-  margin-top: 100px;
-}
-
-#serves .r1 .contant {
-  margin-left: 10%;
-}
-
-#serves .r2 .contant {
-  margin-left: 10%;
-}
-
-#serves .r2 img {
-  margin-left: 10%;
-}
 
 #serves .contant a {
   /* display: inline-block; */
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 100;
-  font-size: 15px;
-  line-height: 18px;
-  color: #ffffffd7;
-  text-decoration: none;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+text-decoration: none;
+color: #FFFFFF;
+  margin-left: 3%;
 
   /* margin-top: 100%; */
 }
 
 #serves .contant a .line {
   display: inline-block;
-  width: 10%;
+  width: 3%;
   height: 1px;
-  background-color: #fff;
+  background-color: #DC1C22;
   margin: 0px !important;
   margin-left: 10px !important;
 }
@@ -626,7 +599,7 @@ body {
 
 #portfolio {
   /* height: 60vh; */
-  margin-top: 70px;
+  margin-top: 300px;
 }
 
 #portfolio .portfolio {
