@@ -22,25 +22,18 @@ var swiper = new Swiper('#portfolio .mySwiper', {
 });
 
 $(document).ready(() => {
-  $("#welcomesec h3 ").delay(1500).animate(
+  $("#welcomesec h1 ").delay(500).animate(
     {
-      left: "8%",
+      left: "0%",
     },
-    2000
+    3000
   );
 });
 
-$(document).ready(() => {
-  $("#welcomesec h1 ").delay(3500).animate(
-    {
-      left: "8%",
-    },
-    2000
-  );
-});
+
 
 $(document).ready(() => {
-  $("#welcomesec .line1  ").delay(4000).animate(
+  $("#welcomesec .vedio  ").delay(1000).animate(
     {
       opacity: "1",
     },
@@ -49,9 +42,9 @@ $(document).ready(() => {
 });
 
 $(document).ready(() => {
-  $("#welcomesec p ").delay(5000).animate(
+  $("#welcomesec .socail ul ").delay(1000).animate(
     {
-      opacity: "0.7",
+      opacity: "1",
     },
     3000
   );
