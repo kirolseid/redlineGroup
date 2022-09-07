@@ -5,10 +5,19 @@ var swiper = new Swiper("#welcomesec .mySwiper", {
   },
 });
 
-var swiper = new Swiper("#software .mySwiper", {
+
+
+var swiper = new Swiper('#portfolio .mySwiper', {
+  slidesPerView: 4,
+  slidesPerColumn: 4,
+  spaceBetween: 0,
   navigation: {
-    nextEl: "#software .swiper-button-next",
-    prevEl: "#software .swiper-button-prev",
+    nextEl: "#portfolio .swiper-button-next",
+    prevEl: "#portfolio .swiper-button-prev",
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
   },
 });
 
@@ -111,150 +120,10 @@ window.addEventListener("scroll", function () {
 
 
 
-let serversec1 = document.querySelector("#serves .sec1");
-function isScrolledIntoView(elem) {
-  var rect = elem.getBoundingClientRect();
-  var elemTop = rect.top;
-  var elemBottom = rect.bottom;
-
-  var isVisible = (elemTop <= 170);
-  // console.log(rect);
-  return isVisible;
-}
-
-
-window.addEventListener("scroll", function () {
- 
-  if (isScrolledIntoView(serversec1)) {
-   
-    $("#serves .sec1 img ").delay(000).animate(
-      {rotate:'360deg'},
-      1500
-    );
-
-    $("#serves .sec1 p ").delay(000).animate(
-      {opacity:'1'},
-      1500
-    );
-
-    $("#serves .sec1 h3 ").delay(000).animate(
-      {left:'0%'},
-      1500
-    );
-     
-  }
-});
 
 
 
 
-let serversec2 = document.querySelector("#serves .sec2");
-function isScrolledIntoView(elem) {
-  var rect = elem.getBoundingClientRect();
-  var elemTop = rect.top;
-  var elemBottom = rect.bottom;
-
-  var isVisible = (elemTop <= 170);
-  // console.log(rect);
-  return isVisible;
-}
-
-
-window.addEventListener("scroll", function () {
- 
-  if (isScrolledIntoView(serversec2)) {
-   
-    $("#serves .sec2 img ").delay(000).animate(
-      {rotate:'360deg'},
-      1500
-    );
-
-    $("#serves .sec2 p ").delay(000).animate(
-      {opacity:'1'},
-      2000
-    );
-
-    $("#serves .sec2 h3 ").delay(000).animate(
-      {left:'0%'},
-      1500
-    );
-     
-  }
-});
-
-
-
-
-
-let serversec3 = document.querySelector("#serves .sec3");
-function isScrolledIntoView(elem) {
-  var rect = elem.getBoundingClientRect();
-  var elemTop = rect.top;
-  var elemBottom = rect.bottom;
-
-  var isVisible = (elemTop <= 170);
-  // console.log(rect);
-  return isVisible;
-}
-
-
-window.addEventListener("scroll", function () {
- 
-  if (isScrolledIntoView(serversec3)) {
-   
-    $("#serves .sec3 img ").delay(000).animate(
-      {rotate:'360deg'},
-      1500
-    );
-
-    $("#serves .sec3 p ").delay(000).animate(
-      {opacity:'1'},
-      2000
-    );
-
-    $("#serves .sec3 h3 ").delay(000).animate(
-      {right:'0%'},
-      1500
-    );
-     
-  }
-});
-
-
-
-let serversec4 = document.querySelector("#serves .sec4");
-function isScrolledIntoView(elem) {
-  var rect = elem.getBoundingClientRect();
-  var elemTop = rect.top;
-  var elemBottom = rect.bottom;
-
-  var isVisible = (elemTop <= 170);
-  // console.log(rect);
-  return isVisible;
-}
-
-
-window.addEventListener("scroll", function () {
- 
-  if (isScrolledIntoView(serversec4)) {
-   
-    $("#serves .sec4 img ").delay(000).animate(
-      {rotate:'360deg'},
-      1500
-    );
-
-    $("#serves .sec4 p ").delay(000).animate(
-      {opacity:'1'},
-      2000
-    );
-
-    $("#serves .sec4 h3 ").delay(000).animate(
-      {right:'0%'},
-      1500
-    );
-     
-  }
-});
 
 
 
@@ -280,20 +149,31 @@ window.addEventListener("scroll", function () {
     );
 
 
-    $("#portfolio  .companies").delay(300).animate(
+    $("#portfolio  .slide1").delay(600).animate(
       {opacity:'1'},
       3000
     );
 
-    $("#portfolio .features ul").delay(400).animate(
+    $("#portfolio  .slide2").delay(800).animate(
       {opacity:'1'},
       3000
     );
 
-    $("#software ").delay(1000).animate(
+    $("#portfolio  .slide3").delay(1000).animate(
       {opacity:'1'},
       3000
     );
+
+    $("#portfolio  .slide4").delay(1200).animate(
+      {opacity:'1'},
+      3000
+    );
+
+    $("#portfolio  .slide5").delay(1400).animate(
+      {opacity:'1'},
+      3000
+    );
+
    
      
   }
