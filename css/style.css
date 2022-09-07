@@ -30,271 +30,94 @@ body {
   /* src: url("../Montserrat-Black.ttf"); */
 }
 .navbar {
-  background-color: #f2f2f2 !important;
+  background-color: transparent !important;
+  padding-top: 40px;
 }
 .navbar .container-fluid {
   margin: 0 4.5%;
 }
 
-.navbar .nav-item {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000000 !important;
-  margin-top: 10px;
-  margin-right: 10px;
+.navbar .nav-link{
+  font-family: 'Montserrat-light';
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+margin-right:18px;
+
+color: #FFFFFF !important;
 }
 
 .navbar .nav-item .active {
-  color: #000000 !important;
-}
-.navbar .arbic {
-  margin-block: -2px !important;
+  border-bottom:1px solid #ED1D24;;
 }
 
-/* login btn */
-.login {
-  display: flex;
-
-  justify-content: end;
-}
-
-.login a {
-  /* display: block; */
-  background-color: #dc1c22;
-  border-radius: 0px 0px 8px 8px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  color: #ffffff;
-  padding: 10px 36px;
-  margin-right: 96px;
-}
 
 /* welcome section */
 
 #welcomesec {
-  position: relative;
+  /* position: relative; */
+  background-image: url('../images/sam-moghadam-khamseh-baII27W6z7k-unsplash.png');
+  background-size: 100% 100%;
+  background-position: center center;
+  height: 100vh;
+
 }
+#welcomesec .contant {
+  margin-left: 75px;
+  position: relative;
+  top:50%
+}
+
+#welcomesec .contant h1 {
+  
+font-family: 'Montserrat-bold';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+
+color: #FFFFFF;
+
+
+}
+
+
+
+#welcomesec .contant .vedio{
+  background: #ffffffe9;
+border-radius: 50px;
+width: fit-content;
+padding: 15px 45px;
+}
+
+#welcomesec .contant .vedio span{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #3E3E3E;
+margin-right: 65px;
+
+}
+
+#welcomesec .socail ul{
+display: flex;
+/* justify-content: space-around; */
+}
+
+#welcomesec .socail ul li{
+
+  margin-right: 40px;
+  }
+
 
 /* slider */
-
-#welcomesec .swiper {
-  width: 100%;
-  height: 85vh;
-}
-
-#welcomesec .swiper-slide {
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-#welcomesec .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-}
-
-#welcomesec .swiper-button-next {
-  /* position: fixed; */
-  right: 5%;
-  top: 83%;
-}
-#welcomesec .swiper-button-prev {
-  left: 90%;
-  top: 83%;
-}
-
-#welcomesec .swiper-button-next,
-#welcomesec .swiper-button-prev {
-  /* background-color: red; */
-  color: #fff;
-}
-
-#welcomesec .swiper-button-next:after,
-#welcomesec .swiper-button-prev:after {
-  font-size: 20px !important;
-}
-
-.welcome {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  z-index: 999999999999999999;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.35);
-  color: #fff !important  ;
-}
-
-.height {
-  height: 100vh !important;
-}
-
-/* social media icons */
-.welcome .socail {
-  display: flex;
-  justify-content: right;
-}
-.welcome .socail ul li {
-  list-style: none;
-  background-color: #ed1d24;
-  margin-bottom: 10px;
-  width: 38px;
-  height: 38.62px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* contant */
-
-.welcome .contant h6 {
-  position: absolute;
-  top: 30%;
-  left: 8%;
-  animation: type 1.5s steps(7);
-  overflow: hidden;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.1em;
-  color: #ffffff;
-  width: 10ch;
-  /* font-size:3em; */
-}
-
-@keyframes type {
-  0% {
-    width: 0ch;
-  }
-  100% {
-    width: 10ch;
-  }
-}
-
-.welcome .contant h3 {
-  position: absolute;
-  top: 35%;
-  left: -20%;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 55px;
-  /* font-size: 350%; */
-  line-height: 73px;
-  letter-spacing: 0.1em;
-  color: #dc1c22;
-}
-
-.welcome .contant h1 {
-  position: absolute;
-  top: 45%;
-  /* left: 8%; */
-  left: -40%;
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 90px;
-  line-height: 122px;
-  letter-spacing: 0.1em;
-
-  color: #ffffff;
-  /* margin-top: 50px; */
-  /* display: none; */
-}
-
-.welcome .contant .line1 {
-  position: absolute;
-  top: 62%;
-  left: 9%;
-  width: 147px;
-  height: 5px;
-  background-color: #dc1c22;
-  /* margin-bottom: 10px; */
-  opacity: 0;
-}
-.welcome .contant p {
-  position: absolute;
-  top: 67%;
-  left: 9%;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #c4c4c4b1;
-  opacity: 0;
-}
-
-.welcome .contant .bttn {
-  position: absolute;
-  top: 79%;
-  left: 9%;
-  background-color: #dc1c22;
-  border-radius: 0;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 100 !important;
-  font-size: 20px;
-  line-height: 28px;
-  opacity: 0;
-  color: #ffffff;
-  padding: 0 0 0 30px;
-}
-
-.welcome .contant .discover {
-  margin-right: 42px !important;
-}
-
-.welcome .contant .bttn .line {
-  display: inline-block;
-  width: 47px !important;
-  height: 1.5px;
-  background-color: #c4c4c4;
-  margin-block: 3px !important;
-  margin-right: 0px !important;
-}
-
-.welcome .contant .bttn {
-  margin-right: 0px;
-}
-
-.welcome .contant .arrow {
-  display: inline-block;
-  /* width: 74px !important; */
-  /* height:  !important; */
-  background-color: #c4c4c4;
-  text-align: center;
-  padding: 14px;
-  margin: 0px !important;
-  /* margin-top: 10px !important;/ */
-}
-
-.borderf {
-  border: 0.7px solid #dc1c22;
-  padding: 5px;
-  width: 39px;
-  height: 30.32px;
-}
 
 /* Why us section */
 
