@@ -1405,7 +1405,7 @@ padding-bottom: 50px;
   background-image: url('../images/Group 500.png');
   /* background-color: #b6070d; */
   background-position: center center;
-  height: 80vh;
+  height: 50vh;
   background-size: 100% 100%;
   margin-top: 50px;
 }
@@ -1433,11 +1433,15 @@ color: #FFFFFF;
 background-color: #fff;
 padding: 30px 40px;
 position: relative;
-top: -20px;
+top: -30px;
 }
 
 .contactUs .map .title {
 display: flex;
+}
+
+.contactUs .map{
+  padding:0px 50px;
 }
 
 .contactUs .map h5{
@@ -1447,10 +1451,10 @@ font-style: normal;
 font-weight: 700;
 font-size: 40px;
 line-height: 49px;
-
+margin-left: 20px;
 color: #FFFFFF;
 position: relative;
-top: 60%;
+top: 50%;
 }
 
 .contactUs .map .title .h3line{
@@ -1464,7 +1468,7 @@ top: 60%;
 .contactUs .map .contactMail input,textarea {
   border: none ;
   border-bottom: 0.5px solid #000000c2;
-  padding-top:30px ;
+  padding-top:20px ;
   width: 100%;
   font-family: 'Montserrat';
 font-style: normal;
