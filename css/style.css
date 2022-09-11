@@ -1413,7 +1413,7 @@ padding-bottom: 50px;
   background: #000000;
 border-radius: 4px;
 color: #fff;
-width: 55%;
+width: 25%;
 margin-top: 54px;
 }
 .contactUs .map .lookMap span{
@@ -1529,7 +1529,7 @@ border: none;
 }
 
 .contactUs .contactDetails .col-1,.col-11{
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .contactUs .contactDetails p{
@@ -1545,6 +1545,7 @@ border: none;
 }
 .contactUs .contactDetails .follw{
   margin-top: 50px;
+  margin-left: 100px;
 }
 
 .contactUs .contactDetails .follw h3{
@@ -1561,6 +1562,8 @@ color: #FFFFFF;
 }
 .contactUs .contactDetails .social{
   margin-top: 20px;
+  margin-left: 100px;
+
 }
 
 .contactUs .contactDetails .social img{
