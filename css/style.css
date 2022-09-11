@@ -1215,14 +1215,14 @@ margin-top: 8px;
 
 .about .header{
   background-image: url('../images/diverse-businesspeople-having-meeting.png');
-  height: 90vh;
+  height: 65vh;
   background-position: center center;
   background-size: 100% 100%;
 }
 
 .about .header .redbackground{
   background-color: #DC1C22;
-  margin-left: 30px;
+  margin-left: 150px;
   height: 90%;
   position: relative;
   top: -24px;
