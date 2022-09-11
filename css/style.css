@@ -1352,48 +1352,29 @@ padding-bottom: 50px;
 
 @media only screen and (max-width: 1440px) {
   .about .header {
-    background-image: url("../images/diverse-businesspeople-having-meeting.png");
     height: 65vh;
-    background-position: center center;
-    background-size: 100% 100%;
   }
 
   .about .header .redbackground {
-    background-color: #dc1c22;
-    /* margin-left: 300px; */
+ 
     height: 90%;
-    position: relative;
     top: -24px;
   }
 
   .about .header .redbackground h2 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
     font-size: 35px;
-    line-height: 55px;
-    /* text-align: center; */
     margin-left: 30px;
-    color: #ffffff;
     padding-top: 16px;
   }
 
   .about .header .redbackground .caption {
-    background-color: #fff;
-    position: relative;
     left: 40px;
     top: 20px;
   }
 
   .about .header .redbackground .caption p {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    text-align: center;
-
-    color: #000000;
     padding: 52px 35px;
   }
 }
@@ -1439,6 +1420,10 @@ top: -30px;
 .contactUs .map .title {
 display: flex;
 }
+
+
+
+
 
 .contactUs .map{
   padding:0px 50px;
@@ -1570,4 +1555,113 @@ color: #FFFFFF;
   
  margin-left: 18px;
   
+}
+
+@media only screen and (max-width: 1440px) {
+
+  .contactUs .map{
+    height: 50vh;
+    margin-top: 40px;
+  }
+  .contactUs .map .lookMap{
+  width: 40%;
+  margin-top: 54px;
+  }
+  
+  .contactUs .map .contactMail{
+  background-color: #fff;
+  padding: 30px 40px;
+  position: relative;
+  top: -30px;
+  }
+  
+  
+  
+  .contactUs .map{
+    padding:0px 50px;
+  }
+  
+  .contactUs .map h5{
+
+  font-size: 35px;
+  top: 35%;
+  }
+
+  .contactUs .map .title h3{
+    font-size: 16px;
+   
+    }
+  
+  .contactUs .map .title .h3line{
+   
+    margin-block: 14px;
+   
+  }
+  
+  .contactUs .map .contactMail input,textarea {
+    border: none ;
+    border-bottom: 0.5px solid #000000c2;
+    padding-top:16px ;
+    width: 100%;
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  
+  color: #000000;
+  margin-top: 20px;
+  opacity: 0.8;
+    }
+  
+    
+  
+     
+  
+ 
+    .contactUs .map .contactMail  button {
+      
+      position: relative;
+      left: 60%;
+      top: -15px;
+      background: #DC1C22;
+  border-radius: 4px 0px 0px 4px; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  
+  color: #FFFFFF;
+  padding: 18px 20px;
+  border: none;
+  
+  }
+  
+  
+  .contactUs .contactDetails{
+    margin-top: 42px;
+    margin-left: 65px;
+  }
+  
+  .contactUs .contactDetails .col-1,.col-11{
+    margin-bottom: 20px;
+  }
+  
+  .contactUs .contactDetails p{
+    
+    font-size: 14px;
+  
+    
+  }
+  .contactUs .contactDetails .follw{
+    margin-top: 70px;
+    margin-left: 120px;
+  }
+  
+  
+  
+
+
+
 }
