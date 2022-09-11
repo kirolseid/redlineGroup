@@ -21,6 +21,26 @@ var swiper = new Swiper('#portfolio .mySwiper', {
   },
 });
 
+
+var swiper = new Swiper('.gallery .mySwiper', {
+  slidesPerView: 3,
+  slidesPerColumn: 2,
+  spaceBetween: 30,
+  pagination: {
+    el: '.gallery .swiper-pagination',
+    clickable: true,
+  },
+});
+
+var swiper = new Swiper(".about .mySwiper", {
+  slidesPerView: "auto",
+  spaceBetween: 50,
+  pagination: {
+    el: ".about .swiper-pagination",
+    clickable: true,
+  },
+});
+
 $(document).ready(() => {
   $("#welcomesec h1 ").delay(500).animate(
     {
