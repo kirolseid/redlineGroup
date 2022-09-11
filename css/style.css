@@ -1314,11 +1314,11 @@ padding-bottom: 50px;
 .about .swiper-button-next {
   /* position: fixed; */
   position: absolute;
-  width:100% !important;
+  width:10% !important;
   /* bottom: 20% !important; */
-  top: 94% !important;
+  top: 99% !important;
 
-  left: 80%;
+  left: 85%;
 }
 .about .swiper-button-prev {
   position: absolute;
