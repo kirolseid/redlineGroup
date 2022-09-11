@@ -35,6 +35,10 @@ var swiper = new Swiper('.gallery .mySwiper', {
 var swiper = new Swiper(".about .mySwiper", {
   slidesPerView: "auto",
   spaceBetween: 50,
+  navigation: {
+    nextEl: ".about .swiper-button-next",
+    prevEl: ".about .swiper-button-prev",
+  },
   pagination: {
     el: ".about .swiper-pagination",
     clickable: true,
