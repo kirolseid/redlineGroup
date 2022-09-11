@@ -1222,7 +1222,7 @@ margin-top: 8px;
 
 .about .header .redbackground{
   background-color: #DC1C22;
-  margin-left: 150px;
+  /* margin-left: 300px; */
   height: 90%;
   position: relative;
   top: -24px;
