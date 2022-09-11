@@ -1397,3 +1397,170 @@ padding-bottom: 50px;
     padding: 52px 35px;
   }
 }
+
+
+/* ============================contactus page================== */
+
+.contactUs .map{
+  background-image: url('../images/Group 500.png');
+  /* background-color: #b6070d; */
+  background-position: center center;
+  height: 80vh;
+  background-size: 100% 100%;
+  margin-top: 50px;
+}
+.contactUs .map .lookMap{
+  background: #000000;
+border-radius: 4px;
+color: #fff;
+width: 55%;
+margin-top: 54px;
+}
+.contactUs .map .lookMap span{
+  display: inline-block;
+font-family: 'Montserrat-light';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+margin-left: 20px;
+padding: 4px 0;
+
+color: #FFFFFF;
+}
+.contactUs .map .contactMail{
+background-color: #fff;
+padding: 30px 40px;
+position: relative;
+top: -20px;
+}
+
+.contactUs .map .title {
+display: flex;
+}
+
+.contactUs .map h5{
+  
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+
+color: #FFFFFF;
+position: relative;
+top: 60%;
+}
+
+.contactUs .map .title .h3line{
+  width: 100px !important;
+  height: 1px !important ;
+  background-color: #000000 !important;
+  margin-block: 22px;
+  margin-left: 10px;
+}
+
+.contactUs .map .contactMail input,textarea {
+  border: none ;
+  border-bottom: 0.5px solid #000000c2;
+  padding-top:30px ;
+  width: 100%;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+margin-top: 40px;
+opacity: 0.8;
+  }
+
+  .contactUs .map .contactMail input:focus   {
+    outline: none;    
+    }
+
+    .contactUs .map .contactMail .image-upload img  {
+      cursor: pointer;
+      width: 120%;
+      margin-top: 30px  ;
+    }
+
+    .contactUs .map .contactMail  input[type="file"] {
+      display: none;
+      /* background-image: url('../images/upload\ file.png'); */
+  }
+
+  .contactUs .map .contactMail  button {
+    
+    position: relative;
+    left: 70%;
+    top: -15px;
+    background: #DC1C22;
+border-radius: 4px 0px 0px 4px; 
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+padding: 18px 30px;
+border: none;
+
+}
+
+.contactUs .map .contactMail  button  .line{
+  display: inline-block;
+   width: 40px;
+   height: 1px;
+   background-color: #fff;
+
+}
+
+.contactUs .contactDetails{
+  margin-top: 42px;
+  margin-left: 65px;
+}
+
+.contactUs .contactDetails .col-1,.col-11{
+  margin-bottom: 30px;
+}
+
+.contactUs .contactDetails p{
+  font-family: 'Montserrat-light';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  
+  color: #FFFFFF;
+  /* margin-block: -0px; */
+  
+}
+.contactUs .contactDetails .follw{
+  margin-top: 50px;
+}
+
+.contactUs .contactDetails .follw h3{
+  
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+  /* margin-block: -0px; */
+  
+}
+.contactUs .contactDetails .social{
+  margin-top: 20px;
+}
+
+.contactUs .contactDetails .social img{
+  
+ margin-left: 18px;
+  
+}
