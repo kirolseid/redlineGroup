@@ -1379,12 +1379,12 @@ padding-bottom: 50px;
 }
 
 .about .swiper-slide {
-  width: 60%;
+  width: 80%;
   height: 100%;
 }
 
 .about .swiper-slide:nth-child(2n) {
-  width: 60%;
+  width: 80%;
   height: 100%;
 
   /* position: relative; */
