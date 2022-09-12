@@ -53,16 +53,20 @@ $(".servesLink").mouseenter(function(){
   $('#welcomesec').css("background-color", "black")
   $('.servesHover').css("display", "block",) 
   // $('.servesHover').css("transition", "s")  
+  $('.servesLink').css('color', ' #DC1C22')
 
   $('body').css("overflow", "hidden")
   
 });
 
 $(".servesHover").mouseleave(function(){
+  $('.servesLink').css('color', '#fff')
   $("#welcomesec").css("background-image", "url('../images/sam-moghadam-khamseh-baII27W6z7k-unsplash.png')");
   // $('#welcomesec').css("background-color", "black")
   $('.servesHover').css("display", "none")  
+  $('body').css("overflow", "auto")
   $('body').css("overflow-x", "hidden")
+
   
 });
 

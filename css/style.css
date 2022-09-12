@@ -47,11 +47,13 @@ body {
   /* identical to box height */
   margin-right: 18px;
 
-  color: #ffffff !important;
+  color: #ffffff ;
 }
 
 .navbar .nav-item .active {
   border-bottom: 1px solid #ed1d24;
+  color: #ffffff ;
+
 }
 
 
@@ -1046,6 +1048,29 @@ color: #DC1C22;
 }
 
 @media only screen and (max-width: 1440px) {
+
+  
+.servesHover .vline{
+  height: 450px;
+  width: 1px;
+  background-color: #fff;
+}
+
+.servesHover .head h5{
+  font-size: 20px;
+  line-height: 25px;
+  }
+
+  .servesHover li{
+font-size: 15px;
+margin-top:25px ;
+    }
+
+    .servesHover button{
+      margin: 30px ;
+padding: 14px 20px;
+
+    }
   #welcomesec .contant {
     margin-left: 75px;
     position: relative;
