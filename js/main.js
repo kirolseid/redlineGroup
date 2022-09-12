@@ -46,6 +46,24 @@ var swiper = new Swiper(".about .mySwiper", {
   // },
 });
 
+
+
+$(".servesLink").mouseenter(function(){
+  $("#welcomesec").css("background-image", "url('')");
+  $('#welcomesec').css("background-color", "black")
+  $('.servesHover').css("display", "block")  
+  $('body').css("overflow", "hidden")
+  
+});
+
+$(".servesHover").mouseleave(function(){
+  $("#welcomesec").css("background-image", "url('../images/sam-moghadam-khamseh-baII27W6z7k-unsplash.png')");
+  // $('#welcomesec').css("background-color", "black")
+  $('.servesHover').css("display", "none")  
+  $('body').css("overflow-x", "hidden")
+  
+});
+
 $(document).ready(() => {
   $("#welcomesec h1 ").delay(500).animate(
     {
