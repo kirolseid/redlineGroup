@@ -3,6 +3,7 @@
 body {
   background-color: #131313;
   overflow-x: hidden;
+  
 }
 
 /*/////////////////////////// home page////////////////// */
@@ -63,6 +64,7 @@ body {
   z-index: 9999;
   top: 100px;
   display: none;
+  transition:1s !important;
 }
 
 .servesHover .head .line{
@@ -73,7 +75,7 @@ margin-block: 5px;
 }
 
 .servesHover .vline{
-  height: 430px;
+  height: 570px;
   width: 1px;
   background-color: #fff;
 }
@@ -93,11 +95,11 @@ margin-block: 5px;
 font-family: 'Montserrat-light';
 font-style: normal;
 font-weight: 300;
-font-size: 15px;
+font-size: 18px;
 line-height: 18px;
 
 color: #ffffffdf;
-margin-top:30px ;
+margin-top:55px ;
     }
 
     .servesHover button{

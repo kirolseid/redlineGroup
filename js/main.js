@@ -51,7 +51,9 @@ var swiper = new Swiper(".about .mySwiper", {
 $(".servesLink").mouseenter(function(){
   $("#welcomesec").css("background-image", "url('')");
   $('#welcomesec').css("background-color", "black")
-  $('.servesHover').css("display", "block")  
+  $('.servesHover').css("display", "block",) 
+  // $('.servesHover').css("transition", "s")  
+
   $('body').css("overflow", "hidden")
   
 });
