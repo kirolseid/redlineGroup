@@ -1067,8 +1067,10 @@ margin-top:25px ;
     }
 
     .servesHover button{
-      margin: 30px ;
+      margin: 0 20px ;
 padding: 14px 20px;
+position: relative; 
+ top:-30%;
 
     }
   #welcomesec .contant {
