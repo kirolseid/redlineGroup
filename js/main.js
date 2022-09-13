@@ -66,6 +66,20 @@ var swiper = new Swiper('.gatalog  .mySwiper', {
     nextEl: ".gatalog  .swiper-button-next",
     prevEl: ".gatalog  .swiper-button-prev",
   },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
 
   
 });
