@@ -23,7 +23,7 @@ var swiper = new Swiper('#portfolio .mySwiper', {
 
 
 var swiper = new Swiper('.gallery .collection .mySwiper', {
-  slidesPerView: 3,
+  slidesPerView: 3.5,
   slidesPerColumn: 2,
   spaceBetween: 10,
   navigation: {
@@ -35,7 +35,7 @@ var swiper = new Swiper('.gallery .collection .mySwiper', {
 });
 
 var swiper = new Swiper('.gallery .Images .mySwiper', {
-  slidesPerView: 3,
+  slidesPerView: 3.5,
   slidesPerColumn: 2,
   spaceBetween: 10,
   navigation: {
@@ -47,7 +47,7 @@ var swiper = new Swiper('.gallery .Images .mySwiper', {
 });
 
 var swiper = new Swiper('.gallery .Vedios .mySwiper', {
-  slidesPerView: 3,
+  slidesPerView: 3.5,
   slidesPerColumn: 2,
   spaceBetween: 10,
   navigation: {
@@ -59,7 +59,7 @@ var swiper = new Swiper('.gallery .Vedios .mySwiper', {
 });
 
 var swiper = new Swiper('.gatalog  .mySwiper', {
-  slidesPerView: 3,
+  slidesPerView: 3.5,
   slidesPerColumn: 2,
   spaceBetween: 10,
   navigation: {
