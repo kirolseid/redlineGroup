@@ -888,15 +888,13 @@ color: #DC1C22;
 }
 
 #contact {
-  /* margin-top: 100px; */
-  /* border: 0.7px solid #ffffff; */
+  
   background-color: #1f1e1d;
+}
+#contact .container-fluid {
+  margin-left: 55px;
 }
 
-#contact .col-md-5 {
-  /* background-image: url("../images/Group\ 146.png"); */
-  background-color: #1f1e1d;
-}
 
 #contact h4 {
   font-family: "Montserrat";
@@ -1085,9 +1083,7 @@ position: relative;
     top: 35%;
   }
 
-  #contact .container-fluid {
-    margin-left: 20px;
-  }
+ 
 
   #contact .container-fluid {
     margin-left: 55px;
