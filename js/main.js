@@ -84,7 +84,7 @@ var swiper = new Swiper('.gatalog  .mySwiper', {
   
 });
 
-gatalog
+
 
 
 var swiper = new Swiper(".about .mySwiper", {

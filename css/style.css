@@ -1168,12 +1168,16 @@ position: relative;
   background-position: center;
   padding-bottom: 15px;
   width: 80%;
-  height: 440px;
+  height: 470px;
   position: relative;
 }
 
 .cover {
   box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.432);
+}
+
+.cover img{
+  width: 100%;
 }
 
 .lightbackground .contains img {
