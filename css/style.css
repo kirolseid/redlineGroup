@@ -67,10 +67,15 @@ a{
   height: 100vh;
   /* overflow:scroll; */
   padding: 30px;
+  padding-left: 50px;
   z-index: 9999;
   top: 100px;
   display: none;
   transition:1s !important;
+}
+
+.servesHover .row{
+  /* margin-left:30px ; */
 }
 
 .servesHover .head .line{
@@ -1377,7 +1382,8 @@ position: relative;
   margin-top: 120px;
 }
 .about .features {
-  margin-top: 60px;
+  /* margin-top: 60px; */
+  margin: 60px auto; 
 }
 .about .features .one {
   background-color: #dc1c22;
@@ -1385,6 +1391,7 @@ position: relative;
   height: 170px;
   text-align: center;
   padding-top: 40px;
+  margin: auto;
 }
 
 .about .features .one p {
