@@ -1006,9 +1006,10 @@ color: #DC1C22;
 
 #footer ul {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 90%;
   padding: 0px;
+
 }
 
 #footer ul li {
@@ -1019,10 +1020,14 @@ color: #DC1C22;
   font-size: 15px;
   line-height: 150%;
   /* identical to box height, or 22px */
-
+margin-right: 40px;
   color: #ffffff;
 
   opacity: 0.6;
+}
+
+#footer .social ul {
+  margin-left: 80px;
 }
 
 #footer .social li {
