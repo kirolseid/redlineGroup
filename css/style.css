@@ -65,7 +65,6 @@ a{
   background-color: #000000;
   position: fixed;
   height: 100vh;
-  /* overflow:scroll; */
   padding: 30px;
   padding-left: 50px;
   z-index: 9999;
@@ -74,9 +73,7 @@ a{
   transition:1s !important;
 }
 
-.servesHover .row{
-  /* margin-left:30px ; */
-}
+
 
 .servesHover .head .line{
 width: 60px;
@@ -2001,3 +1998,156 @@ color: rgba(255, 255, 255);
 
 
 
+/* =========================req=============================== */
+.reg{
+  background-image: url("../images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall (1).png");
+  text-align: center;
+  padding-top: 10%;
+  height: 100vh;
+}
+
+.reg h2{
+  margin-top: 25px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 136.4%;
+  /* or 68px */
+  
+  letter-spacing: 0.07em;
+  
+  color: #FFFFFF;
+  
+}
+
+.reg p{
+  font-family: 'Montserrat-light';
+font-style: normal;
+font-weight: 100;
+font-size: 25px;
+line-height: 30px;
+
+color: #ffffffb9;
+  
+}
+
+.reg input{
+
+  margin:35px auto;
+  display: block;
+  padding: 15px;
+  width: 30%;
+  border: 0.7px solid #FFFFFF;
+  border-radius: 4px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+background-color: transparent;
+color: #FFFFFF;
+
+opacity: 0.6;
+  
+}
+
+.reg button{
+
+  font-family: 'Montserrat-light';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-align: center;
+  border: none;
+  color: #FFFFFF;
+  background: #ED1D24;
+border-radius: 4px;
+padding: 9px 86px;
+  
+}
+
+.reg h6,a{
+
+  font-family: 'Montserrat-light';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+
+color: #ffffffcb;
+margin-top: 25px;
+  
+}
+
+.reg a{
+
+  font-weight: 500;
+
+color: #ffffff;
+
+  
+}
+
+.reg .agreeFooter {
+ margin-top: 3%;
+}
+
+.reg .agreeFooter p{
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  
+  letter-spacing: 0.02em;
+  
+  color: #FFFFFF;
+  
+  
+}
+
+.reg .agreeFooter span{
+
+  color: #DC1C22;
+  
+  
+}
+
+.reg .forgetpass{
+  margin-left: 22%;
+  margin-bottom: 15px;
+  font-family: 'Montserrat-light';
+font-style: normal;
+font-weight: 200;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #ffffffa5;
+}
+
+@media all and (min-width: 900px) and ( max-width:1750px) {
+  .reg{
+    
+    padding-top: 4%;
+
+  }
+
+  .reg .agreeFooter {
+    position: relative;
+    /* top: 5%; */
+   }
+
+   .reg input{
+
+    margin:20px auto;
+   
+  }
+}
