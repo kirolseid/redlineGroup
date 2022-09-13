@@ -2007,6 +2007,10 @@ color: rgba(255, 255, 255);
   width: 17%;
 }
 
+.gatalog .container-fluid {
+  margin-left: 50px;
+}
+
 
 
 /* =========================req=============================== */
