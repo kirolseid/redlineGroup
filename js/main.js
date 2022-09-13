@@ -22,15 +22,56 @@ var swiper = new Swiper('#portfolio .mySwiper', {
 });
 
 
-var swiper = new Swiper('.gallery .mySwiper', {
+var swiper = new Swiper('.gallery .collection .mySwiper', {
   slidesPerView: 3,
   slidesPerColumn: 2,
-  spaceBetween: 30,
-  pagination: {
-    el: '.gallery .swiper-pagination',
-    clickable: true,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".gallery .collection .swiper-button-next",
+    prevEl: ".gallery .collection .swiper-button-prev",
   },
+
+  
 });
+
+var swiper = new Swiper('.gallery .Images .mySwiper', {
+  slidesPerView: 3,
+  slidesPerColumn: 2,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".gallery .Images .swiper-button-next",
+    prevEl: ".gallery .Images .swiper-button-prev",
+  },
+
+  
+});
+
+var swiper = new Swiper('.gallery .Vedios .mySwiper', {
+  slidesPerView: 3,
+  slidesPerColumn: 2,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".gallery .Vedios .swiper-button-next",
+    prevEl: ".gallery .Vedios .swiper-button-prev",
+  },
+
+  
+});
+
+var swiper = new Swiper('.gatalog  .mySwiper', {
+  slidesPerView: 3,
+  slidesPerColumn: 2,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".gatalog  .swiper-button-next",
+    prevEl: ".gatalog  .swiper-button-prev",
+  },
+
+  
+});
+
+gatalog
+
 
 var swiper = new Swiper(".about .mySwiper", {
   navigation: {

@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
   
 }
+a{
+  text-decoration: none;
+  
+}
 
 /*/////////////////////////// home page////////////////// */
 
@@ -1199,7 +1203,7 @@ position: relative;
   opacity: 0;
   /* display: flex; */
 
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
 }
 
 .lightbackground .background:hover .seemore {
@@ -1256,7 +1260,8 @@ position: relative;
 
 .gallery h3,
 .about h3,
-.portofolio h3 {
+.portofolio h3,
+.gatalog h3 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -1269,7 +1274,9 @@ position: relative;
 
 .gallery .redline,
 .about .redline,
-.portofolio .redline {
+.portofolio .redline,
+.gatalog .redline
+ {
   width: 11%;
   height: 1px;
   background-color: #dc1c22;
@@ -1278,13 +1285,45 @@ position: relative;
 
 .gallery .whiteline,
 .about .whiteline,
-.portofolio .whiteline {
+.portofolio .whiteline,
+.gatalog .whiteline {
   width: 11%;
   height: 1px;
   background-color: #ffffff;
   margin-left: 40%;
   margin-top: 8px;
 }
+
+
+
+
+
+
+.gallery  .swiper-button-next {
+ 
+  position: relative;
+  width:10% !important;
+  left: 85%;
+  margin-top: 10px;
+}
+.gallery  .swiper-button-prev {
+  position:relative ;
+  width: 10% !important;
+  left: -5%;
+}
+
+.gallery  .swiper-button-next,
+.gallery  .swiper-button-prev {
+  /* background-color: red; */
+  color: #fff;
+}
+
+.gallery  .swiper-button-next:after,
+.gallery  .swiper-button-prev:after {
+  font-size:0px !important;
+}
+
+
 
 /* ============================about us================================================== */
 
@@ -1878,40 +1917,80 @@ color: #ffffffcf;
 
 }
 
-.portofolio .contant .btns {
-  /* margin-top: ; */
+
+
+
+
+
+/* ===============================gatalog page ============= */
+
+
+
+
+.gatalog  .swiper-button-next {
+ 
+  position: relative;
+  width:10% !important;
+  left: 85%;
+  margin-top: 10px;
+}
+.gatalog  .swiper-button-prev {
+  position:relative ;
+  width: 10% !important;
+  left: -5%;
 }
 
-.portofolio .contant .btn1 {
-  border: 1px solid #ffffff;
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-
-  text-align: center;
-  text-decoration-line: underline;
-
-  color: #ffffff;
-  background-color: transparent;
-  padding: 14px 35px;
+.gatalog  .swiper-button-next,
+.gatalog  .swiper-button-prev {
+  /* background-color: red; */
+  color: #fff;
 }
 
-.portofolio .contant .btn2 {
-  background-color: #fff;
+.gatalog  .swiper-button-next:after,
+.gatalog  .swiper-button-prev:after {
+  font-size:0px !important;
+}
+.gatalog .collection{
+  margin-top: 35px;
+}
+.gatalog .collection p{
+  font-family: 'Montserrat-light';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+margin-top: 15px;
+/* identical to box height */
 
-  font-family: "Montserrat";
+
+color: rgba(255, 255, 255, 0.874);
+}
+
+
+.gatalog .contains h5{
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-
-  text-align: center;
-
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 80px;
   color: #000000;
-  padding: 14px 35px;
+  
+  opacity: 0.7;
+
+
+color: rgba(255, 255, 255);
 }
+
+.gatalog .contains .col-md-4{
+  margin-top: 50px !important;
+}
+
+.gatalog .contains .redline{
+  margin-left: 3%;
+  width: 17%;
+}
+
+
+
