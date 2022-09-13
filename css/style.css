@@ -1334,7 +1334,9 @@ position: relative;
   font-size:0px !important;
 }
 
-
+.gallery .container-fluid {
+  margin-left: 50px;
+}
 
 /* ============================about us================================================== */
 
