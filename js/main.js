@@ -19,6 +19,25 @@ var swiper = new Swiper('#portfolio .mySwiper', {
     el: '.swiper-pagination',
     clickable: true,
   },
+  breakpoints: {
+    // 640: {
+    //   slidesPerView: 1,
+    //   spaceBetween: 20,
+    // },
+    768: {
+      slidesPerView: 2.2,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 2.5,
+      spaceBetween:10,
+    },
+
+    1200: {
+      slidesPerView: 3.5,
+      spaceBetween: 50,
+    },
+  },
 });
 
 
@@ -29,6 +48,26 @@ var swiper = new Swiper('.gallery .collection .mySwiper', {
   navigation: {
     nextEl: ".gallery .collection .swiper-button-next",
     prevEl: ".gallery .collection .swiper-button-prev",
+  },
+
+   breakpoints: {
+    // 640: {
+    //   slidesPerView: 1,
+    //   spaceBetween: 20,
+    // },
+    768: {
+      slidesPerView: 2.2,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 2.5,
+      spaceBetween:10,
+    },
+
+    1200: {
+      slidesPerView: 3.5,
+      spaceBetween: 50,
+    },
   },
 
   
@@ -42,6 +81,25 @@ var swiper = new Swiper('.gallery .Images .mySwiper', {
     nextEl: ".gallery .Images .swiper-button-next",
     prevEl: ".gallery .Images .swiper-button-prev",
   },
+  breakpoints: {
+    // 640: {
+    //   slidesPerView: 1,
+    //   spaceBetween: 20,
+    // },
+    768: {
+      slidesPerView: 2.2,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 2.5,
+      spaceBetween:10,
+    },
+
+    1200: {
+      slidesPerView: 3.5,
+      spaceBetween: 50,
+    },
+  },
 
   
 });
@@ -53,6 +111,25 @@ var swiper = new Swiper('.gallery .Vedios .mySwiper', {
   navigation: {
     nextEl: ".gallery .Vedios .swiper-button-next",
     prevEl: ".gallery .Vedios .swiper-button-prev",
+  },
+  breakpoints: {
+    // 640: {
+    //   slidesPerView: 1,
+    //   spaceBetween: 20,
+    // },
+    768: {
+      slidesPerView: 2.2,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 2.5,
+      spaceBetween:10,
+    },
+
+    1200: {
+      slidesPerView: 3.5,
+      spaceBetween: 50,
+    },
   },
 
   
