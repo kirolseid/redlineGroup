@@ -125,6 +125,21 @@ $(".servesHover").mouseleave(function(){
   
 });
 
+
+$(".LoginLink").click(function(){
+  
+  $('.backgroungHoverCover').css("width", "100%")
+  $('.loginHover').css("display", "block") 
+  $('body').css("overflow", "hidden")
+});
+
+$(".backgroungHoverCover").click(function(){
+  $('.backgroungHoverCover').css("width", "0%")
+  $('.loginHover').css("display", "none") 
+  $('body').css("overflow", "auto")
+  $('body').css("overflow-x", "hidden")
+});
+
 $(document).ready(() => {
   $("#welcomesec h1 ").delay(500).animate(
     {

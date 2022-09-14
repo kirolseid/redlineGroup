@@ -3,11 +3,17 @@
 body {
   background-color: #131313;
   overflow-x: hidden;
-  
 }
-a{
+a {
   text-decoration: none;
-  
+}
+
+.backgroungHoverCover {
+  position: absolute;
+  height: 100vh;
+  /* width: 100%; */
+  background-color: #00000098;
+  z-index: 99;
 }
 
 /*/////////////////////////// home page////////////////// */
@@ -51,17 +57,15 @@ a{
   /* identical to box height */
   margin-right: 18px;
 
-  color: #ffffff ;
+  color: #ffffff;
 }
 
 .navbar .nav-item .active {
   border-bottom: 1px solid #ed1d24;
-  color: #ffffff ;
-
+  color: #ffffff;
 }
 
-
-.servesHover{
+.servesHover {
   background-color: #000000;
   position: fixed;
   height: 100vh;
@@ -70,61 +74,151 @@ a{
   z-index: 9999;
   top: 100px;
   display: none;
-  transition:1s !important;
+  transition: 1s !important;
 }
 
-
-
-.servesHover .head .line{
-width: 60px;
-height: 1px;
-background-color: #DC1C22;
-margin-block: 5px;
+.servesHover .head .line {
+  width: 60px;
+  height: 1px;
+  background-color: #dc1c22;
+  margin-block: 5px;
 }
 
-.servesHover .vline{
+.servesHover .vline {
   height: 570px;
   width: 1px;
   background-color: #fff;
 }
 
-.servesHover .head h5{
-  font-family: 'Montserrat';
+.servesHover .head h5 {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
   line-height: 30px;
-  
-  color: #FFFFFF;
-  }
 
-  .servesHover li{
-    
-font-family: 'Montserrat-light';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 18px;
+  color: #ffffff;
+}
 
-color: #ffffffdf;
-margin-top:55px ;
-    }
+.servesHover li {
+  font-family: "Montserrat-light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
 
-    .servesHover button{
-      margin: 45px ;
-      background: #FFFFFF;
-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
-border-radius: 2px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 0.1em;
-padding: 14px 35px;
+  color: #ffffffdf;
+  margin-top: 55px;
+}
 
-color: #DC1C22;
-    }
+.servesHover button {
+  margin: 45px;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  padding: 14px 35px;
+
+  color: #dc1c22;
+}
+
+.loginHover {
+  position: fixed;
+  left: 69%;
+  top: 15%;
+  z-index: 9999;
+  background-color: #fff;
+  width: 30%;
+  text-align: center;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  display: none;
+}
+
+.loginHover img {
+  position: relative;
+  top: -12px !important;
+}
+
+.loginHover h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.loginHover input {
+  margin: 35px auto;
+  margin-bottom: 0px !important;
+  display: block;
+  padding: 15px;
+  width: 80%;
+  border: 0.7px solid #000000;
+  border-radius: 4px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.loginHover button {
+  font-family: "Montserrat-light";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  background: #ed1d24;
+  border-radius: 4px;
+  padding: 9px 86px;
+}
+
+.loginHover .forgetpass {
+  margin-left: 50%;
+  margin-bottom: 15px;
+  font-family: "Montserrat-light";
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #2d2626;
+}
+
+.loginHover h6,
+a {
+  font-family: "Montserrat-light";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  margin-top: 25px;
+  /* margin-bottom: 25px; */
+}
+
+.loginHover a {
+  font-weight: 600;
+
+  color: #2d2626;
+}
 
 /* welcome section */
 
@@ -195,7 +289,6 @@ color: #DC1C22;
   background-attachment: fixed;
   background-position: center center;
   padding: 90px 0;
-  
 }
 
 #whyUs .whyUs {
@@ -262,8 +355,6 @@ color: #DC1C22;
 
   color: #000000;
 }
-
-
 
 #whyUs .whyUs .number .line {
   width: 122px;
@@ -526,8 +617,6 @@ color: #DC1C22;
   overflow: hidden;
   margin-top: 70px;
 }
-
-
 
 #portfolio .background {
   width: 200px;
@@ -890,13 +979,11 @@ color: #DC1C22;
 }
 
 #contact {
-  
   background-color: #1f1e1d;
 }
 #contact .container-fluid {
   margin-left: 55px;
 }
-
 
 #contact h4 {
   font-family: "Montserrat";
@@ -1009,7 +1096,6 @@ color: #DC1C22;
   /* justify-content: space-between; */
   width: 90%;
   padding: 0px;
-
 }
 
 #footer ul li {
@@ -1020,7 +1106,7 @@ color: #DC1C22;
   font-size: 15px;
   line-height: 150%;
   /* identical to box height, or 22px */
-margin-right: 40px;
+  margin-right: 40px;
   color: #ffffff;
 
   opacity: 0.6;
@@ -1059,38 +1145,33 @@ margin-right: 40px;
 }
 
 @media only screen and (max-width: 1440px) {
-
-  
-.servesHover .vline{
-  height: 450px;
-  width: 1px;
-  background-color: #fff;
-}
-
-.servesHover .head h5{
-  font-size: 20px;
-  line-height: 25px;
+  .servesHover .vline {
+    height: 450px;
+    width: 1px;
+    background-color: #fff;
   }
 
-  .servesHover li{
-font-size: 15px;
-margin-top:25px ;
-    }
+  .servesHover .head h5 {
+    font-size: 20px;
+    line-height: 25px;
+  }
 
-    .servesHover button{
-      margin: 0 20px ;
-padding: 14px 20px;
-position: relative; 
- top:-30%;
+  .servesHover li {
+    font-size: 15px;
+    margin-top: 25px;
+  }
 
-    }
+  .servesHover button {
+    margin: 0 20px;
+    padding: 14px 20px;
+    position: relative;
+    top: -30%;
+  }
   #welcomesec .contant {
     margin-left: 75px;
     position: relative;
     top: 35%;
   }
-
- 
 
   #contact .container-fluid {
     margin-left: 55px;
@@ -1139,7 +1220,6 @@ position: relative;
 
 /*===================================== treding page=============================== */
 
-
 .lightbackground .backbtn {
   margin: 76px 100px 40px 70px !important;
 }
@@ -1179,7 +1259,7 @@ position: relative;
   box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.432);
 }
 
-.cover img{
+.cover img {
   width: 100%;
 }
 
@@ -1210,7 +1290,7 @@ position: relative;
   opacity: 0;
   /* display: flex; */
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .lightbackground .background:hover .seemore {
@@ -1282,8 +1362,7 @@ position: relative;
 .gallery .redline,
 .about .redline,
 .portofolio .redline,
-.gatalog .redline
- {
+.gatalog .redline {
   width: 11%;
   height: 1px;
   background-color: #dc1c22;
@@ -1306,32 +1385,27 @@ position: relative;
   height: 100%;
 } */
 
-
-
-
-
-.gallery  .swiper-button-next {
- 
+.gallery .swiper-button-next {
   position: relative;
-  width:10% !important;
+  width: 10% !important;
   left: 85%;
-  margin-top: 10px;
+  margin-top: 30px;
 }
-.gallery  .swiper-button-prev {
-  position:relative ;
+.gallery .swiper-button-prev {
+  position: relative;
   width: 10% !important;
   left: -5%;
 }
 
-.gallery  .swiper-button-next,
-.gallery  .swiper-button-prev {
+.gallery .swiper-button-next,
+.gallery .swiper-button-prev {
   /* background-color: red; */
   color: #fff;
 }
 
-.gallery  .swiper-button-next:after,
-.gallery  .swiper-button-prev:after {
-  font-size:0px !important;
+.gallery .swiper-button-next:after,
+.gallery .swiper-button-prev:after {
+  font-size: 0px !important;
 }
 
 .gallery .container-fluid {
@@ -1391,7 +1465,7 @@ position: relative;
 }
 .about .features {
   /* margin-top: 60px; */
-  margin: 60px auto; 
+  margin: 60px auto;
 }
 .about .features .one {
   background-color: #dc1c22;
@@ -1415,8 +1489,8 @@ position: relative;
 
 .about .comprotofolio {
   position: relative;
-  
-padding-bottom: 50px;
+
+  padding-bottom: 50px;
 }
 
 .about .swiper {
@@ -1449,7 +1523,7 @@ padding-bottom: 50px;
 .about .swiper-button-next {
   /* position: fixed; */
   position: absolute;
-  width:10% !important;
+  width: 10% !important;
   /* bottom: 20% !important; */
   top: 99% !important;
 
@@ -1459,7 +1533,6 @@ padding-bottom: 50px;
   position: absolute;
   top: 99% !important;
   width: 10% !important;
-  
 
   left: 5%;
 }
@@ -1472,13 +1545,13 @@ padding-bottom: 50px;
 
 .about .swiper-button-next:after,
 .about .swiper-button-prev:after {
-  font-size:0px !important;
+  font-size: 0px !important;
   /* width: 30px;
   height: 2px ;
   background-color: #fff; */
 }
 
-.about .line{
+.about .line {
   width: 60px !important;
   height: 1px !important;
   color: #fff !important;
@@ -1491,7 +1564,6 @@ padding-bottom: 50px;
   }
 
   .about .header .redbackground {
- 
     height: 90%;
     top: -24px;
   }
@@ -1514,70 +1586,64 @@ padding-bottom: 50px;
   }
 }
 
-
 /* ============================contactus page================== */
 
-.contactUs .map{
-  background-image: url('../images/Group 500.png');
+.contactUs .map {
+  background-image: url("../images/Group 500.png");
   /* background-color: #b6070d; */
   background-position: center center;
   height: 50vh;
   background-size: 100% 100%;
   margin-top: 50px;
 }
-.contactUs .map .lookMap{
+.contactUs .map .lookMap {
   background: #000000;
-border-radius: 4px;
-color: #fff;
-width: 25%;
-margin-top: 54px;
+  border-radius: 4px;
+  color: #fff;
+  width: 25%;
+  margin-top: 54px;
 }
-.contactUs .map .lookMap span{
+.contactUs .map .lookMap span {
   display: inline-block;
-font-family: 'Montserrat-light';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-margin-left: 20px;
-padding: 4px 0;
+  font-family: "Montserrat-light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  margin-left: 20px;
+  padding: 4px 0;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
-.contactUs .map .contactMail{
-background-color: #fff;
-padding: 30px 40px;
-position: relative;
-top: -30px;
+.contactUs .map .contactMail {
+  background-color: #fff;
+  padding: 30px 40px;
+  position: relative;
+  top: -30px;
 }
 
 .contactUs .map .title {
-display: flex;
+  display: flex;
 }
 
-
-
-
-
-.contactUs .map{
-  padding:0px 50px;
+.contactUs .map {
+  padding: 0px 50px;
 }
 
-.contactUs .map h5{
-  
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 49px;
-margin-left: 20px;
-color: #FFFFFF;
-position: relative;
-top: 58%;
+.contactUs .map h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  margin-left: 20px;
+  color: #ffffff;
+  position: relative;
+  top: 58%;
 }
 
-.contactUs .map .title .h3line{
+.contactUs .map .title .h3line {
   width: 100px !important;
   height: 1px !important ;
   background-color: #000000 !important;
@@ -1585,255 +1651,223 @@ top: 58%;
   margin-left: 10px;
 }
 
-.contactUs .map .contactMail input,textarea {
-  border: none ;
+.contactUs .map .contactMail input,
+textarea {
+  border: none;
   border-bottom: 0.5px solid #000000c2;
-  padding-top:20px ;
+  padding-top: 20px;
   width: 100%;
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 18px;
-
-color: #000000;
-margin-top: 40px;
-opacity: 0.8;
-  }
-
-  .contactUs .map .contactMail input:focus   {
-    outline: none;    
-    }
-
-    .contactUs .map .contactMail .image-upload img  {
-      cursor: pointer;
-      width: 120%;
-      margin-top: 30px  ;
-    }
-
-    .contactUs .map .contactMail  input[type="file"] {
-      display: none;
-      /* background-image: url('../images/upload\ file.png'); */
-  }
-
-  .contactUs .map .contactMail  button {
-    
-    position: relative;
-    left: 70%;
-    top: -15px;
-    background: #DC1C22;
-border-radius: 4px 0px 0px 4px; 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 18px;
-
-color: #FFFFFF;
-padding: 18px 30px;
-border: none;
-
-}
-
-.contactUs .map .contactMail  button  .line{
-  display: inline-block;
-   width: 40px;
-   height: 1px;
-   background-color: #fff;
-
-}
-
-.contactUs .contactDetails{
-  margin-top: 42px;
-  margin-left: 65px;
-}
-
-.contactUs .contactDetails .col-1,.col-11{
-  margin-bottom: 28px;
-}
-
-.contactUs .contactDetails p{
-  font-family: 'Montserrat-light';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  
-  color: #FFFFFF;
-  /* margin-block: -0px; */
-  
-}
-.contactUs .contactDetails .follw{
-  margin-top: 50px;
-  margin-left: 120px;
-}
-
-.contactUs .contactDetails .follw h3{
-  
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 30px;
-
-color: #FFFFFF;
-  /* margin-block: -0px; */
-  
-}
-.contactUs .contactDetails .social{
-  margin-top: 20px;
-  margin-left: 120px;
-
-}
-
-.contactUs .contactDetails .social img{
-  
- margin-left: 18px;
-  
-}
-
-@media only screen and (max-width: 1440px) {
-
-  .contactUs .map{
-    height: 50vh;
-    margin-top: 40px;
-  }
-  .contactUs .map .lookMap{
-  width: 40%;
-  margin-top: 54px;
-  }
-  
-  .contactUs .map .contactMail{
-  background-color: #fff;
-  padding: 30px 40px;
-  position: relative;
-  top: -30px;
-  }
-  
-  
-  
-  .contactUs .map{
-    padding:0px 50px;
-  }
-  
-  .contactUs .map h5{
-
-  font-size: 35px;
-  top: 35%;
-  }
-
-  .contactUs .map .title h3{
-    font-size: 16px;
-   
-    }
-  
-  .contactUs .map .title .h3line{
-   
-    margin-block: 14px;
-   
-  }
-  
-  .contactUs .map .contactMail input,textarea {
-    border: none ;
-    border-bottom: 0.5px solid #000000c2;
-    padding-top:16px ;
-    width: 100%;
-    font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
-  
+
   color: #000000;
-  margin-top: 20px;
+  margin-top: 40px;
   opacity: 0.8;
-    }
-  
-    
-  
-     
-  
- 
-    .contactUs .map .contactMail  button {
-      
-      position: relative;
-      left: 60%;
-      top: -15px;
-      background: #DC1C22;
-  border-radius: 4px 0px 0px 4px; 
-  font-family: 'Montserrat';
+}
+
+.contactUs .map .contactMail input:focus {
+  outline: none;
+}
+
+.contactUs .map .contactMail .image-upload img {
+  cursor: pointer;
+  width: 120%;
+  margin-top: 30px;
+}
+
+.contactUs .map .contactMail input[type="file"] {
+  display: none;
+  /* background-image: url('../images/upload\ file.png'); */
+}
+
+.contactUs .map .contactMail button {
+  position: relative;
+  left: 70%;
+  top: -15px;
+  background: #dc1c22;
+  border-radius: 4px 0px 0px 4px;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 18px;
-  
-  color: #FFFFFF;
-  padding: 18px 20px;
+
+  color: #ffffff;
+  padding: 18px 30px;
   border: none;
-  
+}
+
+.contactUs .map .contactMail button .line {
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.contactUs .contactDetails {
+  margin-top: 42px;
+  margin-left: 65px;
+}
+
+.contactUs .contactDetails .col-1,
+.col-11 {
+  margin-bottom: 28px;
+}
+
+.contactUs .contactDetails p {
+  font-family: "Montserrat-light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #ffffff;
+  /* margin-block: -0px; */
+}
+.contactUs .contactDetails .follw {
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.contactUs .contactDetails .follw h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #ffffff;
+  /* margin-block: -0px; */
+}
+.contactUs .contactDetails .social {
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.contactUs .contactDetails .social img {
+  margin-left: 18px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .contactUs .map {
+    height: 50vh;
+    margin-top: 40px;
   }
-  
-  
-  .contactUs .contactDetails{
+  .contactUs .map .lookMap {
+    width: 40%;
+    margin-top: 54px;
+  }
+
+  .contactUs .map .contactMail {
+    background-color: #fff;
+    padding: 30px 40px;
+    position: relative;
+    top: -30px;
+  }
+
+  .contactUs .map {
+    padding: 0px 50px;
+  }
+
+  .contactUs .map h5 {
+    font-size: 35px;
+    top: 35%;
+  }
+
+  .contactUs .map .title h3 {
+    font-size: 16px;
+  }
+
+  .contactUs .map .title .h3line {
+    margin-block: 14px;
+  }
+
+  .contactUs .map .contactMail input,
+  textarea {
+    border: none;
+    border-bottom: 0.5px solid #000000c2;
+    padding-top: 16px;
+    width: 100%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+    margin-top: 20px;
+    opacity: 0.8;
+  }
+
+  .contactUs .map .contactMail button {
+    position: relative;
+    left: 60%;
+    top: -15px;
+    background: #dc1c22;
+    border-radius: 4px 0px 0px 4px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+
+    color: #ffffff;
+    padding: 18px 20px;
+    border: none;
+  }
+
+  .contactUs .contactDetails {
     margin-top: 42px;
     margin-left: 65px;
   }
-  
-  .contactUs .contactDetails .col-1,.col-11{
+
+  .contactUs .contactDetails .col-1,
+  .col-11 {
     margin-bottom: 20px;
   }
-  
-  .contactUs .contactDetails p{
-    
+
+  .contactUs .contactDetails p {
     font-size: 14px;
-  
-    
   }
-  .contactUs .contactDetails .follw{
+  .contactUs .contactDetails .follw {
     margin-top: 70px;
     margin-left: 120px;
   }
-  
-  
-  
-
-
-
 }
-
 
 /* ======================================servises page=========================== */
 
-.servsies .servesView .col-md-6{
+.servsies .servesView .col-md-6 {
   margin-top: 60px;
 }
 
-
-.servsies .servesView img{
+.servsies .servesView img {
   width: 90%;
 }
 
-.servsies .servesView h4{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 43px;
+.servsies .servesView h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43px;
 
-color: #FFFFFF;
-margin: 10px 0;
+  color: #ffffff;
+  margin: 10px 0;
 }
 
-.servsies .servesView p{
-  font-family: 'Montserrat-light';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 24px;
+.servsies .servesView p {
+  font-family: "Montserrat-light";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 /* =====================portfolio page============== */
 
@@ -1846,8 +1880,6 @@ color: #FFFFFF;
 .portofolio .portView .nav-link {
   border: none !important;
 }
-
-
 
 .portofolio .portView .nav-link {
   width: 25%;
@@ -1864,7 +1896,7 @@ color: #FFFFFF;
   list-style: circle;
 }
 
-.portofolio  #nav-tab .active {
+.portofolio #nav-tab .active {
   opacity: 1;
 
   background-color: transparent;
@@ -1880,129 +1912,111 @@ color: #FFFFFF;
   width: 95%;
 }
 
-.portofolio .contant{
+.portofolio .contant {
   margin-left: 10%;
 }
 
 .portofolio .contant h3 {
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 120px;
-line-height: 146px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 120px;
+  line-height: 146px;
 
-color: #FFFFFF;
-/* margin-left: 30%;   */
-opacity: 0.2;
+  color: #ffffff;
+  /* margin-left: 30%;   */
+  opacity: 0.2;
 }
 
 .portofolio .view h3 {
-
-/* margin-left: 30%; */
-text-align: right;
-
+  /* margin-left: 30%; */
+  text-align: right;
 }
 
 .portofolio .view2 h3 {
-text-align: left;
+  text-align: left;
   /* margin-left: 30%; */
-  
-  }
-
-
+}
 
 .portofolio .contant .p1 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
 .portofolio .contant .p2 {
-  font-family: 'Montserrat-light';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 18px;
-width: 80%;
-color: #ffffffcf;
-
+  font-family: "Montserrat-light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  width: 80%;
+  color: #ffffffcf;
 }
-
-
-
-
-
 
 /* ===============================gatalog page ============= */
 
-
-
-
-.gatalog  .swiper-button-next {
- 
+.gatalog .swiper-button-next {
   position: relative;
-  width:10% !important;
+  width: 10% !important;
   left: 85%;
   margin-top: 10px;
 }
-.gatalog  .swiper-button-prev {
-  position:relative ;
+.gatalog .swiper-button-prev {
+  position: relative;
   width: 10% !important;
   left: -5%;
 }
 
-.gatalog  .swiper-button-next,
-.gatalog  .swiper-button-prev {
+.gatalog .swiper-button-next,
+.gatalog .swiper-button-prev {
   /* background-color: red; */
   color: #fff;
 }
 
-.gatalog  .swiper-button-next:after,
-.gatalog  .swiper-button-prev:after {
-  font-size:0px !important;
+.gatalog .swiper-button-next:after,
+.gatalog .swiper-button-prev:after {
+  font-size: 0px !important;
 }
-.gatalog .collection{
+.gatalog .collection {
   margin-top: 35px;
 }
-.gatalog .collection p{
-  font-family: 'Montserrat-light';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-text-align: center;
-margin-top: 15px;
-/* identical to box height */
+.gatalog .collection p {
+  font-family: "Montserrat-light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 15px;
+  /* identical to box height */
 
-
-color: rgba(255, 255, 255, 0.874);
+  color: rgba(255, 255, 255, 0.874);
 }
 
-
-.gatalog .contains h5{
-  font-family: 'Montserrat';
+.gatalog .contains h5 {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
   line-height: 30px;
   margin-top: 80px;
   color: #000000;
-  
+
   opacity: 0.7;
 
-
-color: rgba(255, 255, 255);
+  color: rgba(255, 255, 255);
 }
 
-.gatalog .contains .col-md-4{
+.gatalog .contains .col-md-4 {
   margin-top: 50px !important;
 }
 
-.gatalog .contains .redline{
+.gatalog .contains .redline {
   margin-left: 3%;
   width: 17%;
 }
@@ -2011,158 +2025,135 @@ color: rgba(255, 255, 255);
   margin-left: 50px;
 }
 
-
-
 /* =========================req=============================== */
-.reg{
+.reg {
   background-image: url("../images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall (1).png");
   text-align: center;
   padding-top: 10%;
   height: 100vh;
 }
 
-.reg h2{
+.reg h2 {
   margin-top: 25px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 50px;
   line-height: 136.4%;
   /* or 68px */
-  
+
   letter-spacing: 0.07em;
-  
-  color: #FFFFFF;
-  
+
+  color: #ffffff;
 }
 
-.reg p{
-  font-family: 'Montserrat-light';
-font-style: normal;
-font-weight: 100;
-font-size: 25px;
-line-height: 30px;
+.reg p {
+  font-family: "Montserrat-light";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 30px;
 
-color: #ffffffb9;
-  
+  color: #ffffffb9;
 }
 
-.reg input{
-
-  margin:35px auto;
+.reg input {
+  margin: 35px auto;
   display: block;
   padding: 15px;
   width: 30%;
-  border: 0.7px solid #FFFFFF;
+  border: 0.7px solid #ffffff;
   border-radius: 4px;
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 18px;
-background-color: transparent;
-color: #FFFFFF;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  background-color: transparent;
+  color: #ffffff;
 
-opacity: 0.6;
-  
+  opacity: 0.6;
 }
 
-.reg button{
-
-  font-family: 'Montserrat-light';
+.reg button {
+  font-family: "Montserrat-light";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
   /* identical to box height */
-  
+
   text-align: center;
   border: none;
-  color: #FFFFFF;
-  background: #ED1D24;
-border-radius: 4px;
-padding: 9px 86px;
-  
+  color: #ffffff;
+  background: #ed1d24;
+  border-radius: 4px;
+  padding: 9px 86px;
 }
 
-.reg h6,a{
+.reg h6,
+a {
+  font-family: "Montserrat-light";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 18px;
 
-  font-family: 'Montserrat-light';
-font-style: normal;
-font-weight: 200;
-font-size: 15px;
-line-height: 18px;
-
-color: #ffffffcb;
-margin-top: 25px;
-  
+  color: #ffffffcb;
+  margin-top: 25px;
 }
 
-.reg a{
-
+.reg a {
   font-weight: 500;
 
-color: #ffffff;
-
-  
+  color: #ffffff;
 }
 
 .reg .agreeFooter {
- margin-top: 3%;
+  margin-top: 3%;
 }
 
-.reg .agreeFooter p{
-
-  font-family: 'Montserrat';
+.reg .agreeFooter p {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   /* identical to box height */
-  
+
   letter-spacing: 0.02em;
-  
-  color: #FFFFFF;
-  
-  
+
+  color: #ffffff;
 }
 
-.reg .agreeFooter span{
-
-  color: #DC1C22;
-  
-  
+.reg .agreeFooter span {
+  color: #dc1c22;
 }
 
-.reg .forgetpass{
+.reg .forgetpass {
   margin-left: 22%;
   margin-bottom: 15px;
-  font-family: 'Montserrat-light';
-font-style: normal;
-font-weight: 200;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height */
+  font-family: "Montserrat-light";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
 
-
-color: #ffffffa5;
+  color: #ffffffa5;
 }
 
-@media all and (min-width: 900px) and ( max-width:1750px) {
-  .reg{
-    
+@media all and (min-width: 900px) and (max-width: 1750px) {
+  .reg {
     padding-top: 4%;
-
   }
 
   .reg .agreeFooter {
     position: relative;
     /* top: 5%; */
-   }
+  }
 
-   .reg input{
-
-    margin:20px auto;
-   
+  .reg input {
+    margin: 20px auto;
   }
 }
