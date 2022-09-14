@@ -1144,7 +1144,14 @@ a {
   color: #dc1c22;
 }
 
-@media only screen and (max-width: 1440px) {
+@media all and (min-width: 900px) and (max-width: 1750px) {
+  .loginHover {
+   
+    left: 73.1%;
+    top: 15%;
+  }
+
+
   .servesHover .vline {
     height: 450px;
     width: 1px;
