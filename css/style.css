@@ -20,15 +20,19 @@
 }
 
 /* body */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #131313;
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
 a {
   text-decoration: none;
 }
-
+.row{
+  --bs-gutter-x: 0rem;
+}
 .backgroungHoverCover {
   position: absolute;
   height: 100vh;
@@ -1098,7 +1102,7 @@ a {
 }
 
 #footer .social ul {
-  margin-left: 80px;
+  margin-left:40px;
 }
 
 #footer .social li {
@@ -1112,6 +1116,10 @@ a {
   background-color: #b6070d;
   border-radius: 10px;
   padding: 11px 17px;
+}
+
+#footer .social .up {
+  cursor: pointer;
 }
 #footer p {
   font-family: "Montserrat";

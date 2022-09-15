@@ -25,16 +25,16 @@ var swiper = new Swiper('#portfolio .mySwiper', {
     //   spaceBetween: 20,
     // },
     768: {
-      slidesPerView: 2.2,
+      slidesPerView: 3,
       spaceBetween: 20,
     },
     1024: {
-      slidesPerView: 2.5,
+      slidesPerView: 3.5,
       spaceBetween:10,
     },
 
     1200: {
-      slidesPerView: 3.5,
+      slidesPerView: 4,
       spaceBetween: 50,
     },
   },
@@ -268,19 +268,6 @@ function isScrolledIntoView(elem) {
 
 window.addEventListener("scroll", function () {
   if (isScrolledIntoView(container)) {
-    $("#whyUs .whyUs .l ").delay(000).animate(
-      {
-        left: "0%",
-      },
-      5000
-    );
-
-    $("#whyUs .whyUs .r ").delay(000).animate(
-      {
-        right: "0%",
-      },
-      5000
-    );
 
     $(".counter").each(function () {
       var $this = $(this),
@@ -368,3 +355,8 @@ window.addEventListener("scroll", function () {
   }
 });
 
+
+
+$('#footer .up').click(()=>{
+  $(window).scrollTop(0);
+})
