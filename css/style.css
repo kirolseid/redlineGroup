@@ -1,3 +1,24 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-Regular.ttf");
+  /* src: url("../Montserrat-Medium.ttf"); */
+  /* src: url("../Montserrat-Black.ttf"); */
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../fonts/Montserrat-Bold.ttf");
+  /* src: url("../Montserrat-Medium.ttf"); */
+  /* src: url("../Montserrat-Black.ttf"); */
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url("../fonts/Montserrat-Light.ttf");
+  /* src: url("../Montserrat-Medium.ttf"); */
+  /* src: url("../Montserrat-Black.ttf"); */
+}
+
 /* body */
 
 body {
@@ -20,26 +41,7 @@ a {
 
 /* navbar  */
 
-@font-face {
-  font-family: Montserrat;
-  src: url("../fonts/Montserrat-Regular.ttf");
-  /* src: url("../Montserrat-Medium.ttf"); */
-  /* src: url("../Montserrat-Black.ttf"); */
-}
 
-@font-face {
-  font-family: Montserrat-Bold;
-  src: url("../fonts/Montserrat-Bold.ttf");
-  /* src: url("../Montserrat-Medium.ttf"); */
-  /* src: url("../Montserrat-Black.ttf"); */
-}
-
-@font-face {
-  font-family: Montserrat-Light;
-  src: url("../fonts/Montserrat-Light.ttf");
-  /* src: url("../Montserrat-Medium.ttf"); */
-  /* src: url("../Montserrat-Black.ttf"); */
-}
 .navbar {
   background-color: transparent !important;
   padding-top: 20px;
@@ -1208,9 +1210,49 @@ a {
     margin-right: 12px;
   }
 
+  
+.servesHover {
+ 
+  padding: 10px;
+  padding-left: 10px;
+
+  top: 100px;
+
+}
+
+.servesHover .head .line {
+  width: 30px;
+
+}
+
+.servesHover .vline {
+  height: 380px;
+
+}
+
+.servesHover .head h5 {
+
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.servesHover li {
+
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 10px;
+}
+
+.servesHover button {
+  margin:10px 25px;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 5px 10px;
+}
+
+
   #welcomesec .contant {
     margin-left: 70px;
-    position: relative;
     top: 40%;
   }
 
@@ -1548,6 +1590,8 @@ a {
     font-size: 14px;
     margin: 15px 0;
   }
+
+
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -1733,6 +1777,42 @@ a {
 .clients .col-md-3 {
   margin-top: 70px;
 }
+
+@media all and (min-width: 1200px) and (max-width: 1440px) {
+  .clients .one {
+    width: 250px;
+    height: 200px;
+  }
+
+  .clients .one img {
+    width: 85%;
+  }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .clients .one {
+    width: 200px;
+    height: 170px;
+    background: #ffffff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clients .one img {
+    width: 80%;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+}
+
+@media all and (max-width: 480px) {
+}
+
 
 /* ===============================gallery page===================== */
 
@@ -2604,6 +2684,64 @@ textarea {
   width: 80%;
   color: #ffffffcf;
 }
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+  
+.portofolio .portView .nav-tabs {
+
+  width: 95%;
+}
+
+
+.portofolio .portView .nav-link {
+  font-size: 16px;
+}
+
+
+.portofolio .view {
+  width: 95%;
+  margin: 35px auto;
+}
+
+.portofolio .portView img {
+  width: 100%;
+}
+
+.portofolio .contant {
+  margin-left: 10%;
+}
+
+.portofolio .contant h3 {
+ 
+  font-size: 50px;
+  line-height: 80px;
+}
+
+
+
+.portofolio .contant .p1 {
+  font-size: 18px;
+}
+
+.portofolio .contant .p2 {
+
+  font-size: 12px;
+  line-height: 18px;
+  width: 90%;
+}
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+}
+
+@media all and (max-width: 480px) {
+}
+
 
 /* ===============================gatalog page ============= */
 
@@ -2790,19 +2928,63 @@ a {
   color: #ffffffa5;
 }
 
-@media all and (min-width: 900px) and (max-width: 1750px) {
-  .reg {
-    padding-top: 4%;
-  }
 
-  .reg .agreeFooter {
-    position: relative;
-    /* top: 5%; */
+  @media all and (min-width: 1024px) and (max-width: 1440px) {
+    .reg {
+      padding-top: 4%;
+    }
+  
+    .reg .agreeFooter {
+      position: relative;
+      /* top: 5%; */
+    }
+  
+    .reg input {
+      margin: 20px auto;
   }
+}
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    .reg img{
+      width: 35%;
+    }
+    .reg h2 {
+      margin-top: 25px;
+      font-size: 35px;
+      line-height: 50px;
+    }
+    
+    .reg p {
 
-  .reg input {
-    margin: 20px auto;
+      font-size: 19px;
+
+    }
+    
+    .reg input {
+      margin: 20px auto;
+      width: 40%;
+  
+      font-size: 15px;
+
+    }
+    
+    .reg button {
+
+      font-size: 18px;
+    
+    
+      padding: 9px 60px;
+    }
+    
+  
+    
+    
   }
+  
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+  
+  @media all and (max-width: 480px) {
+
 }
 /*  ========================news page============*/
 .newsPage .newsContant .row {
@@ -2891,7 +3073,51 @@ a {
   width: 80%;
 }
 
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+}
+
 @media all and (min-width: 768px) and (max-width: 1024px) {
+  .newsPage .newsContant .row {
+    margin-left: 20px;
+  }
+  
+  .newsPage .newsContant .row .col-md-6 {
+    margin-top: 50px;
+  }
+
+  .newsPage .newsContant img {
+    width: 100%;
+  }
+  
+  .newsPage .history {
+    width: 130px;
+    height: 80px;
+  }
+  
+  .newsPage .history h4 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .newsPage .history h5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .newsPage .newsContant h6 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .newsPage .newsContant h3 {
+    font-size: 25px;
+  }
+  .newsPage .newsContant p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    width: 90%;
+  }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
