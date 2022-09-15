@@ -663,7 +663,7 @@ a {
   text-align: center;
   color: #ffffff;
   opacity: 0.4;
-  list-style: circle;
+  list-style: disc;
 }
 
 #portfolio .features #nav-tab .active {
@@ -679,7 +679,7 @@ a {
 }
 
 #portfolio .view img {
-  width: 100%;
+  width: 95%;
 }
 
 #portfolio .contant h3 {
