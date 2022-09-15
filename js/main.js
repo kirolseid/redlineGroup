@@ -20,10 +20,10 @@ var swiper = new Swiper('#portfolio .mySwiper', {
     clickable: true,
   },
   breakpoints: {
-    // 640: {
-    //   slidesPerView: 1,
-    //   spaceBetween: 20,
-    // },
+    480: {
+      slidesPerView: 2.5,
+      spaceBetween: 20,
+    },
     768: {
       slidesPerView: 3,
       spaceBetween: 20,
