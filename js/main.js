@@ -20,42 +20,19 @@ var swiper = new Swiper('#portfolio .mySwiper', {
     clickable: true,
   },
   breakpoints: {
+    200:{
+      slidesPerView: 1.1,
+      spaceBetween: 20,
+    },
     480: {
-      slidesPerView: 2.5,
+      slidesPerView: 1.3,
       spaceBetween: 20,
     },
     768: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
-    1024: {
-      slidesPerView: 3.5,
-      spaceBetween:10,
-    },
-
-    1200: {
-      slidesPerView: 4,
-      spaceBetween: 50,
-    },
-  },
-});
-
-
-var swiper = new Swiper('.gallery .collection .mySwiper', {
-  slidesPerView: 3.5,
-  slidesPerColumn: 2,
-  spaceBetween: 10,
-  navigation: {
-    nextEl: ".gallery .collection .swiper-button-next",
-    prevEl: ".gallery .collection .swiper-button-prev",
-  },
-
-   breakpoints: {
-    // 640: {
-    //   slidesPerView: 1,
-    //   spaceBetween: 20,
-    // },
-    768: {
+    1000 :{
       slidesPerView: 2.2,
       spaceBetween: 20,
     },
@@ -68,7 +45,50 @@ var swiper = new Swiper('.gallery .collection .mySwiper', {
       slidesPerView: 3.5,
       spaceBetween: 50,
     },
+  
   },
+
+});
+
+
+var swiper = new Swiper('.gallery .collection .mySwiper', {
+  slidesPerView: 3.5,
+  slidesPerColumn: 2,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".gallery .collection .swiper-button-next",
+    prevEl: ".gallery .collection .swiper-button-prev",
+  },
+
+  breakpoints: {
+    200:{
+      slidesPerView: 1.1,
+      spaceBetween: 20,
+    },
+    480: {
+      slidesPerView: 1.3,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1000 :{
+      slidesPerView: 2.2,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 2.5,
+      spaceBetween:10,
+    },
+
+    1200: {
+      slidesPerView: 3.5,
+      spaceBetween: 50,
+    },
+  
+  },
+
 
   
 });
@@ -82,11 +102,19 @@ var swiper = new Swiper('.gallery .Images .mySwiper', {
     prevEl: ".gallery .Images .swiper-button-prev",
   },
   breakpoints: {
-    // 640: {
-    //   slidesPerView: 1,
-    //   spaceBetween: 20,
-    // },
+    200:{
+      slidesPerView: 1.1,
+      spaceBetween: 20,
+    },
+    480: {
+      slidesPerView: 1.3,
+      spaceBetween: 20,
+    },
     768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1000 :{
       slidesPerView: 2.2,
       spaceBetween: 20,
     },
@@ -99,7 +127,9 @@ var swiper = new Swiper('.gallery .Images .mySwiper', {
       slidesPerView: 3.5,
       spaceBetween: 50,
     },
+  
   },
+
 
   
 });
@@ -113,11 +143,19 @@ var swiper = new Swiper('.gallery .Vedios .mySwiper', {
     prevEl: ".gallery .Vedios .swiper-button-prev",
   },
   breakpoints: {
-    // 640: {
-    //   slidesPerView: 1,
-    //   spaceBetween: 20,
-    // },
+    200:{
+      slidesPerView: 1.1,
+      spaceBetween: 20,
+    },
+    480: {
+      slidesPerView: 1.3,
+      spaceBetween: 20,
+    },
     768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1000 :{
       slidesPerView: 2.2,
       spaceBetween: 20,
     },
@@ -130,6 +168,7 @@ var swiper = new Swiper('.gallery .Vedios .mySwiper', {
       slidesPerView: 3.5,
       spaceBetween: 50,
     },
+  
   },
 
   
@@ -143,20 +182,35 @@ var swiper = new Swiper('.gatalog  .mySwiper', {
     nextEl: ".gatalog  .swiper-button-next",
     prevEl: ".gatalog  .swiper-button-prev",
   },
-  // breakpoints: {
-  //   640: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 20,
-  //   },
-  //   768: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 40,
-  //   },
-  //   1024: {
-  //     slidesPerView: 3,
-  //     spaceBetween: 50,
-  //   },
-  // },
+  breakpoints: {
+    200:{
+      slidesPerView: 1.1,
+      spaceBetween: 20,
+    },
+    480: {
+      slidesPerView: 1.3,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1000 :{
+      slidesPerView: 2.2,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 2.5,
+      spaceBetween:10,
+    },
+
+    1200: {
+      slidesPerView: 3.5,
+      spaceBetween: 50,
+    },
+  
+  },
+
 
   
 });

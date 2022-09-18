@@ -310,15 +310,14 @@ a {
 }
 
 #whyUs .whyUs p {
-  font-family: "Montserrat";
+  font-family: "Montserrat-light";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 20px;
+  line-height: 24px;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 70px;
-  color: #000000;
+  color: #000000b1;
+  margin-top: 30px;
 }
 
 #whyUs .whyUs p span {
@@ -2194,6 +2193,17 @@ a {
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+  .gallery .swiper-button-next {
+    position: relative;
+    width: 20%;
+    left: 79%;
+    margin-top: 30px;
+  }
+  .gallery .swiper-button-prev {
+    position: relative;
+    width: 20%;
+    left: -15%;
+  }
 }
 
 @media all and (max-width: 480px) {
