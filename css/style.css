@@ -49,6 +49,10 @@ a {
   background-color: transparent !important;
   padding-top: 20px;
 }
+
+.navbar button{
+  color: #FFF !important;
+}
 .navbar .container-fluid {
   margin: 0 4.5%;
 }
@@ -1048,6 +1052,97 @@ a {
   color: #dc1c22;
 }
 
+.closeNav{
+  width: 399px ;
+  position: fixed;
+  right: -1000px;
+  top: 0;
+  z-index: 99999999999999999999;
+  transition: 1.5s;
+}
+
+.closeNav .img img{
+margin: 20px ;
+}
+
+
+.respNav{
+  background-color: #FFF;
+  width: 344px;
+  height: 100vh;
+  
+}
+
+.respNav .navheader a{
+  margin-top: 40px; 
+  
+}
+
+.respNav .navheader .logo{
+  margin: 40px 90px  38px 83px;
+  
+}
+
+.respNav .head .line{
+  width: 50px;
+  height: 1.5px;
+  background-color: #000000;
+  margin-block: 4px;
+  margin: 4px 10px;
+}
+
+.respNav .head h5{
+  font-family: 'Montserrat-bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  
+  color: #000000;
+  
+}
+
+.respNav li{
+ list-style: none;
+}
+
+.respNav .redline{
+  width: 50px;
+  height: 1px;
+  background-color: #FFF;
+  margin-block: 4px;
+  margin: 4px 8px ;
+}
+
+
+.respNav .active{
+
+  background-color: #dc1c22;
+ 
+}
+
+
+
+.respNav li{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+.respNav .social{
+ margin-top: 100px
+  }
+
+.respNav .social ul{
+  /* position: relative;
+  top:100px; */
+ 
+  justify-content: space-between;
+  }
 @media all and (min-width: 1200px) and (max-width: 1440px) {
   .loginHover {
     left: 73.1%;
@@ -1499,11 +1594,11 @@ a {
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-  .navbar .nav-link {
-    font-size: 13px;
-    line-height: 24px;
-    margin-right: 12px;
-  }
+
+
+  /* .navbar-collapse{
+    background-color: #fff;
+  } */
 
   .servesHover {
     padding: 10px;
