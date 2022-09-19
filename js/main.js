@@ -21,7 +21,7 @@ var swiper = new Swiper('#portfolio .mySwiper', {
   },
   breakpoints: {
     200:{
-      slidesPerView: 1.1,
+      slidesPerView: 2.5,
       spaceBetween: 20,
     },
     480: {
@@ -52,7 +52,7 @@ var swiper = new Swiper('#portfolio .mySwiper', {
 
 
 var swiper = new Swiper('.gallery .collection .mySwiper', {
-  slidesPerView: 3.5,
+  slidesPerView: 4.5,
   slidesPerColumn: 2,
   spaceBetween: 10,
   navigation: {
@@ -61,29 +61,31 @@ var swiper = new Swiper('.gallery .collection .mySwiper', {
   },
 
   breakpoints: {
-    200:{
-      slidesPerView: 1.1,
+  200:{
+      slidesPerView: 2.5,
       spaceBetween: 20,
     },
     480: {
-      slidesPerView: 1.3,
+      slidesPerView: 2.9,
       spaceBetween: 20,
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 3.2,
       spaceBetween: 20,
     },
-    1000 :{
-      slidesPerView: 2.2,
-      spaceBetween: 20,
-    },
+    
     1024: {
-      slidesPerView: 2.5,
+      slidesPerView: 3.5,
       spaceBetween:10,
     },
 
     1200: {
-      slidesPerView: 3.5,
+      slidesPerView: 3.8,
+      spaceBetween: 50,
+    },
+
+    1400: {
+      slidesPerView: 4.5,
       spaceBetween: 50,
     },
   
@@ -101,35 +103,37 @@ var swiper = new Swiper('.gallery .Images .mySwiper', {
     nextEl: ".gallery .Images .swiper-button-next",
     prevEl: ".gallery .Images .swiper-button-prev",
   },
+ 
   breakpoints: {
     200:{
-      slidesPerView: 1.1,
-      spaceBetween: 20,
-    },
-    480: {
-      slidesPerView: 1.3,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    1000 :{
-      slidesPerView: 2.2,
-      spaceBetween: 20,
-    },
-    1024: {
-      slidesPerView: 2.5,
-      spaceBetween:10,
-    },
-
-    1200: {
-      slidesPerView: 3.5,
-      spaceBetween: 50,
-    },
+        slidesPerView: 2.5,
+        spaceBetween: 20,
+      },
+      480: {
+        slidesPerView: 2.9,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3.2,
+        spaceBetween: 20,
+      },
+      
+      1024: {
+        slidesPerView: 3.5,
+        spaceBetween:10,
+      },
   
-  },
-
+      1200: {
+        slidesPerView: 3.8,
+        spaceBetween: 50,
+      },
+  
+      1400: {
+        slidesPerView: 4.5,
+        spaceBetween: 50,
+      },
+    
+    },
 
   
 });
@@ -144,33 +148,34 @@ var swiper = new Swiper('.gallery .Vedios .mySwiper', {
   },
   breakpoints: {
     200:{
-      slidesPerView: 1.1,
-      spaceBetween: 20,
-    },
-    480: {
-      slidesPerView: 1.3,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    1000 :{
-      slidesPerView: 2.2,
-      spaceBetween: 20,
-    },
-    1024: {
-      slidesPerView: 2.5,
-      spaceBetween:10,
-    },
-
-    1200: {
-      slidesPerView: 3.5,
-      spaceBetween: 50,
-    },
+        slidesPerView: 2.5,
+        spaceBetween: 20,
+      },
+      480: {
+        slidesPerView: 2.9,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3.2,
+        spaceBetween: 20,
+      },
+      
+      1024: {
+        slidesPerView: 3.5,
+        spaceBetween:10,
+      },
   
-  },
-
+      1200: {
+        slidesPerView: 3.8,
+        spaceBetween: 50,
+      },
+  
+      1400: {
+        slidesPerView: 4.5,
+        spaceBetween: 50,
+      },
+    
+    },
   
 });
 
@@ -182,35 +187,37 @@ var swiper = new Swiper('.gatalog  .mySwiper', {
     nextEl: ".gatalog  .swiper-button-next",
     prevEl: ".gatalog  .swiper-button-prev",
   },
+ 
   breakpoints: {
     200:{
-      slidesPerView: 1.1,
-      spaceBetween: 20,
-    },
-    480: {
-      slidesPerView: 1.3,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    1000 :{
-      slidesPerView: 2.2,
-      spaceBetween: 20,
-    },
-    1024: {
-      slidesPerView: 2.5,
-      spaceBetween:10,
-    },
-
-    1200: {
-      slidesPerView: 3.5,
-      spaceBetween: 50,
-    },
+        slidesPerView: 2.5,
+        spaceBetween: 20,
+      },
+      480: {
+        slidesPerView: 2.9,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3.2,
+        spaceBetween: 20,
+      },
+      
+      1024: {
+        slidesPerView: 3.5,
+        spaceBetween:10,
+      },
   
-  },
-
+      1200: {
+        slidesPerView: 3.8,
+        spaceBetween: 50,
+      },
+  
+      1400: {
+        slidesPerView: 4.5,
+        spaceBetween: 50,
+      },
+    
+    },
 
   
 });
