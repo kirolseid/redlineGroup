@@ -632,6 +632,45 @@ a {
   height: 100vh;
 }
 
+
+
+@supports (-webkit-touch-callout: none) {
+  #serves .serve1 {
+    background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+ 
+    #serves .serve2 {
+      background-image: url("../images/eleni-afiontzi-gLU8GZpHtRA-unsplash.png");
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+    }
+    
+    #serves .serve3 {
+      background-image: url("../images/rodolfo-cuadros-WNk-f-TnZDw-unsplash.png");
+      background-attachment: fixed;
+      background-position: center ;
+      background-size: cover;
+      height: 100vh;
+    }
+    
+    #serves .serve4 {
+      background-image: url("../images/gigin-krishnan-PH45mFDrM_8-unsplash.png");
+      background-attachment: fixed;
+      background-position: center ;
+      background-size: cover;
+      height: 100vh;
+    }
+  }    
+
+
+
+
 #serves .contant a {
   /* display: inline-block; */
   font-family: "Montserrat";
