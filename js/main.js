@@ -433,3 +433,24 @@ window.addEventListener("scroll", function () {
 $('#footer .up').click(()=>{
   $(window).scrollTop(0);
 })
+
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.serve1').css('background-position', 'left ' + ((scrolledY)) + 'px');
+});
+
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.serve2').css('background-position', 'left ' + ((scrolledY)) + 'px');
+});
+
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.serve3').css('background-position', 'left ' + ((scrolledY)) + 'px');
+});
+
+
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.serve4').css('background-position', 'left ' + ((scrolledY)) + 'px');
+});
