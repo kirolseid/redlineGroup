@@ -2557,7 +2557,7 @@ margin: auto;
 }
 .lightbackground .contains .col-md-4 img {
   width: 80%;
-  height: 300px;
+  /* height: 300px; */
 }
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
