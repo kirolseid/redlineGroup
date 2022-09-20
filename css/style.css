@@ -2493,8 +2493,8 @@ margin: auto;
   background-size: 100% 100%;
   background-position: center;
   padding-bottom: 15px;
-  width: 80%;
-  height:650px;
+  width: 60%;
+  height:500px;
   position: relative;
 }
 
@@ -2559,6 +2559,10 @@ margin: auto;
   margin-bottom: 40px;
 }
 
+
+.lightbackground .contains  img{
+  width: 100% !important;
+}
 @media all and (min-width: 1024px) and (max-width: 1440px) {
   .lightbackground .contains {
     width: 90% !important;
