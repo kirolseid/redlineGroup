@@ -570,7 +570,7 @@ a {
   background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png");
   background-attachment: fixed;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -612,7 +612,7 @@ a {
   background-image: url("../images/eleni-afiontzi-gLU8GZpHtRA-unsplash.png");
   background-attachment: fixed;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -620,7 +620,7 @@ a {
   background-image: url("../images/rodolfo-cuadros-WNk-f-TnZDw-unsplash.png");
   background-attachment: fixed;
   background-position: center ;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -628,7 +628,7 @@ a {
   background-image: url("../images/gigin-krishnan-PH45mFDrM_8-unsplash.png");
   background-attachment: fixed;
   background-position: center ;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
 }
 
