@@ -2187,21 +2187,28 @@ a {
   
 #serves .serve1 {
   background-image: url("../images/andy-li-CpsTAUPoScw-unsplash1.png");
+  background-repeat: no-repeat;
 
 }
 
 #serves .serve2 {
   background-image: url("../images/ADVERTISING1.png");
+  background-repeat: no-repeat;
+
  
 }
 
 #serves .serve3 {
   background-image: url("../images/EXHIBITIONS1.png");
+  background-repeat: no-repeat;
+  
  
 }
 
 #serves .serve4 {
   background-image: url("../images/DESIGNING1.png");
+  background-repeat: no-repeat;
+
   
 }
 
