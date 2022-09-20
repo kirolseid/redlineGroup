@@ -146,15 +146,15 @@ a {
 }
 
 .respNav .redline {
-  width: 15%;
-  height: 1px;
-  background-color: #fff;
-  margin-block: 4px;
-  margin: 4px 8px;
+  width: 15% !important;
+  height: 1px !important;
+  background-color: #fff !important;
+  margin-block: 4px !important;
+  margin: 4px 8px !important;
 }
 
 .respNav .active {
-  background-color: #dc1c22;
+  background-color: #dc1c22 !important;
 }
 
 .respNav li {
