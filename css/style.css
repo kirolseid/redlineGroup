@@ -2478,9 +2478,14 @@ a {
   margin-left: 15px;
   color: #fff;
 }
+.lightbackground .contains  {
+width: 95%;
+margin: auto;  
+}
 
 .lightbackground .contains .col-md-4 {
   margin-top: 100px;
+  
 }
 
 .lightbackground .contains .background {
@@ -2502,7 +2507,7 @@ a {
 }
 
 .lightbackground .contains img {
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 .lightbackground .background:hover img {
@@ -2517,6 +2522,8 @@ a {
 
 .lightbackground .contains .contant {
   color: #ffffff;
+  
+
 }
 
 .lightbackground .contains .seemore {
@@ -2548,6 +2555,10 @@ a {
   padding: 10px;
   color: #ffffff;
 }
+.lightbackground .contains .col-md-4 img {
+  width: 80%;
+  height: 300px;
+}
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
   .lightbackground .contains {
@@ -2555,7 +2566,7 @@ a {
     margin: auto;
   }
   .lightbackground .contains .col-md-4 {
-    width: 30%;
+    width: 33%;
     margin-top: 50px;
     margin-left: 20px;
   }
