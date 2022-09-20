@@ -566,16 +566,22 @@ a {
   margin-top: 30px;
 }
 
+@supports (-webkit-overflow-scrolling: touch) {
+  #serves .serve1, #serves .serve2{
+      background-attachment:scroll
+  }
+}
+
 #serves .serve1 {
   /* background-image: url("../images/eleni-afiontzi-gLU8GZpHtRA-unsplash.png"); */
 
   background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png");
-  /* background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: 100vh; */
+  height: 100vh;
   background-attachment:scroll;
-  background-position:left top;
+  /* background-position:left top; */
   background-size:cover ;
   /* width:100%; */
   height:100vh;
@@ -585,43 +591,49 @@ a {
   /* background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png"); */
 
   background-image: url("../images/eleni-afiontzi-gLU8GZpHtRA-unsplash.png");
-  /* background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: 100vh; */
-  background-attachment:scroll;
-  background-position:left top;
+  height: 100vh;
+  /* height:100vh ; */
+  /* background-attachment:fixed; */
+  /* background-repeat: no-repeat; */
+
+  /* background-position:left right; */
+  /* background-position: center center; */
   background-size:cover;
-  width:100vw;
-  height:100vh;
-  /* height:1000px; */
+  /* width:100%;
+  transform: translateZ(0); */
+  
 
 }
 
 #serves .serve3 {
   background-image: url("../images/rodolfo-cuadros-WNk-f-TnZDw-unsplash.png");
-  /* background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center ;
   background-size: cover;
-  height: 100vh; */
-  background-attachment:scroll;
-  background-position:left top;
-  background-size:cover;
+  height: 100vh;
+  /* background-attachment:scroll; */
+  /* background-position:left top; */
+  /* background-size:cover; */
   /* width:100%; */
-  height:1000px;
+  /* height: 100vh;
+  transform: translateZ(0); */
 }
 
 #serves .serve4 {
   background-image: url("../images/gigin-krishnan-PH45mFDrM_8-unsplash.png");
-  /* background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center ;
   background-size: cover;
-  height: 100vh; */
-  background-attachment:scroll;
-  background-position:left top ;
-  background-size:cover;
+  height: 100vh;
+  /* background-attachment:scroll; */
+  /* background-position:left top ; */
+  /* background-size:cover; */
   /* width:100%; */
-  height:100vh;
+  /* height:100vh;
+  transform: translateZ(0); */
 }
 
 #serves .contant {

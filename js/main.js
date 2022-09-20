@@ -434,24 +434,24 @@ $('#footer .up').click(()=>{
   $(window).scrollTop(0);
 })
 
-$(window).scroll(function() {
-  var scrolledY = $(window).scrollTop();
-  console.log(scrolledY);
-  $('.serve1').css('background-position', 'left ' + ((scrolledY-800)) + 'px');
-});
+// $(window).scroll(function() { 
+//   var scrolledY = $(window).scrollTop();
+//   console.log(scrolledY);
+//   $('.serve1').css('background-position', 'left ' + ((scrolledY)) + 'px');
+// });
 
-$(window).scroll(function() {
-  var scrolledY = $(window).scrollTop();
-  $('.serve2').css('background-position', 'left ' + ((scrolledY-500)) + 'px');
-});
+// $(window).scroll(function() {
+//   var scrolledY = $(window).scrollTop();
+//   $('.serve2').css('background-position', 'left ' + ((scrolledY)) + 'px');
+// });
 
-$(window).scroll(function() {
-  var scrolledY = $(window).scrollTop();
-  $('.serve3').css('background-position', 'left ' + ((scrolledY)) + 'px');
-});
+// $(window).scroll(function() {
+//   var scrolledY = $(window).scrollTop();
+//   $('.serve3').css('background-position', 'left ' + ((scrolledY)) + 'px');
+// });
 
 
-$(window).scroll(function() {
-  var scrolledY = $(window).scrollTop();
-  $('.serve4').css('background-position', 'left ' + ((scrolledY+100)) + 'px');
-});
+// $(window).scroll(function() {
+//   var scrolledY = $(window).scrollTop();
+//   $('.serve4').css('background-position', 'left ' + ((scrolledY)) + 'px');
+// });
