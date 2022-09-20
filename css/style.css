@@ -569,7 +569,7 @@ a {
 #serves .serve1 {
   background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png");
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   background-size: 100% 100%;
   height: 100vh;
 }
@@ -611,7 +611,7 @@ a {
 #serves .serve2 {
   background-image: url("../images/eleni-afiontzi-gLU8GZpHtRA-unsplash.png");
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   background-size: 100% 100%;
   height: 100vh;
 }
@@ -619,7 +619,7 @@ a {
 #serves .serve3 {
   background-image: url("../images/rodolfo-cuadros-WNk-f-TnZDw-unsplash.png");
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center ;
   background-size: 100% 100%;
   height: 100vh;
 }
@@ -627,7 +627,7 @@ a {
 #serves .serve4 {
   background-image: url("../images/gigin-krishnan-PH45mFDrM_8-unsplash.png");
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center ;
   background-size: 100% 100%;
   height: 100vh;
 }
@@ -2494,7 +2494,7 @@ margin: auto;
   background-position: center;
   padding-bottom: 15px;
   width: 60%;
-  height:500px;
+  height:520px;
   position: relative;
 }
 
@@ -2549,7 +2549,7 @@ margin: auto;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 24px;
   text-align: center;
   padding: 10px;
@@ -2558,6 +2558,7 @@ margin: auto;
 .lightbackground .contains  {
   margin-bottom: 40px;
   margin-left: 150px;
+  /* margin:40px auto ; */
 }
 
 
@@ -2565,30 +2566,40 @@ margin: auto;
   width: 100% !important;
 }
 @media all and (min-width: 1024px) and (max-width: 1440px) {
-  .lightbackground .contains {
-    width: 90% !important;
-    /* margin: auto; */
-  }
-  .lightbackground .contains .col-md-4 {
-    width: 31%;
-    margin-top: 50px;
-    margin-left: 20px;
-  }
+  
+.lightbackground .contains  {
+width: 95%;
+margin: auto;  
+}
 
-  .lightbackground .contains .col-md-4 img {
-    /* width: 100%;
-    height: 220px; */
-  }
+.lightbackground .contains .background {
+  padding-bottom: 15px;
+  width: 60%;
+  height:400px;
+}
 
-  .lightbackground .contains .background {
-    width: 85%;
-    height: 450px;
-  }
+
+.lightbackground .contains img {
+  margin-left: 35px;
+}
+
+.lightbackground .contains .contant p {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 5px;
+  
+}
+.lightbackground .contains  {
+  margin-left: 100px;
+}
+
+
+
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .lightbackground .contains {
-    width: 90% !important;
+    width: 95% !important;
     margin: auto;
   }
   .lightbackground .contains .col-md-4 {
@@ -2597,14 +2608,11 @@ margin: auto;
     margin-left: 20px;
   }
 
-  .lightbackground .contains .col-md-4 img {
-    /* width: 100%; */
-    /* height: 220px; */
-  }
+  
 
   .lightbackground .contains .background {
     width: 85%;
-    height: 350px;
+    height: 275px;
   }
 
   .lightbackground .background:hover img {
@@ -2627,6 +2635,19 @@ margin: auto;
     line-height: 20px;
     padding: 10px;
   }
+
+
+  .lightbackground .contains  {
+    margin-bottom: 40px;
+    margin-left: 10px;
+    /* margin:40px auto ; */
+  }
+  
+  
+  .lightbackground .contains  img{
+    width: 90% !important;
+  }
+
 }
 
 @media all and (min-width: 574px) and (max-width: 768px) {
