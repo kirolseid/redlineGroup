@@ -2184,6 +2184,28 @@ a {
     margin-top: 0px;
   }
 
+  
+#serves .serve1 {
+  background-image: url("../images/andy-li-CpsTAUPoScw-unsplash1.png");
+
+}
+
+#serves .serve2 {
+  background-image: url("../images/ADVERTISING1.png");
+ 
+}
+
+#serves .serve3 {
+  background-image: url("../images/EXHIBITIONS1.png");
+ 
+}
+
+#serves .serve4 {
+  background-image: url("../images/DESIGNING1.png");
+  
+}
+
+
   #serves .contant {
     top: 60%;
   }
