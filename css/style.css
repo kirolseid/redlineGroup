@@ -567,6 +567,8 @@ a {
 }
 
 #serves .serve1 {
+  /* background-image: url("../images/eleni-afiontzi-gLU8GZpHtRA-unsplash.png"); */
+
   background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png");
   /* background-attachment: fixed;
   background-position: center;
@@ -574,12 +576,14 @@ a {
   height: 100vh; */
   background-attachment:scroll;
   background-position:left top;
-  background-size:cover;
-  width:100%;
+  background-size:cover ;
+  /* width:100%; */
   height:100vh;
 }
 
 #serves .serve2 {
+  /* background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png"); */
+
   background-image: url("../images/eleni-afiontzi-gLU8GZpHtRA-unsplash.png");
   /* background-attachment: fixed;
   background-position: center;
@@ -588,8 +592,10 @@ a {
   background-attachment:scroll;
   background-position:left top;
   background-size:cover;
-  width:100%;
+  width:100vw;
   height:100vh;
+  /* height:1000px; */
+
 }
 
 #serves .serve3 {
@@ -601,8 +607,8 @@ a {
   background-attachment:scroll;
   background-position:left top;
   background-size:cover;
-  width:100%;
-  height:100vh;
+  /* width:100%; */
+  height:1000px;
 }
 
 #serves .serve4 {
@@ -612,9 +618,9 @@ a {
   background-size: cover;
   height: 100vh; */
   background-attachment:scroll;
-  background-position:left top;
+  background-position:left top ;
   background-size:cover;
-  width:100%;
+  /* width:100%; */
   height:100vh;
 }
 

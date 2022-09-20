@@ -436,12 +436,13 @@ $('#footer .up').click(()=>{
 
 $(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
-  $('.serve1').css('background-position', 'left ' + ((scrolledY)) + 'px');
+  console.log(scrolledY);
+  $('.serve1').css('background-position', 'left ' + ((scrolledY-800)) + 'px');
 });
 
 $(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
-  $('.serve2').css('background-position', 'left ' + ((scrolledY)) + 'px');
+  $('.serve2').css('background-position', 'left ' + ((scrolledY-500)) + 'px');
 });
 
 $(window).scroll(function() {
@@ -452,5 +453,5 @@ $(window).scroll(function() {
 
 $(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
-  $('.serve4').css('background-position', 'left ' + ((scrolledY)) + 'px');
+  $('.serve4').css('background-position', 'left ' + ((scrolledY+100)) + 'px');
 });
