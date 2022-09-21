@@ -878,6 +878,7 @@ a {
   color: #ffffff;
   background-color: transparent;
   padding: 14px 35px;
+  margin-right: 20px;
 }
 
 #portfolio .contant .btn2 {
@@ -1196,6 +1197,10 @@ a {
   opacity: 0.6;
 }
 
+#footer .social{
+  margin-left: 200px;
+}
+
 #footer .social ul {
   margin-left: 40px;
 }
@@ -1308,6 +1313,10 @@ a {
   #contact .social {
     margin-top: 0px;
   }
+
+  #footer .social{
+    margin-left: 10px;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
@@ -1355,7 +1364,7 @@ a {
 
   #welcomesec .contant {
     margin-left: 70px;
-    top: 40%;
+    top: 45%;
   }
 
   #welcomesec .contant h1 {
@@ -1673,14 +1682,19 @@ a {
     margin-top: 10px;
   }
 
-  #footer ul li {
+  #footer .footerNAv li {
     font-size: 14px;
     line-height: 100%;
     margin-right: 10px;
+    margin-block:18px;
   }
 
-  #footer .social ul {
-    margin-left: 0px;
+  #footer .social  {
+    margin-left: 0px !important;
+  }
+
+  #footer .social li  {
+    margin-right: 0px !important;
   }
 
   #footer p {
@@ -1733,7 +1747,7 @@ a {
 
   #welcomesec .contant {
     margin-left: 30px;
-    top: 40%;
+    top: 45%;
   }
 
   #welcomesec .contant h1 {
@@ -2083,11 +2097,14 @@ a {
     margin-top: 10px;
   }
 
-  #footer ul li {
+  #footer .footerNAv li {
     font-size: 14px;
     line-height: 100%;
     margin-right: 10px;
+    margin-block: 18px !important;
+    /* margin-top: 10px; */
   }
+
 
   #footer .social ul {
     /* display: block; */
@@ -2101,6 +2118,9 @@ a {
 }
 
 @media all and (max-width: 480px) {
+  body{
+    overflow-y: hidden;
+  }
   nav .navbar-brand {
     width: 50%;
   }
