@@ -1996,7 +1996,10 @@ a {
     margin-bottom: 20px;
     width: 90%;
   }
-
+  #news .cont:hover {
+    transform: scale(1);
+    transition: 1s;
+  }
   #news .history {
     width: 100px;
     height: 50px;
@@ -2215,7 +2218,7 @@ a {
     font-size: 8px;
     line-height: 12px;
     margin-top: 5px !important;
-    width: 90%;
+    width: 95%;
   }
 
   #whyUs .btns {
@@ -2445,6 +2448,10 @@ a {
     width: 90%;
   }
 
+  #news .cont:hover {
+    transform: scale(1);
+    transition: 1s;
+  }
   #news .history {
     width: 100px;
     height: 50px;
@@ -2602,7 +2609,7 @@ margin: auto;
   background-position: center;
   padding-bottom: 15px;
   width: 60%;
-  height:520px;
+  height:530px;
   position: relative;
 }
 
@@ -2641,7 +2648,7 @@ margin: auto;
 }
 
 .lightbackground .background:hover .seemore {
-  top: 90% !important;
+  top: 94% !important;
   transition: 1s;
 }
 
@@ -2670,7 +2677,7 @@ margin: auto;
 .lightbackground .contains  img{
   width: 100% !important;
 }
-@media all and (min-width: 1100px) and (max-width: 1440px) {
+@media all and (min-width: 1025px) and (max-width: 1440px) {
   
 .lightbackground .contains  {
 width: 100%;
@@ -2680,7 +2687,7 @@ margin: auto;
 .lightbackground .contains .background {
   padding-bottom: 15px;
   width: 60%;
-  height:400px;
+  height:380px;
 }
 
 
@@ -2689,7 +2696,7 @@ margin: auto;
 }
 
 .lightbackground .contains .contant p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   padding: 5px;
   
@@ -2702,7 +2709,9 @@ margin: auto;
 
 }
 
-@media all and (min-width: 768px) and (max-width: 1100px) {
+
+
+@media all and (min-width: 850px) and (max-width: 1025px) {
   .lightbackground .contains {
     width: 95% !important;
     margin: auto;
@@ -2716,9 +2725,65 @@ margin: auto;
   
 
   .lightbackground .contains .background {
-    width: 70%;
+    width: 80%;
     height: 320px;
   }
+
+  .lightbackground .background:hover img {
+    margin-left: 0px;
+    /* margin-bottom: 5px; */
+    transition: 1s;
+  }
+
+  .lightbackground .background:hover .seemore {
+    top: 92%;
+    opacity: 1;
+  }
+
+  .lightbackground .contains .seemore {
+    margin-left: 20px;
+  }
+
+  .lightbackground .contains .contant p {
+    font-size: 10px;
+    line-height: 20px;
+    padding: 10px;
+  }
+
+
+  .lightbackground .contains  {
+    margin-bottom: 40px;
+    margin-left: 60px;
+    /* margin:40px auto ; */
+  }
+  
+  
+  .lightbackground .contains  img{
+    width: 100% !important
+  }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 850px) {
+  .lightbackground .contains .background {
+    width: 80%;
+    height: 280px;
+  }
+
+
+  .lightbackground .contains {
+    width: 95% !important;
+    margin: auto;
+  }
+  .lightbackground .contains .col-md-4 {
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  
+
+  
 
   .lightbackground .background:hover img {
     margin-left: 0px;
@@ -2800,23 +2865,25 @@ margin: auto;
 
 @media all and (max-width: 574px) {
   .lightbackground .contains {
-    width: 90% !important;
+    width: 95% !important;
     margin: auto;
   }
   .lightbackground .contains .col-md-4 {
-    width: 46%;
+    width: 80%;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 40px;
   }
 
-  .lightbackground .contains .col-md-4 img {
-    width: 100%;
-    height: 220px;
+  .lightbackground .contains img {
+    width: 100% !important;
+    margin-left: 0px;
+   
   }
 
   .lightbackground .contains .background {
-    width: 85%;
-    height: 330px;
+    width: 80%;
+    height: 400px;
+    margin: auto;
   }
 
   .lightbackground .background:hover img {
@@ -2825,14 +2892,17 @@ margin: auto;
     transition: 1s;
   }
 
-  .lightbackground .background:hover .seemore {
-    top: 92%;
-    opacity: 1;
-  }
+ 
 
   .lightbackground .contains .seemore {
-    margin-left: 20px;
+    margin-left: 40px;
+    position: static;
+  
+    opacity: 1;
+   
+
   }
+
 
   .lightbackground .contains .contant p {
     font-size: 12px;
@@ -3001,6 +3071,15 @@ margin: auto;
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+  .lightbackground .backbtn {
+    margin-left: 15px !important;
+  }
+
+  .gallery .collection .container-fluid,
+  .gallery .Images .container-fluid,
+  .gallery .Vedios .container-fluid{
+margin-left: 15px !important;
+  }
   .gallery h3,
   .about h3,
   .portofolio h3,
@@ -3046,6 +3125,15 @@ margin: auto;
 }
 
 @media all and (max-width: 480px) {
+  .lightbackground .backbtn {
+    margin-left: 10px !important;
+  }
+
+  .gallery .collection .container-fluid,
+  .gallery .Images .container-fluid,
+  .gallery .Vedios .container-fluid{
+margin-left: 15px !important;
+  }
   .gallery h3,
   .about h3,
   .portofolio h3,
@@ -3086,7 +3174,7 @@ margin: auto;
   .gallery .swiper-button-prev {
     position: relative;
     width: 30%;
-    left: -15%;
+    left: -23%;
   }
 }
 
@@ -3173,6 +3261,7 @@ margin: auto;
   width: 100%;
   height: 100%;
   margin-top: 37px;
+  
 }
 
 .about .swiper-slide img {
@@ -3221,6 +3310,10 @@ margin: auto;
   height: 1px !important;
   color: #fff !important;
   margin: 0 8px;
+}
+
+.about #contact{
+  margin-top: 30px
 }
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
@@ -3355,6 +3448,21 @@ margin: auto;
     line-height: 14px;
     margin-top: 15px;
   }
+
+  
+  .about .swiper-button-next {
+    position: absolute;
+    width: 20% !important;
+    top: 99% !important;
+    left: 80%;
+  }
+  
+  .about .swiper-button-prev {
+    position: absolute;
+    top: 99% !important;
+    width: 20% !important;
+    left: 3%;
+  }
 }
 
 @media all and (max-width: 480px) {
@@ -3407,6 +3515,20 @@ margin: auto;
     font-size: 8px;
     line-height: 10px;
     margin-top: 15px;
+  }
+
+  .about .swiper-button-next {
+    position: absolute;
+    width: 20% !important;
+    top: 99% !important;
+    left: 80%;
+  }
+  
+  .about .swiper-button-prev {
+    position: absolute;
+    top: 99% !important;
+    width: 20% !important;
+    left: 3%;
   }
 }
 
@@ -3464,7 +3586,7 @@ margin: auto;
   margin-left: 20px;
   color: #ffffff;
   position: relative;
-  top: 58%;
+  top: 60% ;
 }
 
 .contactUs .map .title .h3line {
@@ -3593,7 +3715,7 @@ textarea {
 
   .contactUs .map h5 {
     font-size: 35px;
-    top: 40%;
+    top: 55%;
   }
 
   .contactUs .map .title h3 {
@@ -3728,9 +3850,7 @@ textarea {
     margin-left: 30px;
   }
 
-  .contactUs .contactDetails .col-1 img {
-    width: 100%;
-  }
+ 
   .contactUs .contactDetails .follw h3 {
     font-size: 20px;
   }
