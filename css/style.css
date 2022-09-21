@@ -5005,7 +5005,68 @@ a {
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+  .reg img {
+    /* width: 10%; */
+  }
+  .reg h2 {
+    margin-top: 25px;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .reg p {
+    font-size: 18px;
+  }
+
+  .reg input {
+    margin: 20px auto;
+    width: 50%;
+
+    font-size: 15px;
+  }
+
+  .reg button {
+    font-size: 18px;
+
+    padding: 9px 60px;
+  }
+  .reg .agreeFooter p {
+    
+    font-size: 12px;
+  
+  }
 }
 
 @media all and (max-width: 480px) {
+  .reg img {
+    /* width: 10%; */
+  }
+  .reg h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .reg p {
+    font-size: 14px;
+  }
+
+  .reg input {
+    margin: 20px auto;
+    width: 70%;
+
+    font-size: 15px;
+  }
+
+  .reg button {
+    font-size: 18px;
+
+    padding: 9px 60px;
+  }
+
+  .reg .agreeFooter p {
+    
+    font-size: 10px;
+  
+  }
 }
