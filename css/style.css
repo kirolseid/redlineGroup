@@ -2119,7 +2119,7 @@ a {
 
 @media all and (max-width: 480px) {
   body{
-    overflow-y: hidden;
+    overflow-x: hidden;
   }
   nav .navbar-brand {
     width: 50%;
