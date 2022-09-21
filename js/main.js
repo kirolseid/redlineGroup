@@ -436,7 +436,7 @@ $('#footer .up').click(()=>{
 
 $(window).scroll(function() { 
   var scrolledY = $(window).scrollTop();
-  console.log(scrolledY);
+  // console.log(scrolledY);
   $('.serve1').css('background-position', 'left ' + ((scrolledY)) + 'px');
 });
 
