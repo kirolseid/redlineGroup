@@ -2869,7 +2869,7 @@ margin: auto;
     margin: auto;
   }
   .lightbackground .contains .col-md-4 {
-    width: 80%;
+    width: 60%;
     margin-top: 50px;
     margin-left: 40px;
   }
@@ -2882,7 +2882,7 @@ margin: auto;
 
   .lightbackground .contains .background {
     width: 80%;
-    height: 400px;
+    height: 380px;
     margin: auto;
   }
 
@@ -2895,12 +2895,10 @@ margin: auto;
  
 
   .lightbackground .contains .seemore {
-    margin-left: 20px;
+    text-align: center;
     position: static;
-  
     opacity: 1;
-   
-
+  /* top: 90%; */
   }
 
 
@@ -2915,7 +2913,6 @@ margin: auto;
     /* margin:40px auto ; */
   }
 }
-
 
 
 
