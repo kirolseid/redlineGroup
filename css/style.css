@@ -1689,12 +1689,14 @@ a {
     margin-block:18px;
   }
 
-  #footer .social  {
+  #footer .social ul {
     margin-left: 0px !important;
+    margin-right: 5px;
+
   }
 
   #footer .social li  {
-    margin-right: 0px !important;
+    margin-right: 5px !important;
   }
 
   #footer p {
@@ -2205,10 +2207,15 @@ a {
     margin-left: 10px;
     width: 30px;
   }
+
+  #whyUs .whyUs .number  {
+ margin-left: 20px;
+  }
   #whyUs .whyUs .number p {
     font-size: 8px;
     line-height: 12px;
     margin-top: 5px !important;
+    width: 90%;
   }
 
   #whyUs .btns {
@@ -2369,10 +2376,15 @@ a {
 
   #portfolio .contant h3 {
     font-size: 20px;
+    line-height: 30px;
+    text-align: center  ;
+    margin-top: 10px;
   }
 
   #portfolio .contant .line {
+    margin: auto;
     width: 20%;
+    margin-bottom: 10px;
   }
 
   #portfolio .contant .p1 {
