@@ -267,9 +267,9 @@ a {
   position: fixed;
   left: 76.4%;
   top: 11%;
+  width: 22%;
   z-index: 9999;
   background-color: #fff;
-  width: 22%;
   text-align: center;
   padding-bottom: 15px;
   border-radius: 10px;
@@ -1242,11 +1242,13 @@ a {
 }
 
 @media all and (min-width: 1200px) and (max-width: 1440px) {
+ 
   .loginHover {
-    left: 73.1%;
+    position: fixed;
+    left: 74.2%;
     top: 15%;
+    width: 22%;
   }
-
   .servesHover .vline {
     height: 450px;
     width: 1px;
@@ -1320,6 +1322,12 @@ a {
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
+  .loginHover {
+    position: fixed;
+    left: 70.8%;
+    top: 15%;
+    width: 25%;
+  }
   .closeNav {
     width: 50%;
   }
@@ -3607,14 +3615,14 @@ margin-left: 15px !important;
   }
 
   .about .header .redbackground {
-    width: 40%;
-    height: 45vh;
+    width: 45%;
+    height: 40vh;
   }
 
   .about .header .redbackground h2 {
-    font-size: 90%;
-    line-height: 40px;
-    margin-left: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 8px;
     padding-top: 8%;
   }
 
@@ -3624,9 +3632,9 @@ margin-left: 15px !important;
   }
 
   .about .header .redbackground .caption p {
-    font-size: 80%;
+    font-size: 13px;
     line-height: 20px;
-    padding: 10% 5%;
+    padding: 11% 6%;
   }
 
   .about .whychosse {
@@ -4858,6 +4866,62 @@ textarea {
   margin-left: 50px;
 }
 
+
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+  
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  
+.gatalog .swiper-button-next {
+  position: relative;
+  width: 15% !important;
+  left: 85%;
+  margin-top: 10px;
+}
+
+.gatalog .swiper-button-prev {
+  position: relative;
+  width: 15% !important;
+  left: -5%;
+}
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .gatalog .swiper-button-next {
+    position: relative;
+    width: 20% !important;
+    left: 85%;
+    margin-top: 10px;
+  }
+  
+  .gatalog .swiper-button-prev {
+    position: relative;
+    width: 20% !important;
+    left: -2%;
+  }
+ 
+}
+
+@media all and (max-width: 480px) {
+ .gatalog .collection .container-fluid{
+  margin-left: 10px;
+ }
+  .gatalog .swiper-button-next {
+    position: relative;
+    width: 30% !important;
+    left: 70%;
+    /* margin-top: 10px; */
+  }
+  
+  .gatalog .swiper-button-prev {
+    position: relative;
+    width: 30% !important;
+    left: -25%;
+  }
+  
+}
+
 /* =========================req=============================== */
 .reg {
   background-image: url("../images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall (1).png");
@@ -5005,9 +5069,7 @@ a {
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-  .reg img {
-    /* width: 10%; */
-  }
+  
   .reg h2 {
     margin-top: 25px;
     font-size: 30px;
@@ -5038,9 +5100,7 @@ a {
 }
 
 @media all and (max-width: 480px) {
-  .reg img {
-    /* width: 10%; */
-  }
+
   .reg h2 {
     margin-top: 20px;
     font-size: 30px;
