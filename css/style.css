@@ -4998,10 +4998,15 @@ a {
 }
 
 .reg .agreeFooter {
-  margin-top: 3%;
+  position: fixed;
+  bottom: 0;
+  left: 33%;
 }
 
 .reg .agreeFooter p {
+  justify-content: center;
+
+  display: block;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -5009,6 +5014,9 @@ a {
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
+
+
 }
 
 .reg .agreeFooter span {
@@ -5031,13 +5039,13 @@ a {
     padding-top: 4%;
   }
 
-  .reg .agreeFooter {
-    position: relative;
-    /* top: 5%; */
-  }
 
   .reg input {
     margin: 20px auto;
+  }
+  .reg .agreeFooter {
+  
+    left:28%
   }
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -5066,6 +5074,11 @@ a {
 
     padding: 9px 60px;
   }
+
+  .reg .agreeFooter {
+  
+    left:5%
+  }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -5091,6 +5104,10 @@ a {
     font-size: 18px;
 
     padding: 9px 60px;
+  }
+  .reg .agreeFooter {
+  
+    left: 12%;
   }
   .reg .agreeFooter p {
     
@@ -5124,6 +5141,10 @@ a {
     padding: 9px 60px;
   }
 
+  .reg .agreeFooter {
+  
+    left: 2%;
+  }
   .reg .agreeFooter p {
     
     font-size: 10px;
