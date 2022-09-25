@@ -5026,7 +5026,7 @@ a {
 }
 
 .reg .forgetpass {
-  margin-left: 22%;
+  margin-left: 24%;
   margin-bottom: 15px;
   font-family: "Montserrat-light";
   font-style: normal;
@@ -5044,6 +5044,9 @@ a {
 
   .reg input {
     margin: 20px auto;
+  }
+  .reg .forgetpass {
+    margin-left: 22%;
   }
   .reg .agreeFooter {
   
@@ -5076,6 +5079,9 @@ a {
 
     padding: 9px 60px;
   }
+  .reg .forgetpass {
+    margin-left: 28%;
+  }
 
   .reg .agreeFooter {
   
@@ -5102,6 +5108,10 @@ a {
     width: 50%;
 
     font-size: 15px;
+  }
+
+  .reg .forgetpass {
+    margin-left: 30%;
   }
 
   .reg button {
