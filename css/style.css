@@ -2575,8 +2575,10 @@ a {
 
   #footer p {
     font-size: 14px;
-    margin: 15px 0;
+    /* margin: 15px 0; */
   }
+
+  
 }
 
 /*===================================== treding page=============================== */
@@ -5151,7 +5153,7 @@ a {
   }
   .reg .agreeFooter p {
     
-    font-size: 10px;
+    font-size: 8px;
   
   }
 }
