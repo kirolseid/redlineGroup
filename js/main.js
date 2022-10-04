@@ -512,3 +512,11 @@ $(window).scroll(function()
 
 
 });
+
+
+
+$('input[type=file]').change(function () {
+  // console.log(this.files[0]);
+  var path = (window.URL || window.webkitURL).createObjectURL(file);
+  console.log('path', path);
+});
