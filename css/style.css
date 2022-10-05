@@ -25,7 +25,7 @@ html {
 }
 body {
   background-color: #131313;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 a {
@@ -33,7 +33,7 @@ a {
 }
 .row {
   --bs-gutter-x: 0rem;
-  margin: 0;
+  margin: 0 !important;
 }
 .backgroungHoverCover {
   position: absolute;
