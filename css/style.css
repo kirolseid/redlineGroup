@@ -25,7 +25,11 @@ html {
 }
 body {
   background-color: #131313;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+}
+
+.row{
+  margin: 0;
 }
 a {
   text-decoration: none;
