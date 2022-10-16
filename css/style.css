@@ -816,7 +816,7 @@ a {
 
 #portfolio .view {
   width: 90%;
-  margin: 45px auto;
+  margin: 45px auto !important;
 }
 
 #portfolio .view img {
