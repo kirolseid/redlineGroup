@@ -5,9 +5,7 @@ var swiper = new Swiper("#welcomesec .mySwiper", {
   },
 });
 
-
-
-var swiper = new Swiper('#portfolio .mySwiper', {
+var swiper = new Swiper("#portfolio .mySwiper", {
   slidesPerView: 4,
   slidesPerColumn: 4,
   spaceBetween: 0,
@@ -16,15 +14,15 @@ var swiper = new Swiper('#portfolio .mySwiper', {
     prevEl: "#portfolio .swiper-button-prev",
   },
   pagination: {
-    el: '.swiper-pagination',
+    el: ".swiper-pagination",
     clickable: true,
   },
   breakpoints: {
-    200:{
+    200: {
       slidesPerView: 1.8,
       spaceBetween: 20,
     },
-    310:{
+    310: {
       slidesPerView: 2.5,
       spaceBetween: 20,
     },
@@ -36,23 +34,20 @@ var swiper = new Swiper('#portfolio .mySwiper', {
       slidesPerView: 3.5,
       spaceBetween: 20,
     },
-   
+
     1024: {
       slidesPerView: 4.5,
-      spaceBetween:10,
+      spaceBetween: 10,
     },
 
     1200: {
       slidesPerView: 4.5,
       spaceBetween: 50,
     },
-  
   },
-
 });
 
-
-var swiper = new Swiper('.gallery .collection .mySwiper', {
+var swiper = new Swiper(".gallery .collection .mySwiper", {
   slidesPerView: 4.5,
   slidesPerColumn: 2,
   spaceBetween: 10,
@@ -62,7 +57,7 @@ var swiper = new Swiper('.gallery .collection .mySwiper', {
   },
 
   breakpoints: {
-  200:{
+    200: {
       slidesPerView: 2.5,
       spaceBetween: 20,
     },
@@ -74,10 +69,10 @@ var swiper = new Swiper('.gallery .collection .mySwiper', {
       slidesPerView: 3.2,
       spaceBetween: 20,
     },
-    
+
     1024: {
       slidesPerView: 3.5,
-      spaceBetween:10,
+      spaceBetween: 10,
     },
 
     1200: {
@@ -89,14 +84,10 @@ var swiper = new Swiper('.gallery .collection .mySwiper', {
       slidesPerView: 4.5,
       spaceBetween: 50,
     },
-  
   },
-
-
-  
 });
 
-var swiper = new Swiper('.gallery .Images .mySwiper', {
+var swiper = new Swiper(".gallery .Images .mySwiper", {
   slidesPerView: 3.5,
   slidesPerColumn: 2,
   spaceBetween: 10,
@@ -104,42 +95,39 @@ var swiper = new Swiper('.gallery .Images .mySwiper', {
     nextEl: ".gallery .Images .swiper-button-next",
     prevEl: ".gallery .Images .swiper-button-prev",
   },
- 
+
   breakpoints: {
-    200:{
-        slidesPerView: 2.5,
-        spaceBetween: 20,
-      },
-      480: {
-        slidesPerView: 2.9,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 3.2,
-        spaceBetween: 20,
-      },
-      
-      1024: {
-        slidesPerView: 3.5,
-        spaceBetween:10,
-      },
-  
-      1200: {
-        slidesPerView: 3.8,
-        spaceBetween: 50,
-      },
-  
-      1400: {
-        slidesPerView: 4.5,
-        spaceBetween: 50,
-      },
-    
+    200: {
+      slidesPerView: 2.5,
+      spaceBetween: 20,
+    },
+    480: {
+      slidesPerView: 2.9,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3.2,
+      spaceBetween: 20,
     },
 
-  
+    1024: {
+      slidesPerView: 3.5,
+      spaceBetween: 10,
+    },
+
+    1200: {
+      slidesPerView: 3.8,
+      spaceBetween: 50,
+    },
+
+    1400: {
+      slidesPerView: 4.5,
+      spaceBetween: 50,
+    },
+  },
 });
 
-var swiper = new Swiper('.gallery .Vedios .mySwiper', {
+var swiper = new Swiper(".gallery .Vedios .mySwiper", {
   slidesPerView: 3.5,
   slidesPerColumn: 2,
   spaceBetween: 10,
@@ -148,39 +136,37 @@ var swiper = new Swiper('.gallery .Vedios .mySwiper', {
     prevEl: ".gallery .Vedios .swiper-button-prev",
   },
   breakpoints: {
-    200:{
-        slidesPerView: 2.5,
-        spaceBetween: 20,
-      },
-      480: {
-        slidesPerView: 2.9,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 3.2,
-        spaceBetween: 20,
-      },
-      
-      1024: {
-        slidesPerView: 3.5,
-        spaceBetween:10,
-      },
-  
-      1200: {
-        slidesPerView: 3.8,
-        spaceBetween: 50,
-      },
-  
-      1400: {
-        slidesPerView: 4.5,
-        spaceBetween: 50,
-      },
-    
+    200: {
+      slidesPerView: 2.5,
+      spaceBetween: 20,
     },
-  
+    480: {
+      slidesPerView: 2.9,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3.2,
+      spaceBetween: 20,
+    },
+
+    1024: {
+      slidesPerView: 3.5,
+      spaceBetween: 10,
+    },
+
+    1200: {
+      slidesPerView: 3.8,
+      spaceBetween: 50,
+    },
+
+    1400: {
+      slidesPerView: 4.5,
+      spaceBetween: 50,
+    },
+  },
 });
 
-var swiper = new Swiper('.gatalog  .mySwiper', {
+var swiper = new Swiper(".gatalog  .mySwiper", {
   slidesPerView: 3.5,
   slidesPerColumn: 2,
   spaceBetween: 10,
@@ -188,43 +174,37 @@ var swiper = new Swiper('.gatalog  .mySwiper', {
     nextEl: ".gatalog  .swiper-button-next",
     prevEl: ".gatalog  .swiper-button-prev",
   },
- 
+
   breakpoints: {
-    200:{
-        slidesPerView: 2.5,
-        spaceBetween: 20,
-      },
-      480: {
-        slidesPerView: 2.9,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 3.2,
-        spaceBetween: 20,
-      },
-      
-      1024: {
-        slidesPerView: 3.5,
-        spaceBetween:10,
-      },
-  
-      1200: {
-        slidesPerView: 3.8,
-        spaceBetween: 50,
-      },
-  
-      1400: {
-        slidesPerView: 4.5,
-        spaceBetween: 50,
-      },
-    
+    200: {
+      slidesPerView: 2.5,
+      spaceBetween: 20,
+    },
+    480: {
+      slidesPerView: 2.9,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3.2,
+      spaceBetween: 20,
     },
 
-  
+    1024: {
+      slidesPerView: 3.5,
+      spaceBetween: 10,
+    },
+
+    1200: {
+      slidesPerView: 3.8,
+      spaceBetween: 50,
+    },
+
+    1400: {
+      slidesPerView: 4.5,
+      spaceBetween: 50,
+    },
+  },
 });
-
-
-
 
 var swiper = new Swiper(".about .mySwiper", {
   navigation: {
@@ -233,61 +213,56 @@ var swiper = new Swiper(".about .mySwiper", {
   },
   slidesPerView: "auto",
   spaceBetween: 50,
-  
+
   // pagination: {
   //   el: ".about .swiper-pagination",
   //   clickable: true,
   // },
 });
 
+$("nav span").click(() => {
+  $(".closeNav").css("right", "0px");
+  $(".backgroungHoverCover").css("width", "100%");
+});
 
-$('nav span').click(()=>{
-  $('.closeNav').css('right','0px')
-  $('.backgroungHoverCover').css("width", "100%")
-  
-})
+$(".closeNav .img").click(() => {
+  $(".closeNav").css("right", "-1000px");
+  $(".backgroungHoverCover").css("width", "0%");
+});
 
-$('.closeNav .img').click(()=>{
-  $('.closeNav').css('right','-1000px')
-  $('.backgroungHoverCover').css("width", "0%")
-
-})
-
-$(".servesLink").mouseenter(function(){
+$(".servesLink").mouseenter(function () {
   $("#welcomesec").css("background-image", "url('')");
-  $('#welcomesec').css("background-color", "black")
-  $('.servesHover').css("display", "block",) 
-  // $('.servesHover').css("transition", "s")  
-  $('.servesLink').css('color', ' #DC1C22')
+  $("#welcomesec").css("background-color", "black");
+  $(".servesHover").css("display", "block");
+  // $('.servesHover').css("transition", "s")
+  $(".servesLink").css("color", " #DC1C22");
 
-  $('body').css("overflow", "hidden")
-  
+  $("body").css("overflow", "hidden");
 });
 
-$(".servesHover").mouseleave(function(){
-  $('.servesLink').css('color', '#fff')
-  $("#welcomesec").css("background-image", "url('../images/sam-moghadam-khamseh-baII27W6z7k-unsplash.png')");
+$(".servesHover").mouseleave(function () {
+  $(".servesLink").css("color", "#fff");
+  $("#welcomesec").css(
+    "background-image",
+    "url('../images/sam-moghadam-khamseh-baII27W6z7k-unsplash.png')"
+  );
   // $('#welcomesec').css("background-color", "black")
-  $('.servesHover').css("display", "none")  
-  $('body').css("overflow", "auto")
-  $('body').css("overflow-x", "hidden")
-
-  
+  $(".servesHover").css("display", "none");
+  $("body").css("overflow", "auto");
+  $("body").css("overflow-x", "hidden");
 });
 
-
-$(".LoginLink").click(function(){
-  
-  $('.backgroungHoverCover').css("width", "100%")
-  $('.loginHover').css("display", "block") 
-  $('body').css("overflow", "hidden")
+$(".LoginLink").click(function () {
+  $(".backgroungHoverCover").css("width", "100%");
+  $(".loginHover").css("display", "block");
+  $("body").css("overflow", "hidden");
 });
 
-$(".backgroungHoverCover").click(function(){
-  $('.backgroungHoverCover').css("width", "0%")
-  $('.loginHover').css("display", "none") 
-  $('body').css("overflow", "auto")
-  $('body').css("overflow-x", "hidden")
+$(".backgroungHoverCover").click(function () {
+  $(".backgroungHoverCover").css("width", "0%");
+  $(".loginHover").css("display", "none");
+  $("body").css("overflow", "auto");
+  $("body").css("overflow-x", "hidden");
 });
 
 $(document).ready(() => {
@@ -298,8 +273,6 @@ $(document).ready(() => {
     3000
   );
 });
-
-
 
 $(document).ready(() => {
   $("#welcomesec .vedio  ").delay(1000).animate(
@@ -334,14 +307,13 @@ function isScrolledIntoView(elem) {
   var elemTop = rect.top;
   var elemBottom = rect.bottom;
 
-  var isVisible = (elemTop <= 150);
+  var isVisible = elemTop <= 150;
   // console.log(elemTop);
   return isVisible;
 }
 
 window.addEventListener("scroll", function () {
   if (isScrolledIntoView(container)) {
-
     $(".counter").each(function () {
       var $this = $(this),
         countTo = $this.attr("data-count");
@@ -367,74 +339,38 @@ window.addEventListener("scroll", function () {
   }
 });
 
-
-
-
-
-
-
-
-
-
 let portfolioSec = document.querySelector("#portfolio .portfolio");
 function isScrolledIntoView(elem) {
   var rect = elem.getBoundingClientRect();
   var elemTop = rect.top;
   var elemBottom = rect.bottom;
 
-  var isVisible = (elemTop <=350);
+  var isVisible = elemTop <= 350;
   // console.log(rect);
   return isVisible;
 }
 
-
 window.addEventListener("scroll", function () {
- 
   if (isScrolledIntoView(portfolioSec)) {
-   
-    $("#portfolio .portfolio ").delay(000).animate(
-      {opacity:'1'},
-      2000
-    );
+    $("#portfolio .portfolio ").delay(000).animate({ opacity: "1" }, 2000);
 
+    $("#portfolio  .slide1").delay(600).animate({ opacity: "1" }, 2000);
 
-    $("#portfolio  .slide1").delay(600).animate(
-      {opacity:'1'},
-      2000
-    );
+    $("#portfolio  .slide2").delay(800).animate({ opacity: "1" }, 2000);
 
-    $("#portfolio  .slide2").delay(800).animate(
-      {opacity:'1'},
-      2000
-    );
+    $("#portfolio  .slide3").delay(1000).animate({ opacity: "1" }, 2000);
 
-    $("#portfolio  .slide3").delay(1000).animate(
-      {opacity:'1'},
-      2000
-    );
+    $("#portfolio  .slide4").delay(1200).animate({ opacity: "1" }, 2000);
 
-    $("#portfolio  .slide4").delay(1200).animate(
-      {opacity:'1'},
-      2000
-    );
-
-    $("#portfolio  .slide5").delay(1400).animate(
-      {opacity:'1'},
-      2000
-    );
-
-   
-     
+    $("#portfolio  .slide5").delay(1400).animate({ opacity: "1" }, 2000);
   }
 });
 
-
-
-$('#footer .up').click(()=>{
+$("#footer .up").click(() => {
   $(window).scrollTop(0);
-})
+});
 
-// $(window).scroll(function() { 
+// $(window).scroll(function() {
 //   var scrolledY = $(window).scrollTop();
 //   // console.log(scrolledY);
 //   $('.serve1').css('background-position', 'left ' + ((scrolledY)) + 'px');
@@ -450,73 +386,54 @@ $('#footer .up').click(()=>{
 //   $('.serve3').css('background-position', 'left ' + ((scrolledY)) + 'px');
 // });
 
-
 // $(window).scroll(function() {
 //   var scrolledY = $(window).scrollTop();
 //   $('.serve4').css('background-position', 'left ' + ((scrolledY)) + 'px');
 // });
 
-
-
-$(window).scroll(function() 
-{
+$(window).scroll(function () {
   let width = document.body.clientWidth;
   // if(width >= 1440px )
-  if(width >= 1850 ){
+  if (width >= 1850) {
     var scrolledY = $(window).scrollTop();
     // console.log(scrolledY);
-    $('.serve1').css('background-position', 'left ' + ((scrolledY)-800) + 'px');
-  $('.serve2').css('background-position', 'left ' + ((scrolledY)-300) + 'px');
-  $('.serve3').css('background-position', 'left ' + ((scrolledY)) + 'px');
-  $('.serve4').css('background-position', 'left ' + ((scrolledY)+550) + 'px');
-  }else if(width <= 1850 && width >= 1700){
+    $(".serve1").css("background-position", "left " + (scrolledY - 800) + "px");
+    $(".serve2").css("background-position", "left " + (scrolledY - 300) + "px");
+    $(".serve3").css("background-position", "left " + scrolledY + "px");
+    $(".serve4").css("background-position", "left " + (scrolledY + 550) + "px");
+  } else if (width <= 1850 && width >= 1700) {
     var scrolledY = $(window).scrollTop();
     // console.log(scrolledY);
-    $('.serve1').css('background-position', 'left ' + ((scrolledY)-600) + 'px');
-  $('.serve2').css('background-position', 'left ' + ((scrolledY)-400) + 'px');
-  $('.serve3').css('background-position', 'left ' + ((scrolledY)-200) + 'px');
-  $('.serve4').css('background-position', 'left ' + ((scrolledY)+50) + 'px');
-
+    $(".serve1").css("background-position", "left " + (scrolledY - 600) + "px");
+    $(".serve2").css("background-position", "left " + (scrolledY - 400) + "px");
+    $(".serve3").css("background-position", "left " + (scrolledY - 200) + "px");
+    $(".serve4").css("background-position", "left " + (scrolledY + 50) + "px");
+  } else if (width <= 1700 && width >= 1600) {
+    var scrolledY = $(window).scrollTop();
+    // console.log(scrolledY);
+    $(".serve1").css("background-position", "left " + (scrolledY - 700) + "px");
+    $(".serve2").css("background-position", "left " + (scrolledY - 450) + "px");
+    $(".serve3").css("background-position", "left " + (scrolledY - 300) + "px");
+    $(".serve4").css("background-position", "left " + (scrolledY - 100) + "px");
+  } else if (width <= 1600 && width >= 1500) {
+    var scrolledY = $(window).scrollTop();
+    // console.log(scrolledY);
+    $(".serve1").css("background-position", "left " + (scrolledY - 800) + "px");
+    $(".serve2").css("background-position", "left " + (scrolledY - 600) + "px");
+    $(".serve3").css("background-position", "left " + (scrolledY - 600) + "px");
+    $(".serve4").css("background-position", "left " + (scrolledY - 400) + "px");
+  } else {
+    var scrolledY = $(window).scrollTop();
+    // console.log(scrolledY);
+    $(".serve1").css("background-position", "left " + scrolledY + "px");
+    $(".serve2").css("background-position", "left " + scrolledY + "px");
+    $(".serve3").css("background-position", "left " + scrolledY + "px");
+    $(".serve4").css("background-position", "left " + scrolledY + "px");
   }
-
-  else if(width <= 1700 && width >= 1600){
-    var scrolledY = $(window).scrollTop();
-    // console.log(scrolledY);
-    $('.serve1').css('background-position', 'left ' + ((scrolledY)-700) + 'px');
-  $('.serve2').css('background-position', 'left ' + ((scrolledY)-450) + 'px');
-  $('.serve3').css('background-position', 'left ' + ((scrolledY)-300) + 'px');
-  $('.serve4').css('background-position', 'left ' + ((scrolledY)-100) + 'px');
-
-  }
-
-  else if(width <= 1600 && width >= 1500){
-    var scrolledY = $(window).scrollTop();
-    // console.log(scrolledY);
-    $('.serve1').css('background-position', 'left ' + ((scrolledY)-800) + 'px');
-  $('.serve2').css('background-position', 'left ' + ((scrolledY)-600) + 'px');
-  $('.serve3').css('background-position', 'left ' + ((scrolledY)-600) + 'px');
-  $('.serve4').css('background-position', 'left ' + ((scrolledY)-400) + 'px');
-
-  }
-
-
-  else {
-    var scrolledY = $(window).scrollTop();
-    // console.log(scrolledY);
-    $('.serve1').css('background-position', 'left ' + ((scrolledY)) + 'px');
-  $('.serve2').css('background-position', 'left ' + ((scrolledY)) + 'px');
-  $('.serve3').css('background-position', 'left ' + ((scrolledY)) + 'px');
-  $('.serve4').css('background-position', 'left ' + ((scrolledY)) + 'px');
-
-  }
-
-
 });
 
-
-
-$('input[type=file]').change(function () {
+$("input[type=file]").change(function () {
   // console.log(this.files[0]);
   var path = (window.URL || window.webkitURL).createObjectURL(file);
-  console.log('path', path);
+  console.log("path", path);
 });

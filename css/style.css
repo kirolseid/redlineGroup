@@ -69,7 +69,7 @@ a {
   color: #ffffff;
 }
 
-.navbar .LoginLink{
+.navbar .LoginLink {
   cursor: pointer;
 }
 
@@ -207,11 +207,11 @@ a {
 }
 
 .respNav .social ul a {
-  margin-right: 8% ;
+  margin-right: 8%;
 }
 
 .servesHover {
-  background-color: #000000;  
+  background-color: #000000;
   position: fixed;
   height: 100vh;
   padding: 30px;
@@ -405,13 +405,13 @@ a {
   line-height: 27px;
   width: 100%;
   color: #3e3e3e;
-  margin-right: 65px; 
+  margin-right: 65px;
 }
 
 #welcomesec .contant .vedio img {
   margin-top: 17px;
- 
- height:50%;
+
+  height: 50%;
 }
 
 #welcomesec .socail ul {
@@ -580,11 +580,11 @@ a {
   background-position: center;
   background-size: cover;
   height: 100vh; */
-  background-attachment:scroll;
+  background-attachment: scroll;
   /* background-position:left top; */
-  background-size:cover ;
+  background-size: cover;
   /* width:100%; */
-  height:100vh;
+  height: 100vh;
 }
 
 #serves .serve2 {
@@ -595,17 +595,15 @@ a {
   background-position: center;
   background-size: cover;
   height: 100vh; */
-  height:100vh ;
+  height: 100vh;
   /* background-attachment:fixed; */
   /* background-repeat: no-repeat; */
 
   /* background-position:left right; */
   /* background-position: center center; */
-  background-size:cover;
-  width:100%;
+  background-size: cover;
+  width: 100%;
   transform: translateZ(0);
-  
-
 }
 
 #serves .serve3 {
@@ -614,9 +612,9 @@ a {
   background-position: center ;
   background-size: cover;
   height: 100vh; */
-  background-attachment:scroll;
+  background-attachment: scroll;
   /* background-position:left top; */
-  background-size:cover;
+  background-size: cover;
   /* width:100%; */
   height: 100vh;
   transform: translateZ(0);
@@ -628,11 +626,11 @@ a {
   background-position: center ;
   background-size: cover;
   height: 100vh; */
-  background-attachment:scroll;
+  background-attachment: scroll;
   /* background-position:left top ; */
-  background-size:cover;
+  background-size: cover;
   /* width:100%; */
-  height:100vh;
+  height: 100vh;
   transform: translateZ(0);
 }
 
@@ -669,13 +667,6 @@ a {
   margin-bottom: 40px !important;
   color: #ffffffda;
 }
-
-
-
-
-
-
-
 
 #serves .contant a {
   /* display: inline-block; */
@@ -1203,7 +1194,7 @@ a {
   opacity: 0.6;
 }
 
-#footer .social{
+#footer .social {
   margin-left: 200px;
 }
 
@@ -1248,7 +1239,6 @@ a {
 }
 
 @media all and (min-width: 1200px) and (max-width: 1440px) {
- 
   .loginHover {
     position: fixed;
     left: 74.2%;
@@ -1322,7 +1312,7 @@ a {
     margin-top: 0px;
   }
 
-  #footer .social{
+  #footer .social {
     margin-left: 10px;
   }
 }
@@ -1700,16 +1690,15 @@ a {
     font-size: 14px;
     line-height: 100%;
     margin-right: 10px;
-    margin-block:18px;
+    margin-block: 18px;
   }
 
   #footer .social ul {
     margin-left: 0px !important;
     margin-right: 5px;
-
   }
 
-  #footer .social li  {
+  #footer .social li {
     margin-right: 5px !important;
   }
 
@@ -1816,7 +1805,7 @@ a {
     margin-bottom: 30px;
   }
 
-  #whyUs .whyUs .number  {
+  #whyUs .whyUs .number {
     margin-left: 20px;
   }
 
@@ -2124,7 +2113,6 @@ a {
     /* margin-top: 10px; */
   }
 
-
   #footer .social ul {
     /* display: block; */
     margin-left: 0px;
@@ -2137,7 +2125,7 @@ a {
 }
 
 @media all and (max-width: 480px) {
-  body{
+  body {
     overflow-x: hidden;
   }
   nav .navbar-brand {
@@ -2225,8 +2213,8 @@ a {
     width: 30px;
   }
 
-  #whyUs .whyUs .number  {
- margin-left: 20px;
+  #whyUs .whyUs .number {
+    margin-left: 20px;
   }
   #whyUs .whyUs .number p {
     font-size: 8px;
@@ -2268,7 +2256,7 @@ a {
     margin-top: 0px;
   }
 
-/*   
+  /*   
 #serves .serve1 {
   background-image: url("../images/andy-li-CpsTAUPoScw-unsplash1.png");
   background-repeat: no-repeat;
@@ -2295,7 +2283,6 @@ a {
 
   
 } */
-
 
   #serves .contant {
     top: 60%;
@@ -2394,7 +2381,7 @@ a {
   #portfolio .contant h3 {
     font-size: 20px;
     line-height: 30px;
-    text-align: center  ;
+    text-align: center;
     margin-top: 10px;
   }
 
@@ -2583,8 +2570,6 @@ a {
     font-size: 14px;
     /* margin: 15px 0; */
   }
-
-  
 }
 
 /*===================================== treding page=============================== */
@@ -2609,14 +2594,13 @@ a {
   margin-left: 15px;
   color: #fff;
 }
-.lightbackground .contains  {
-width: 100%;
-margin: auto;  
+.lightbackground .contains {
+  width: 100%;
+  margin: auto;
 }
 
 .lightbackground .contains .col-md-4 {
   margin-top: 100px;
-  
 }
 
 .lightbackground .contains .background {
@@ -2625,7 +2609,7 @@ margin: auto;
   background-position: center;
   padding-bottom: 15px;
   width: 60%;
-  height:530px;
+  height: 530px;
   position: relative;
 }
 
@@ -2684,48 +2668,40 @@ margin: auto;
   padding: 10px;
   color: #ffffff;
 }
-.lightbackground .contains  {
+.lightbackground .contains {
   margin-bottom: 40px;
   margin-left: 150px;
   /* margin:40px auto ; */
 }
 
-.lightbackground .contains  img{
+.lightbackground .contains img {
   width: 100% !important;
 }
 @media all and (min-width: 1025px) and (max-width: 1440px) {
-  
-.lightbackground .contains  {
-width: 100%;
-margin: auto;  
+  .lightbackground .contains {
+    width: 100%;
+    margin: auto;
+  }
+
+  .lightbackground .contains .background {
+    padding-bottom: 15px;
+    width: 60%;
+    height: 380px;
+  }
+
+  .lightbackground .contains img {
+    margin-left: 35px;
+  }
+
+  .lightbackground .contains .contant p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 5px;
+  }
+  .lightbackground .contains {
+    margin-left: 100px;
+  }
 }
-
-.lightbackground .contains .background {
-  padding-bottom: 15px;
-  width: 60%;
-  height:380px;
-}
-
-
-.lightbackground .contains img {
-  margin-left: 35px;
-}
-
-.lightbackground .contains .contant p {
-  font-size: 16px;
-  line-height: 24px;
-  padding: 5px;
-  
-}
-.lightbackground .contains  {
-  margin-left: 100px;
-}
-
-
-
-}
-
-
 
 @media all and (min-width: 850px) and (max-width: 1025px) {
   .lightbackground .contains {
@@ -2737,8 +2713,6 @@ margin: auto;
     margin-top: 50px;
     margin-left: 20px;
   }
-
-  
 
   .lightbackground .contains .background {
     width: 80%;
@@ -2766,18 +2740,15 @@ margin: auto;
     padding: 10px;
   }
 
-
-  .lightbackground .contains  {
+  .lightbackground .contains {
     margin-bottom: 40px;
     margin-left: 60px;
     /* margin:40px auto ; */
   }
-  
-  
-  .lightbackground .contains  img{
-    width: 100% !important
-  }
 
+  .lightbackground .contains img {
+    width: 100% !important;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 850px) {
@@ -2785,7 +2756,6 @@ margin: auto;
     width: 80%;
     height: 280px;
   }
-
 
   .lightbackground .contains {
     width: 95% !important;
@@ -2796,10 +2766,6 @@ margin: auto;
     margin-top: 50px;
     margin-left: 20px;
   }
-
-  
-
-  
 
   .lightbackground .background:hover img {
     margin-left: 0px;
@@ -2822,18 +2788,15 @@ margin: auto;
     padding: 10px;
   }
 
-
-  .lightbackground .contains  {
+  .lightbackground .contains {
     margin-bottom: 40px;
     margin-left: 60px;
     /* margin:40px auto ; */
   }
-  
-  
-  .lightbackground .contains  img{
-    width: 100% !important
-  }
 
+  .lightbackground .contains img {
+    width: 100% !important;
+  }
 }
 
 @media all and (min-width: 574px) and (max-width: 768px) {
@@ -2879,8 +2842,6 @@ margin: auto;
   }
 }
 
-
-
 @media all and (min-width: 430px) and (max-width: 574px) {
   .lightbackground .contains {
     width: 100% !important;
@@ -2908,26 +2869,18 @@ margin: auto;
     transition: 1s;
   }
 
-
-
   .lightbackground .contains .seemore {
     text-align: center;
     position: absolute;
     opacity: 1;
-  top: 90% !important; 
+    top: 90% !important;
     /* margin: auto; */
     margin-left: 15%;
-
   }
 
   .lightbackground .contains .background:hover .seemore {
-    
-  top: 90% !important; 
-   
-
+    top: 90% !important;
   }
-
- 
 
   .lightbackground .contains .contant p {
     font-size: 10px;
@@ -2935,8 +2888,6 @@ margin: auto;
     padding: 5px;
   }
 }
-
-
 
 @media all and (max-width: 430px) {
   .lightbackground .contains {
@@ -2951,7 +2902,6 @@ margin: auto;
   .lightbackground .contains img {
     width: 100% !important;
     margin-left: 0px;
-   
   }
 
   .lightbackground .contains .background {
@@ -2966,51 +2916,40 @@ margin: auto;
     transition: 1s;
   }
 
- 
-
   .lightbackground .contains .seemore {
     text-align: center;
     position: absolute;
     opacity: 1;
-  top: 85% !important; 
+    top: 85% !important;
     /* margin: auto; */
     margin-left: 15%;
-
   }
 
   .lightbackground .contains .background:hover .seemore {
-    
-  top: 85% !important; 
-   
-
+    top: 85% !important;
   }
 
-  .lightbackground .contains .seemore span{
+  .lightbackground .contains .seemore span {
     font-size: 12px;
   }
 
-  .lightbackground .contains .seemore .line{
+  .lightbackground .contains .seemore .line {
     width: 30px;
   }
-  
-  
 
   .lightbackground .contains .contant p {
     font-size: 8px;
     line-height: 12px;
     padding: 5px;
   }
-  .lightbackground .contains  {
+  .lightbackground .contains {
     margin-bottom: 40px;
     margin-left: 10px !important;
     /* margin:40px auto ; */
   }
 }
 
-
-
 /*===================================== clients page==================== */
-
 
 #Clients .backbtn {
   margin: 76px 100px 40px 70px !important;
@@ -3032,7 +2971,6 @@ margin: auto;
   margin-left: 15px;
   color: #fff;
 }
-
 
 .clients .one {
   width: 298px;
@@ -3061,12 +2999,13 @@ margin: auto;
 
 #Clients .title img {
   width: 30% !important;
-  /* margin: auto; */margin: auto;
+  /* margin: auto; */
+  margin: auto;
   display: block;
 }
 
-#Clients #contact{
- margin-top: 30px;
+#Clients #contact {
+  margin-top: 30px;
 }
 
 @media all and (min-width: 1200px) and (max-width: 1440px) {
@@ -3084,7 +3023,6 @@ margin: auto;
   .clients .one {
     width: 200px;
     height: 170px;
-   
   }
 
   .clients .one img {
@@ -3104,8 +3042,6 @@ margin: auto;
 }
 
 @media all and (max-width: 570px) {
-
-
   .clients .one {
     width: 200px;
     height: 150px;
@@ -3117,8 +3053,6 @@ margin: auto;
 }
 
 @media all and (max-width: 440px) {
-
-
   .clients .one {
     width: 150px;
     height: 110px;
@@ -3128,8 +3062,6 @@ margin: auto;
     width: 100% !important;
   }
 }
-
-
 
 /* ===============================gallery page===================== */
 
@@ -3229,8 +3161,8 @@ margin: auto;
 
   .gallery .collection .container-fluid,
   .gallery .Images .container-fluid,
-  .gallery .Vedios .container-fluid{
-margin-left: 15px !important;
+  .gallery .Vedios .container-fluid {
+    margin-left: 15px !important;
   }
   .gallery h3,
   .about h3,
@@ -3283,8 +3215,8 @@ margin-left: 15px !important;
 
   .gallery .collection .container-fluid,
   .gallery .Images .container-fluid,
-  .gallery .Vedios .container-fluid{
-margin-left: 15px !important;
+  .gallery .Vedios .container-fluid {
+    margin-left: 15px !important;
   }
   .gallery h3,
   .about h3,
@@ -3413,7 +3345,6 @@ margin-left: 15px !important;
   width: 100%;
   height: 100%;
   margin-top: 37px;
-  
 }
 
 .about .swiper-slide img {
@@ -3464,8 +3395,8 @@ margin-left: 15px !important;
   margin: 0 8px;
 }
 
-.about #contact{
-  margin-top: 30px
+.about #contact {
+  margin-top: 30px;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
@@ -3601,14 +3532,13 @@ margin-left: 15px !important;
     margin-top: 15px;
   }
 
-  
   .about .swiper-button-next {
     position: absolute;
     width: 20% !important;
     top: 99% !important;
     left: 80%;
   }
-  
+
   .about .swiper-button-prev {
     position: absolute;
     top: 99% !important;
@@ -3675,7 +3605,7 @@ margin-left: 15px !important;
     top: 99% !important;
     left: 80%;
   }
-  
+
   .about .swiper-button-prev {
     position: absolute;
     top: 99% !important;
@@ -3738,7 +3668,7 @@ margin-left: 15px !important;
   margin-left: 20px;
   color: #ffffff;
   position: relative;
-  top: 60% ;
+  top: 60%;
 }
 
 .contactUs .map .title .h3line {
@@ -4002,7 +3932,6 @@ textarea {
     margin-left: 30px;
   }
 
- 
   .contactUs .contactDetails .follw h3 {
     font-size: 20px;
   }
@@ -4425,7 +4354,6 @@ textarea {
 }
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
-
   .newsPage .newsContant .row {
     margin-left: 20px;
   }
@@ -4514,47 +4442,47 @@ textarea {
 }
 
 @media all and (min-width: 575px) and (max-width: 768px) {
-    .newsPage .newsContant .row {
-      margin-left: 20px;
-    }
+  .newsPage .newsContant .row {
+    margin-left: 20px;
+  }
 
-    .newsPage .newsContant .row .col-md-6 {
-      margin-top: 50px;
-    }
+  .newsPage .newsContant .row .col-md-6 {
+    margin-top: 50px;
+  }
 
-    .newsPage .newsContant img {
-      width: 95%;
-    }
+  .newsPage .newsContant img {
+    width: 95%;
+  }
 
-    .newsPage .history {
-      width: 110px;
-      height: 70px;
-    }
+  .newsPage .history {
+    width: 110px;
+    height: 70px;
+  }
 
-    .newsPage .history h4 {
-      font-size: 14px;
-      margin-top: 8px;
-    }
+  .newsPage .history h4 {
+    font-size: 14px;
+    margin-top: 8px;
+  }
 
-    .newsPage .history h5 {
-      font-size: 14px;
-      line-height: 22px;
-    }
+  .newsPage .history h5 {
+    font-size: 14px;
+    line-height: 22px;
+  }
 
-    .newsPage .newsContant h6 {
-      font-size: 16px;
-      margin: 5px 0;
-    }
+  .newsPage .newsContant h6 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
 
-    .newsPage .newsContant h3 {
-      font-size: 20px;
-    }
-    .newsPage .newsContant p {
-      font-size: 10px;
-      line-height: 22px;
-      margin-top: 10px;
-      width: 90%;
-    }
+  .newsPage .newsContant h3 {
+    font-size: 20px;
+  }
+  .newsPage .newsContant p {
+    font-size: 10px;
+    line-height: 22px;
+    margin-top: 10px;
+    width: 90%;
+  }
 }
 
 @media all and (max-width: 575px) {
@@ -4748,7 +4676,7 @@ textarea {
 
   .portofolio .contant h3 {
     font-size: 40px;
-    line-height:20px;
+    line-height: 20px;
   }
 
   .portofolio .contant .p1 {
@@ -4789,7 +4717,7 @@ textarea {
 
   .portofolio .contant h3 {
     font-size: 40px;
-    line-height:30px;
+    line-height: 30px;
   }
 
   .portofolio .contant .p1 {
@@ -4801,9 +4729,7 @@ textarea {
     line-height: 18px;
     width: 90%;
   }
-
 }
-
 
 /* ===============================gatalog page ============= */
 
@@ -4874,25 +4800,21 @@ textarea {
   margin-left: 50px;
 }
 
-
 @media all and (min-width: 1024px) and (max-width: 1440px) {
-  
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  
-.gatalog .swiper-button-next {
-  position: relative;
-  width: 15% !important;
-  left: 85%;
-  margin-top: 10px;
-}
+  .gatalog .swiper-button-next {
+    position: relative;
+    width: 15% !important;
+    left: 85%;
+    margin-top: 10px;
+  }
 
-.gatalog .swiper-button-prev {
-  position: relative;
-  width: 15% !important;
-  left: -5%;
-}
-
+  .gatalog .swiper-button-prev {
+    position: relative;
+    width: 15% !important;
+    left: -5%;
+  }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -4902,32 +4824,30 @@ textarea {
     left: 85%;
     margin-top: 10px;
   }
-  
+
   .gatalog .swiper-button-prev {
     position: relative;
     width: 20% !important;
     left: -2%;
   }
- 
 }
 
 @media all and (max-width: 480px) {
- .gatalog .collection .container-fluid{
-  margin-left: 10px;
- }
+  .gatalog .collection .container-fluid {
+    margin-left: 10px;
+  }
   .gatalog .swiper-button-next {
     position: relative;
     width: 30% !important;
     left: 70%;
     /* margin-top: 10px; */
   }
-  
+
   .gatalog .swiper-button-prev {
     position: relative;
     width: 30% !important;
     left: -25%;
   }
-  
 }
 
 /* =========================req=============================== */
@@ -5023,8 +4943,6 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
-
-
 }
 
 .reg .agreeFooter span {
@@ -5047,7 +4965,6 @@ a {
     padding-top: 4%;
   }
 
-
   .reg input {
     margin: 20px auto;
   }
@@ -5055,8 +4972,7 @@ a {
     margin-left: 22%;
   }
   .reg .agreeFooter {
-  
-    left:28%
+    left: 28%;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -5090,8 +5006,7 @@ a {
   }
 
   .reg .agreeFooter {
-  
-    left:5%
+    left: 5%;
   }
 }
 
@@ -5126,13 +5041,10 @@ a {
     padding: 9px 60px;
   }
   .reg .agreeFooter {
-  
     left: 12%;
   }
   .reg .agreeFooter p {
-    
     font-size: 12px;
-  
   }
 }
 
@@ -5164,12 +5076,9 @@ a {
   }
 
   .reg .agreeFooter {
-  
     left: 2%;
   }
   .reg .agreeFooter p {
-    
     font-size: 8px;
-  
   }
 }
