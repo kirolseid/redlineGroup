@@ -25,6 +25,7 @@ html {
 }
 body {
   background-color: #131313;
+  overflow-x: hidden;
   
 }
 
@@ -1966,7 +1967,7 @@ a {
 
   #portfolio .swiper-button-next {
     top: 55%;
-    left: 95%;
+    left: 94%;
   }
   #portfolio .swiper-button-prev {
     top: 55%;
