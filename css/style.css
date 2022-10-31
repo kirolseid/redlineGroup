@@ -25,7 +25,7 @@ html {
 }
 body {
   background-color: #131313;
-  overflow-x: hidden !important;
+  
 }
 
 a {
@@ -1176,10 +1176,13 @@ a {
   margin-top: 30px;
 }
 
+#footer .row .col-lg-6{
+  margin-top: auto ;
+
+}
+
 #footer ul {
   display: flex;
-  width: 90%;
-  padding: 0px;
 }
 
 #footer ul li {
@@ -1194,12 +1197,13 @@ a {
   opacity: 0.6;
 }
 
-#footer .social {
-  margin-left: 200px;
-}
+
 
 #footer .social ul {
   margin-left: 40px;
+   /* margin-left: 200px; */
+  display: flex;
+  justify-content: end;
 }
 
 #footer .social li {
@@ -1308,13 +1312,9 @@ a {
     color: #ffffff;
   }
 
-  #contact .social {
-    margin-top: 0px;
-  }
+  
 
-  #footer .social {
-    margin-left: 10px;
-  }
+  
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
@@ -1632,7 +1632,7 @@ a {
   }
 
   #contact .container-fluid {
-    margin-left: 10px;
+    margin-left: 0px;
   }
 
   #contact h4 {
@@ -1695,11 +1695,11 @@ a {
 
   #footer .social ul {
     margin-left: 0px !important;
-    margin-right: 5px;
+    margin-right: 0px;
   }
 
   #footer .social li {
-    margin-right: 5px !important;
+    margin-right: 20px !important;
   }
 
   #footer p {
@@ -2051,7 +2051,8 @@ a {
   }
 
   #contact .container-fluid {
-    margin-left: 10px;
+    margin-left: 0px;
+    
   }
 
   #contact h4 {
@@ -2594,10 +2595,7 @@ a {
   margin-left: 15px;
   color: #fff;
 }
-.lightbackground .contains {
-  width: 100%;
-  margin: auto;
-}
+
 
 .lightbackground .contains .col-md-4 {
   margin-top: 100px;
@@ -2611,6 +2609,7 @@ a {
   width: 60%;
   height: 530px;
   position: relative;
+  margin: auto;
 }
 
 .cover {
@@ -2623,6 +2622,7 @@ a {
 
 .lightbackground .contains img {
   margin-left: 50px;
+  width: 100% !important;
 }
 
 .lightbackground .background:hover img {
@@ -2670,18 +2670,12 @@ a {
 }
 .lightbackground .contains {
   margin-bottom: 40px;
-  margin-left: 150px;
-  /* margin:40px auto ; */
+  
 }
 
-.lightbackground .contains img {
-  width: 100% !important;
-}
+
 @media all and (min-width: 1025px) and (max-width: 1440px) {
-  .lightbackground .contains {
-    width: 100%;
-    margin: auto;
-  }
+ 
 
   .lightbackground .contains .background {
     padding-bottom: 15px;
@@ -2698,20 +2692,28 @@ a {
     line-height: 24px;
     padding: 5px;
   }
-  .lightbackground .contains {
-    margin-left: 100px;
-  }
+ 
 }
 
 @media all and (min-width: 850px) and (max-width: 1025px) {
   .lightbackground .contains {
-    width: 95% !important;
+    width: 100% !important;
     margin: auto;
+    margin-bottom: 40px;
+
   }
   .lightbackground .contains .col-md-4 {
-    width: 30%;
+    width: 28%;
+    margin: auto;
     margin-top: 50px;
-    margin-left: 20px;
+
+    /* margin-left: 20px; */
+  }
+
+  .lightbackground .contains .col-md-4 img {
+   
+width: 80%;
+margin-left: 25px;
   }
 
   .lightbackground .contains .background {
@@ -2726,7 +2728,7 @@ a {
   }
 
   .lightbackground .background:hover .seemore {
-    top: 92%;
+    top:90% !important ;
     opacity: 1;
   }
 
@@ -2740,11 +2742,8 @@ a {
     padding: 10px;
   }
 
-  .lightbackground .contains {
-    margin-bottom: 40px;
-    margin-left: 60px;
-    /* margin:40px auto ; */
-  }
+  
+
 
   .lightbackground .contains img {
     width: 100% !important;
@@ -2755,16 +2754,28 @@ a {
   .lightbackground .contains .background {
     width: 80%;
     height: 280px;
+    margin: auto;
   }
 
   .lightbackground .contains {
-    width: 95% !important;
+    width: 100% !important;
     margin: auto;
+    margin-bottom: 40px;
+    
   }
+
+  .lightbackground .contains .col-md-4 img{
+    width: 70%;
+    margin-left: 25px;
+
+  }
+
+
   .lightbackground .contains .col-md-4 {
     width: 30%;
+    margin: auto;
     margin-top: 50px;
-    margin-left: 20px;
+
   }
 
   .lightbackground .background:hover img {
@@ -2788,36 +2799,32 @@ a {
     padding: 10px;
   }
 
-  .lightbackground .contains {
-    margin-bottom: 40px;
-    margin-left: 60px;
-    /* margin:40px auto ; */
-  }
+  
 
-  .lightbackground .contains img {
-    width: 100% !important;
-  }
+ 
 }
 
 @media all and (min-width: 574px) and (max-width: 768px) {
   .lightbackground .contains {
-    width: 90% !important;
+    width: 100% !important;
     margin: auto;
   }
   .lightbackground .contains .col-md-4 {
-    width: 46%;
+    width: 40%;
+    margin: auto;
     margin-top: 50px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
-  .lightbackground .contains .col-md-4 img {
-    width: 100%;
-    /* height: 220px; */
+  .lightbackground .background img {
+    width: 90%;
+    margin-left: 20px;
   }
+ 
 
   .lightbackground .contains .background {
     width: 85%;
-    height: 330px;
+    height: 340px;
   }
 
   .lightbackground .background:hover img {
@@ -2827,7 +2834,7 @@ a {
   }
 
   .lightbackground .background:hover .seemore {
-    top: 92%;
+    top: 90% !important;
     opacity: 1;
   }
 
@@ -2838,7 +2845,7 @@ a {
   .lightbackground .contains .contant p {
     font-size: 12px;
     line-height: 20px;
-    padding: 10px;
+    padding: 7px;
   }
 }
 
@@ -2849,8 +2856,10 @@ a {
   }
   .lightbackground .contains .col-md-4 {
     width: 45%;
+    margin: auto;
     margin-top: 50px;
-    margin-left: 20px;
+
+    /* margin-left: 20px; */
   }
 
   .lightbackground .contains .col-md-4 img {
@@ -2860,7 +2869,7 @@ a {
 
   .lightbackground .contains .background {
     width: 90%;
-    height: 280px;
+    height: 315px;
   }
 
   .lightbackground .background img {
@@ -2879,7 +2888,7 @@ a {
   }
 
   .lightbackground .contains .background:hover .seemore {
-    top: 90% !important;
+    top: 95% !important;
   }
 
   .lightbackground .contains .contant p {
@@ -2892,11 +2901,13 @@ a {
 @media all and (max-width: 430px) {
   .lightbackground .contains {
     width: 100% !important;
+    margin-bottom: 40px;
+
   }
   .lightbackground .contains .col-md-4 {
     width: 40%;
+    margin: auto;
     margin-top: 50px;
-    margin-left: 10px;
   }
 
   .lightbackground .contains img {
@@ -2906,7 +2917,7 @@ a {
 
   .lightbackground .contains .background {
     width: 90%;
-    height: 200px;
+    height: 230px;
     margin: auto;
   }
 
@@ -2942,11 +2953,7 @@ a {
     line-height: 12px;
     padding: 5px;
   }
-  .lightbackground .contains {
-    margin-bottom: 40px;
-    margin-left: 10px !important;
-    /* margin:40px auto ; */
-  }
+  
 }
 
 /*===================================== clients page==================== */
@@ -4762,7 +4769,7 @@ textarea {
 
 .gatalog .swiper-slide img {
   width: 100%;
-  height: 250px;
+  /* height: 250px; */
 }
 .gatalog .collection p {
   font-family: "Montserrat-light";
