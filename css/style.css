@@ -359,7 +359,7 @@ a {
 
 #welcomesec {
   /* position: relative; */
-  background-image: url("../images/sam-moghadam-khamseh-baII27W6z7k-unsplash.png");
+  background-image: url("../images/GIF.gif");
 
   background-position: center;
   height: 100vh;
@@ -1283,6 +1283,8 @@ a {
     top: 35%;
   }
 
+
+
   #contact .container-fluid {
     margin-left: 30px;
   }
@@ -1333,6 +1335,7 @@ a {
   .closeNav {
     width: 50%;
   }
+  
   .navbar .nav-link {
     font-size: 13px;
     line-height: 24px;
@@ -2132,9 +2135,9 @@ a {
 }
 
 @media all and (max-width: 480px) {
-  body {
-    /* overflow-x: hidden; */
-  }
+  /* body {
+    overflow-x: hidden;
+  } */
   nav .navbar-brand {
     width: 50%;
   }
