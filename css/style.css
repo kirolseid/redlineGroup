@@ -26,7 +26,6 @@ html {
 body {
   background-color: #131313;
   /* overflow-x: hidden; */
-  
 }
 
 a {
@@ -47,6 +46,18 @@ a {
 /*/////////////////////////// home page////////////////// */
 
 /* navbar  */
+
+/* .vedio {
+  position: relative;
+  height: 80vh;
+} */
+
+/* .onvedio {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+} */
 
 .navbar {
   background-color: transparent !important;
@@ -358,7 +369,7 @@ a {
 /* welcome section */
 
 #welcomesec {
-  /* position: relative; */
+  position: relative;
   background-image: url("../images/GIF.gif");
 
   background-position: center;
@@ -368,12 +379,12 @@ a {
 #welcomesec .contant {
   margin-left: 75px;
   position: relative;
-  top: 50%;
+  top: 70%;
 }
 
 #welcomesec .contant h1 {
   position: relative;
-  left: -70%;
+  left: -60%;
   font-family: "Montserrat-bold";
   font-style: normal;
   font-weight: 700;
@@ -383,7 +394,7 @@ a {
 }
 
 #welcomesec .contant .cont {
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 #welcomesec .contant .vedio {
@@ -574,65 +585,52 @@ a {
 }
 
 #serves .serve1 {
-  /* background-image: url("../images/eleni-afiontzi-gLU8GZpHtRA-unsplash.png"); */
-
   background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png");
-  /* background-attachment: fixed;
+
   background-position: center;
   background-size: cover;
-  height: 100vh; */
+
   background-attachment: scroll;
-  /* background-position:left top; */
+
   background-size: cover;
-  /* width:100%; */
+
   height: 100vh;
 }
 
 #serves .serve2 {
-  /* background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png"); */
+  background-image: url("../images/image\ 94.png");
 
-  background-image: url("../images/eleni-afiontzi-gLU8GZpHtRA-unsplash.png");
-  /* background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: 100vh; */
   height: 100vh;
-  /* background-attachment:fixed; */
-  /* background-repeat: no-repeat; */
 
-  /* background-position:left right; */
-  /* background-position: center center; */
   background-size: cover;
-  width: 100%;
+
   transform: translateZ(0);
 }
 
 #serves .serve3 {
-  background-image: url("../images/rodolfo-cuadros-WNk-f-TnZDw-unsplash.png");
-  /* background-attachment: fixed;
-  background-position: center ;
+  background-image: url("../images/image\ 95.png");
+
+  background-position: center;
   background-size: cover;
-  height: 100vh; */
-  background-attachment: scroll;
-  /* background-position:left top; */
-  background-size: cover;
-  /* width:100%; */
   height: 100vh;
+  background-attachment: scroll;
+
+  background-size: cover;
+
   transform: translateZ(0);
 }
 
 #serves .serve4 {
-  background-image: url("../images/gigin-krishnan-PH45mFDrM_8-unsplash.png");
-  /* background-attachment: fixed;
-  background-position: center ;
+  background-image: url("../images/image\ 93.png");
+
+  background-position: center;
   background-size: cover;
-  height: 100vh; */
-  background-attachment: scroll;
-  /* background-position:left top ; */
-  background-size: cover;
-  /* width:100%; */
   height: 100vh;
-  transform: translateZ(0);
+  background-attachment: scroll;
+
+    transform: translateZ(0);
 }
 
 #serves .contant {
@@ -1157,8 +1155,7 @@ a {
   width: 100%;
 }
 
-#contact .container-fluid{
-  
+#contact .container-fluid {
   padding: 0;
 }
 
@@ -1182,9 +1179,8 @@ a {
   margin-top: 30px;
 }
 
-#footer .row .col-lg-6{
-  margin-top: auto ;
-
+#footer .row .col-lg-6 {
+  margin-top: auto;
 }
 
 #footer ul {
@@ -1203,11 +1199,9 @@ a {
   opacity: 0.6;
 }
 
-
-
 #footer .social ul {
   margin-left: 40px;
-   /* margin-left: 200px; */
+  /* margin-left: 200px; */
   display: flex;
   justify-content: end;
 }
@@ -1280,10 +1274,8 @@ a {
   #welcomesec .contant {
     margin-left: 75px;
     position: relative;
-    top: 35%;
+    top: 62%;
   }
-
-
 
   #contact .container-fluid {
     margin-left: 30px;
@@ -1319,10 +1311,6 @@ a {
     margin-left: 0 px;
     color: #ffffff;
   }
-
-  
-
-  
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
@@ -1335,7 +1323,7 @@ a {
   .closeNav {
     width: 50%;
   }
-  
+
   .navbar .nav-link {
     font-size: 13px;
     line-height: 24px;
@@ -1377,7 +1365,7 @@ a {
 
   #welcomesec .contant {
     margin-left: 70px;
-    top: 45%;
+    top: 50%;
   }
 
   #welcomesec .contant h1 {
@@ -2061,7 +2049,6 @@ a {
 
   #contact .container-fluid {
     margin-left: 0px;
-    
   }
 
   #contact h4 {
@@ -2567,7 +2554,7 @@ a {
     padding-left: 0px !important;
   }
 
-  #footer .footerNAv  {
+  #footer .footerNAv {
     display: flex;
     justify-content: left;
     padding: 0px !important;
@@ -2581,8 +2568,6 @@ a {
     line-height: 100%;
     margin-right: 8px;
   }
-
-  
 
   #footer .social ul {
     /* display: block; */
@@ -2617,7 +2602,6 @@ a {
   margin-left: 15px;
   color: #fff;
 }
-
 
 .lightbackground .contains .col-md-4 {
   margin-top: 100px;
@@ -2670,7 +2654,7 @@ a {
 }
 
 .lightbackground .background:hover .seemore {
-  top: 94% ;
+  top: 94%;
   transition: 1s;
 }
 
@@ -2692,13 +2676,9 @@ a {
 }
 .lightbackground .contains {
   margin-bottom: 40px;
-  
 }
 
-
 @media all and (min-width: 1025px) and (max-width: 1440px) {
- 
-
   .lightbackground .contains .background {
     padding-bottom: 15px;
     width: 60%;
@@ -2718,7 +2698,6 @@ a {
     line-height: 24px;
     padding: 5px;
   }
- 
 }
 
 @media all and (min-width: 850px) and (max-width: 1025px) {
@@ -2726,7 +2705,6 @@ a {
     width: 100% !important;
     margin: auto;
     margin-bottom: 40px;
-
   }
   .lightbackground .contains .col-md-4 {
     width: 28%;
@@ -2737,9 +2715,8 @@ a {
   }
 
   .lightbackground .contains .col-md-4 img {
-   
-width: 80%;
-margin-left: 25px;
+    width: 80%;
+    margin-left: 25px;
   }
 
   .lightbackground .contains .background {
@@ -2754,7 +2731,7 @@ margin-left: 25px;
   }
 
   .lightbackground .background:hover .seemore {
-    top:90% !important ;
+    top: 90% !important ;
     opacity: 1;
   }
 
@@ -2767,9 +2744,6 @@ margin-left: 25px;
     line-height: 20px;
     padding: 10px;
   }
-
-  
-
 
   .lightbackground .contains img {
     width: 100% !important;
@@ -2787,21 +2761,17 @@ margin-left: 25px;
     width: 100% !important;
     margin: auto;
     margin-bottom: 40px;
-    
   }
 
-  .lightbackground .contains .col-md-4 img{
+  .lightbackground .contains .col-md-4 img {
     width: 70%;
     margin-left: 25px;
-
   }
-
 
   .lightbackground .contains .col-md-4 {
     width: 30%;
     margin: auto;
     margin-top: 50px;
-
   }
 
   .lightbackground .background:hover img {
@@ -2824,10 +2794,6 @@ margin-left: 25px;
     line-height: 20px;
     padding: 10px;
   }
-
-  
-
- 
 }
 
 @media all and (min-width: 574px) and (max-width: 768px) {
@@ -2846,7 +2812,6 @@ margin-left: 25px;
     width: 90%;
     margin-left: 20px;
   }
- 
 
   .lightbackground .contains .background {
     width: 85%;
@@ -2928,7 +2893,6 @@ margin-left: 25px;
   .lightbackground .contains {
     width: 100% !important;
     margin-bottom: 40px;
-
   }
   .lightbackground .contains .col-md-4 {
     width: 40%;
@@ -2986,7 +2950,6 @@ margin-left: 25px;
     background-color: #fff;
     margin-block: 4px;
   }
-  
 }
 
 /*===================================== clients page==================== */
@@ -3187,7 +3150,7 @@ margin-left: 25px;
     left: 85%;
   }
   .gallery .swiper-button-prev {
-    width:11%;
+    width: 11%;
     left: -10%;
   }
 
@@ -4286,12 +4249,10 @@ textarea {
 
   .servsies .servesView .one {
     width: 100%;
-  
   }
 
   .servsies .servesView img {
     width: 100%;
-   
   }
 
   .servsies .servesView h4 {
@@ -4880,7 +4841,7 @@ textarea {
 
 @media all and (max-width: 480px) {
   .gatalog .collection .container-fluid {
-    padding-left:10px 
+    padding-left: 10px;
   }
   .gatalog .swiper-button-next {
     position: relative;
@@ -5127,4 +5088,27 @@ a {
   .reg .agreeFooter p {
     font-size: 8px;
   }
+}
+
+
+
+.design h2{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 100px;
+line-height: 122px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.design p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
 }

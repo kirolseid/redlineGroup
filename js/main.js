@@ -422,7 +422,23 @@ $(window).scroll(function () {
     $(".serve2").css("background-position", "left " + (scrolledY - 600) + "px");
     $(".serve3").css("background-position", "left " + (scrolledY - 600) + "px");
     $(".serve4").css("background-position", "left " + (scrolledY - 400) + "px");
-  } else {
+  }  else if (width <= 1500 && width >= 1300) {
+    var scrolledY = $(window).scrollTop();
+    // console.log(scrolledY);
+    $(".serve1").css("background-position", "left " + (scrolledY - 800) + "px");
+    $(".serve2").css("background-position", "left " + (scrolledY - 600) + "px");
+    $(".serve3").css("background-position", "left " + (scrolledY - 400 ) + "px");
+    $(".serve4").css("background-position", "left " + (scrolledY - 00) + "px");
+  }else if (width <= 1500 && width >= 1000) {
+    var scrolledY = $(window).scrollTop();
+    // console.log(scrolledY);
+    $(".serve1").css("background-position", "left " + (scrolledY - 800) + "px");
+    $(".serve2").css("background-position", "left " + (scrolledY - 600) + "px");
+    $(".serve3").css("background-position", "left " + (scrolledY - 500 ) + "px");
+    $(".serve4").css("background-position", "left " + (scrolledY - 400) + "px");
+  }
+  
+  else {
     var scrolledY = $(window).scrollTop();
     // console.log(scrolledY);
     $(".serve1").css("background-position", "left " + scrolledY + "px");
