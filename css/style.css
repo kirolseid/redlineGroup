@@ -5186,9 +5186,11 @@ color: #FFFFFF;
   line-height: 24px;
   text-align: center;
   color: #FFFFFF;
+  margin-top: 30px  ;
 }
 
 .design .col-md-6 .img-fluid{
-  width: 60% !important;
-  margin: auto;
+  display: block;
+  width: 65% !important;
+  margin: auto !important;
 }
