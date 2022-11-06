@@ -394,58 +394,24 @@ $("#footer .up").click(() => {
 $(window).scroll(function () {
   let width = document.body.clientWidth;
   // if(width >= 1440px )
-  if (width >= 1850) {
+  if (width <= 780 && width >= 480) {
     var scrolledY = $(window).scrollTop();
     // console.log(scrolledY);
-    $(".serve1").css("background-position", "left " + (scrolledY - 800) + "px");
-    $(".serve2").css("background-position", "left " + (scrolledY - 300) + "px");
-    $(".serve3").css("background-position", "left " + scrolledY + "px");
-    $(".serve4").css("background-position", "left " + (scrolledY + 550) + "px");
-  } else if (width <= 1850 && width >= 1700) {
+    $(".serve1").css("background-position", "left " + (scrolledY - 85) + "px");
+    $(".serve2").css("background-position", "left " + (scrolledY - 80) + "px");
+    $(".serve3").css("background-position", "left " + (scrolledY - 80) + "px");
+    $(".serve4").css("background-position", "left " + (scrolledY - 80) + "px");
+  }
+
+  else if (width <= 480 && width >=100) {
     var scrolledY = $(window).scrollTop();
     // console.log(scrolledY);
-    $(".serve1").css("background-position", "left " + (scrolledY - 600) + "px");
-    $(".serve2").css("background-position", "left " + (scrolledY - 400) + "px");
-    $(".serve3").css("background-position", "left " + (scrolledY - 200) + "px");
-    $(".serve4").css("background-position", "left " + (scrolledY + 50) + "px");
-  } else if (width <= 1700 && width >= 1600) {
-    var scrolledY = $(window).scrollTop();
-    // console.log(scrolledY);
-    $(".serve1").css("background-position", "left " + (scrolledY - 700) + "px");
-    $(".serve2").css("background-position", "left " + (scrolledY - 450) + "px");
-    $(".serve3").css("background-position", "left " + (scrolledY - 300) + "px");
-    $(".serve4").css("background-position", "left " + (scrolledY - 100) + "px");
-  } else if (width <= 1600 && width >= 1500) {
-    var scrolledY = $(window).scrollTop();
-    // console.log(scrolledY);
-    $(".serve1").css("background-position", "left " + (scrolledY - 800) + "px");
-    $(".serve2").css("background-position", "left " + (scrolledY - 600) + "px");
-    $(".serve3").css("background-position", "left " + (scrolledY - 600) + "px");
-    $(".serve4").css("background-position", "left " + (scrolledY - 400) + "px");
-  }  else if (width <= 1500 && width >= 1300) {
-    var scrolledY = $(window).scrollTop();
-    // console.log(scrolledY);
-    $(".serve1").css("background-position", "left " + (scrolledY - 800) + "px");
-    $(".serve2").css("background-position", "left " + (scrolledY - 600) + "px");
-    $(".serve3").css("background-position", "left " + (scrolledY - 400 ) + "px");
-    $(".serve4").css("background-position", "left " + (scrolledY - 00) + "px");
-  }else if (width <= 1500 && width >= 1000) {
-    var scrolledY = $(window).scrollTop();
-    // console.log(scrolledY);
-    $(".serve1").css("background-position", "left " + (scrolledY - 800) + "px");
-    $(".serve2").css("background-position", "left " + (scrolledY - 600) + "px");
-    $(".serve3").css("background-position", "left " + (scrolledY - 500 ) + "px");
-    $(".serve4").css("background-position", "left " + (scrolledY - 400) + "px");
+    $(".serve1").css("background-position", "left " + (scrolledY  -420) + "px");
+    $(".serve2").css("background-position", "left " + (scrolledY - 420) + "px");
+    $(".serve3").css("background-position", "left " + (scrolledY - 420) + "px");
+    $(".serve4").css("background-position", "left " + (scrolledY - 420) + "px");
   }
   
-  else {
-    var scrolledY = $(window).scrollTop();
-    // console.log(scrolledY);
-    $(".serve1").css("background-position", "left " + scrolledY + "px");
-    $(".serve2").css("background-position", "left " + scrolledY + "px");
-    $(".serve3").css("background-position", "left " + scrolledY + "px");
-    $(".serve4").css("background-position", "left " + scrolledY + "px");
-  }
 });
 
 $("input[type=file]").change(function () {
