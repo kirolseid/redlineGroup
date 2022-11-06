@@ -5054,6 +5054,20 @@ a {
   .reg .agreeFooter {
     left: 28%;
   }
+
+  
+.design h2{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 100px;
+line-height: 122px;
+text-align: center;
+width: 80%;
+margin: auto;
+
+color: #FFFFFF;
+}
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .reg img {
@@ -5169,8 +5183,8 @@ a {
   font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
-font-size: 100px;
-line-height: 122px;
+font-size: 145px;
+line-height: 145px;
 text-align: center;
 width: 80%;
 margin: auto;
