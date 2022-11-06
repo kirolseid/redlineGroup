@@ -733,7 +733,7 @@ a {
 }
 
 #portfolio .swiper-container {
-  width: 95 %;
+  width: 95%;
   margin: auto;
   overflow: hidden;
   margin-top: 70px;
@@ -5184,4 +5184,11 @@ color: #FFFFFF;
   line-height: 24px;
   text-align: center;
   color: #FFFFFF;
+  width: 80%;
+  margin: auto;
+}
+
+.design .col-md-6 .img-fluid{
+  width: 60% !important;
+  margin: auto;
 }
