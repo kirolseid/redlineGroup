@@ -5172,6 +5172,8 @@ font-weight: 600;
 font-size: 100px;
 line-height: 122px;
 text-align: center;
+width: 80%;
+margin: auto;
 
 color: #FFFFFF;
 }
@@ -5184,8 +5186,6 @@ color: #FFFFFF;
   line-height: 24px;
   text-align: center;
   color: #FFFFFF;
-  width: 80%;
-  margin: auto;
 }
 
 .design .col-md-6 .img-fluid{
