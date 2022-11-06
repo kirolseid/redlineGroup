@@ -5040,6 +5040,38 @@ a {
   color: #ffffffa5;
 }
 
+
+
+.design h2{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 145px;
+line-height: 145px;
+text-align: center;
+width: 80%;
+margin: auto;
+
+color: #FFFFFF;
+}
+
+.design p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 30px  ;
+}
+
+.design .col-md-6 .img-fluid{
+  display: block;
+  width: 65% !important;
+  margin: auto !important;
+}
+
 @media all and (min-width: 1024px) and (max-width: 1440px) {
   .reg {
     padding-top: 4%;
@@ -5179,32 +5211,3 @@ color: #FFFFFF;
 
 
 
-.design h2{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 145px;
-line-height: 145px;
-text-align: center;
-width: 80%;
-margin: auto;
-
-color: #FFFFFF;
-}
-
-.design p{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  color: #FFFFFF;
-  margin-top: 30px  ;
-}
-
-.design .col-md-6 .img-fluid{
-  display: block;
-  width: 65% !important;
-  margin: auto !important;
-}
