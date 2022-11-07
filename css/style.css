@@ -4861,6 +4861,7 @@ textarea {
   font-size: 25px;
   line-height: 30px;
   margin-top: 80px;
+  margin-left: 50px;
   color: #000000;
   opacity: 0.7;
   color: rgba(255, 255, 255);
@@ -4871,8 +4872,9 @@ textarea {
 }
 
 .gatalog .contains .redline {
-  margin-left: 3%;
+  margin-left: 6%;
   width: 17%;
+  
 }
 
 .gatalog .container-fluid {
