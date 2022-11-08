@@ -1009,7 +1009,7 @@ a {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
-  font-size: 33px;
+  font-size: 30px;
   line-height: 43px;
   color: #ffffff;
 }
@@ -3173,6 +3173,17 @@ a {
   background-color: #ffffff;
   margin-left: 40%;
   margin-top: 8px;
+}
+
+ 
+
+.gallery .img{
+  margin-bottom: 20px;
+}
+
+.gallery .img img{
+  width: 336px;
+  height: 252px;
 }
 
 .gallery .swiper-button-next {
