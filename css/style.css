@@ -53,9 +53,7 @@ a {
 }
 
 .vedio video{
- 
   height: 100vh;
-  /* width: max-content !important; */
   object-fit: cover !important;
 }
 
@@ -377,14 +375,7 @@ a {
 
 /* welcome section */
 
-#welcomesec {
-  position: relative;
-  /* background-image: url("../images/GIF.gif"); */
 
-  background-position: center;
-  height: 100vh;
-  background-size: 100% 100%;
-}
 #welcomesec .contant {
   margin-left: 75px;
   position: relative;
