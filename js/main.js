@@ -230,26 +230,33 @@ $(".closeNav .img").click(() => {
   $(".backgroungHoverCover").css("width", "0%");
 });
 
-$(".servesLink").mouseenter(function () {
-  $("#welcomesec").css("background-image", "url('')");
-  $("#welcomesec").css("background-color", "black");
-  $(".servesHover").css("display", "block");
-  // $('.servesHover').css("transition", "s")
-  $(".servesLink").css("color", " #DC1C22");
 
+$(".servesLink").mouseenter(function () {
+  $(".servesHover").css("display", "block");
+  $(".servesLink").css("color", " #DC1C22");
   $("body").css("overflow", "hidden");
 });
 
-$(".servesHover").mouseleave(function () {
+// $('body *').not('.servesHover ').mouseenter(function () {
+//   $(".servesLink").css("color", "#fff");
+//   $(".servesHover").css("display", "none");
+//   $("body").css("overflow", "auto");
+
+// })​;
+
+
+
+$(".nav-item").mouseenter(function () {
   $(".servesLink").css("color", "#fff");
-  $("#welcomesec").css(
-    "background-image",
-    "url('../images/sam-moghadam-khamseh-baII27W6z7k-unsplash.png')"
-  );
-  // $('#welcomesec').css("background-color", "black")
   $(".servesHover").css("display", "none");
   $("body").css("overflow", "auto");
-  $("body").css("overflow-x", "hidden");
+
+})
+
+$(".servesHover").mouseleave(function () {
+  $(".servesLink").css("color", "#fff");
+  $(".servesHover").css("display", "none");
+  $("body").css("overflow", "auto");
 });
 
 $(".LoginLink").click(function () {
