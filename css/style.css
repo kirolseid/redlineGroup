@@ -438,6 +438,8 @@ a {
 
 /*  WHY US SECTION  */
 
+
+
 #whyUs {
   background-image: url("../images/tim-russmann-d_Ti2olBog8-unsplash (1).png");
   background-attachment: fixed;
@@ -2650,12 +2652,24 @@ a {
     font-size: 14px;
     /* margin: 15px 0; */
   }
+
+
+  .tradingBackground{
+    background-image: url("../images/Artboard 1@4x-100 (1).jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    min-height: 100vh;
+  }
 }
 
 /*===================================== treding page=============================== */
 
 .lightbackground .backbtn {
-  margin: 76px 100px 40px 70px !important;
+  margin: 50px 100px 40px 70px !important;
 }
 
 .lightbackground .line {
@@ -4928,14 +4942,14 @@ textarea {
   font-family: "Montserrat-light";
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 22px;
   text-align: center;
   margin-top: 15px;
   color: rgba(255, 255, 255, 0.874);
   width: 80%;
   margin: auto;
-  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .gatalog .contains h5 {
@@ -5295,5 +5309,129 @@ color: #FFFFFF;
   }
 }
 
+/*                    sections             */
+
+.lightbackground .title{
+  display: flex;
+  align-items: flex-end;
+  height: 60%;
+  width: 50%;
+
+}
+
+.lightbackground .title h3{
+ text-align: left;
+ margin-left: 70px;
+}
+
+.labelsBackGround{
+  background-image: url("../images/Industrial Labels/Industrial\ Labels\,\ Tags\,\ label\ printers\ and\ tools@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.saftyBackGround{
+  background-image: url("../images/Fire and Industrial Security equipment/Safety\,\ Fire\ and\ Industrial\ Security\ equipment@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+.militaryBackGround{
+  background-image: url("../images/military/Military\,\ Police\ and\ Security\ Uniform\,@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.saftyEquiomentBackGround{
+  background-image: url("../images/Safety Equipment's/Industrial\ Safety\ Equipment\'s@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.chemicalsBackGround{
+  background-image: url("../images/Chemicals/Chemicals\ and\ Laboratories\,\ Equipments\,\ tools\ and\ Supplies@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.electroicBackGround{
+  background-image: url("../images/Industrial electronic/Industrial\ Electronic\ devices\ and\ Home\ appliances@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
 
 
+.collection ul{
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
+.collection ul li{
+ 
+  border: none;
+  background-color: rgb(255, 255, 255,0.5);
+  border-radius: 8px;
+  margin: 0 40px;
+}
+
+.collection ul li button{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+color: #000000 !important;
+padding: 18px 25px;
+  border: none;
+  background-color: rgb(255, 255, 255,0.5);
+  border-radius: 8px;
+}
+
+.collection .tab-content{
+  margin: auto;
+  margin-top: 100px;
+}
+
+.collection .tab-content h4{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+margin-top: 20px;
+margin: auto;
+color: #FFFFFF;
+}
+
+.collection .tab-content p{
+  font-family: 'Montserrat-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0;
+  margin-top: 50px;
+  text-align: left;
+  color: #ffffffb2;
+}
+/* 
+.collection .tab-content img{
+
+  margin: auto !important; ;
+} */
