@@ -4943,7 +4943,7 @@ textarea {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 22px;
+  line-height: 28px;
   text-align: center;
   margin-top: 15px;
   color: rgba(255, 255, 255, 0.874);
@@ -5324,6 +5324,18 @@ color: #FFFFFF;
  margin-left: 70px;
 }
 
+.lightbackground .title h3 span{
+  color: #b6070d;
+ }
+
+.tradingBackground{
+  background-image: url("../images/TRADING@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
 .labelsBackGround{
   background-image: url("../images/Industrial Labels/Industrial\ Labels\,\ Tags\,\ label\ printers\ and\ tools@4x-100.jpg");
   /* background-attachment: fixed; */
@@ -5372,6 +5384,164 @@ color: #FFFFFF;
   background-size: cover;
   height: 100vh;
 }
+
+.DryingBackGround{
+  background-image: url("../images/Drying & Sanitizer Device (KLENZ)/Drying\ &\ sanitizer\ Device@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.uniformBackGround{
+  background-image: url("../images/Uniform (Trading, Import and Export)/Uniform (Trading, Import and Export)@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.textileBackGround{
+  background-image: url("../images/Textile, Shoes and Accessories/Textile, Shoes and Accessories@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+.giftsBackGround{
+  background-image: url("../images/Gift Items/Gift Items@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.officeBackGround{
+  background-image: url("../images/Office and school Supplies, Furniture and Stationery/Furniture and stationery@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.booksBackGround{
+  background-image: url("../images/Books .. Publishing and Distribution/books@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.musicaleBackGround{
+  background-image: url("../images/Music Instruments/Music Instruments, tools and Musical equipments@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.sportBackGround{
+  background-image: url("../images/Sports Equipments/sports@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.advertisitngBackground{
+  background-image: url("../images/Advertising@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.printingBackGround{
+  background-image: url("../images/Printing and installing/Printing\ and\ installing@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.adsmaterilesBackGround{
+  background-image: url("../images/Trading in the advertising Materials/Trading\ in\ the\ advertising\ Materials@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.designBackGround{
+  background-image: url("../images/Design and printing/Advertisements\,\ Brochures\,\ Magazines\,\ Paper\ publication@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.eventBackGround{
+  background-image: url("../images/Events Management/event@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.mediaproBackGround{
+  background-image: url("../images/Public Relations and Media Production/media\ pro@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.marketingBackGround{
+  background-image: url("../images/Markting/marketing@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.tantsBackGround{
+  background-image: url("../images/Rental Tents/tants@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.collection h4{
+  font-family: 'Montserrat-bold';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+text-align: center;
+}
+.collection p{
+  text-align: center;
+}
+
+.collection p span{
+  margin-right: 20px;
+  font-family: 'Montserrat-bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: center;
+  color: #FFFFFF;
+  display:inline ;
+  
+} 
+
 
 
 .collection ul{
