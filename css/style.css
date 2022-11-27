@@ -5329,7 +5329,7 @@ color: #FFFFFF;
  }
 
 .tradingBackground{
-  background-image: url("../images/TRADING@4x-100.jpg");
+  background-image: url("../images/trading new@4x-100.jpg");
   /* background-attachment: fixed; */
   background-position: center ;
   background-size: cover;
@@ -5386,7 +5386,7 @@ color: #FFFFFF;
 }
 
 .DryingBackGround{
-  background-image: url("../images/Drying & Sanitizer Device (KLENZ)/Drying\ &\ sanitizer\ Device@4x-100.jpg");
+  background-image: url("../images/Drying & Sanitizer Device (KLENZ)/klenz@4x-100.jpg");
   /* background-attachment: fixed; */
   background-position: center ;
   background-size: cover;
@@ -5394,7 +5394,7 @@ color: #FFFFFF;
 }
 
 .uniformBackGround{
-  background-image: url("../images/Uniform (Trading, Import and Export)/Uniform (Trading, Import and Export)@4x-100.jpg");
+  background-image: url("../images/Uniform (Trading, Import and Export)/Uniform@4x-100.jpg");
   /* background-attachment: fixed; */
   background-position: center ;
   background-size: cover;
@@ -5523,7 +5523,7 @@ color: #FFFFFF;
 }
 
 .domeBackGround{
-  background-image: url("../images/Dome video projection/3d@4x-100.jpg");
+  background-image: url("../images/Dome video projection/hologram@4x-100.jpg");
   /* background-attachment: fixed; */
   background-position: center ;
   background-size: cover;
@@ -5615,6 +5615,37 @@ text-align: left !important;
   margin-top: 50px;
   text-align: left;
   color: #ffffffb2;
+}
+
+.collection .col-md-6 p{
+  font-family: 'Montserrat-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: left;
+  color: #ffffffb2;
+  width: 100%;
+}
+
+.collection .brands .one {
+  margin: auto;
+  margin-top: 30px;
+
+  width:150px ;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collection .brands .x {
+  margin-left: 7%;
+  
 }
 /* 
 .collection .tab-content img{
