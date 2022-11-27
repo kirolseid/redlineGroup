@@ -5482,9 +5482,16 @@ color: #FFFFFF;
   height: 100vh;
 }
 
+.exhibitionsBackground{
+  background-image: url("../images/cover event@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
 
 .eventBackGround{
-  background-image: url("../images/Events Management/event@4x-100.jpg");
+  background-image: url("../images/Events Management/event 1@4x-100.jpg");
   /* background-attachment: fixed; */
   background-position: center ;
   background-size: cover;
@@ -5509,6 +5516,14 @@ color: #FFFFFF;
 
 .tantsBackGround{
   background-image: url("../images/Rental Tents/tants@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.domeBackGround{
+  background-image: url("../images/Dome video projection/3d@4x-100.jpg");
   /* background-attachment: fixed; */
   background-position: center ;
   background-size: cover;
@@ -5587,6 +5602,7 @@ line-height: 37px;
 margin-top: 20px;
 margin: auto;
 color: #FFFFFF;
+text-align: left !important;
 }
 
 .collection .tab-content p{
