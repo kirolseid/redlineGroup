@@ -5530,6 +5530,7 @@ color: #FFFFFF;
   height: 100vh;
 }
 
+
 .collection h4{
   font-family: 'Montserrat-bold';
 font-style: normal;
@@ -5539,6 +5540,8 @@ line-height: 30px;
 color: #FFFFFF;
 text-align: center;
 }
+
+
 .collection p{
   text-align: center;
 }
