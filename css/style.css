@@ -5530,6 +5530,137 @@ color: #FFFFFF;
   height: 100vh;
 }
 
+.designingBackground{
+  background-image: url("../images/des@4x-100.jpg");
+  /* background-attachment: fixed; */
+  background-position: center ;
+  background-size: cover;
+  height: 100vh;
+}
+.designcontain{
+  background-image: url("../images/Group 361.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 100%;
+  /* height: 100vh; */
+  padding: 80px 0;
+}
+
+.designcontain h3{
+  margin-top: 90px;
+}
+
+.designcontain .redline{
+  margin: auto;
+}
+
+
+.designcontain p{
+  font-family: 'Montserrat-Light';
+  width: 76%;
+  margin:20px auto;
+font-style: normal;
+font-weight: 100;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.interiordesign h3{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+/* identical to box height */
+
+text-align: center;
+
+color: #ED1D24;
+}
+
+.interiordesign h6{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.interiordesign h6 span{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+text-align: center;
+
+color: #ED1D24;
+}
+
+.interiordesign p{
+  width: 90%;
+  margin-top: 80px;
+}
+
+.interiordesign img{
+  width: 95%;
+  display: block;
+  margin: auto;
+}
+
+.uxdesign{
+  background-image: url("../images/UI-UX-Design-Process 1.png");
+  background-attachment: fixed;
+  background-position: center ;
+  background-size: 90% 100%;
+  height: 120vh;
+}
+
+.developer{
+  background-image: url("../images/image 160.png");
+  background-attachment: fixed;
+  background-position: center ;
+  background-size:cover;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.developer .contant h3{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 73px;
+text-align: center;
+
+color: #FFFFFF;
+  
+}
+
+.developer .contant p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+text-align: center;
+width: 80%;
+margin:40px auto;
+color: #FFFFFF;
+}
+
 
 .collection h4{
   font-family: 'Montserrat-bold';
