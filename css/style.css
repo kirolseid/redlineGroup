@@ -5650,6 +5650,17 @@ text-align: left !important;
   margin-left: 7%;
   
 }
+
+.cataloges .col-md-2{
+  width: 20%;
+  margin: auto;
+}
+
+.cataloges .col-md-2 img{
+  display: block  ;
+  max-width:90% ;
+  margin:20px auto;
+}
 /* 
 .collection .tab-content img{
 

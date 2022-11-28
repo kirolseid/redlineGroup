@@ -166,6 +166,8 @@ var swiper = new Swiper(".gallery .Vedios .mySwiper", {
   },
 });
 
+
+
 var swiper = new Swiper(".gatalog  .mySwiper", {
   slidesPerView: 3.5,
   slidesPerColumn: 2,
@@ -218,6 +220,46 @@ var swiper = new Swiper(".about .mySwiper", {
   //   el: ".about .swiper-pagination",
   //   clickable: true,
   // },
+});
+
+var swiper = new Swiper(".brands .mySwiper", {
+  slidesPerView: 6,
+  slidesPerColumn: 2,
+  spaceBetween: 10,
+
+  navigation: {
+    nextEl: ".brands .swiper-button-next",
+    prevEl: ".brands .swiper-button-prev",
+  },
+  breakpoints: {
+    200: {
+      slidesPerView: 2.5,
+      spaceBetween: 20,
+    },
+    480: {
+      slidesPerView: 2.9,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3.2,
+      spaceBetween: 20,
+    },
+
+    1024: {
+      slidesPerView: 6,
+      spaceBetween: 10,
+    },
+
+    1200: {
+      slidesPerView: 6,
+      spaceBetween: 50,
+    },
+
+    1400: {
+      slidesPerView: 6,
+      spaceBetween: 50,
+    },
+  },
 });
 
 $("nav span").click(() => {
