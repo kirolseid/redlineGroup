@@ -733,6 +733,20 @@ a {
   margin-top: 30px;
 }
 
+ #portfolio h3 {
+   
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF !important;
+
+  }
+
 #portfolio .swiper-container {
   width: 95%;
   margin: auto;
@@ -808,85 +822,20 @@ a {
 }
 
 #portfolio .view img {
-  width: 95%;
+  width: 100%;
 }
 
-#portfolio .contant h3 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 49px;
-  color: #cd7b00;
-}
 
-#portfolio .contant .line {
-  width: 25%;
-  height: 1px;
-  background-color: #fff;
-  margin-left: 10%;
-  margin-bottom: 25px;
-}
-
-#portfolio .contant .p1 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  color: #ffffff;
-}
-
-#portfolio .contant .p2 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 18px;
-  width: 80%;
-  color: #ffffff;
-}
-
-#portfolio .contant .btns {
-  margin-top: 25%;
-}
-
-#portfolio .contant .btn1 {
-  border: 1px solid #ffffff;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  text-decoration-line: underline;
-  color: #ffffff;
-  background-color: transparent;
-  padding: 14px 35px;
-  margin-right: 20px;
-}
-
-#portfolio .contant .btn2 {
-  background-color: #fff;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #000000;
-  padding: 14px 35px;
-}
 
 #portfolio .swiper-button-next {
   position: absolute;
-  top: 80%;
+  top: 50%;
   left: 90%;
 }
 
 #portfolio .swiper-button-prev {
   position: absolute;
-  top: 80%;
+  top: 50%;
   left: 5%;
 }
 
@@ -1063,6 +1012,37 @@ a {
   color: #000000;
   padding: 13px 51px;
 }
+
+
+/* ourclient */
+
+
+.ourclient {
+  background-image:url('/images/tim-russmann-d_Ti2olBog8-unsplash (1).png') ;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+
+.ourclient h3{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 61px;
+/* identical to box height */
+
+text-align: center;
+color: #FFFFFF;
+}
+
+
+.ourclient .redLine{
+  width: 20%;
+  margin: auto;
+  height: 1px;
+  background-color: #FFF;
+}
+
 
 /* CONTACT SECTION */
 
@@ -1266,6 +1246,19 @@ a {
     top: 62%;
   }
 
+
+  #portfolio .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  left: 98%;
+}
+
+#portfolio .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+
   #contact .container-fluid {
     margin-left: 30px;
   }
@@ -1464,6 +1457,9 @@ a {
     height: 100%;
   }
 
+  
+ 
+
   #portfolio .portfolio .p2 {
     font-size: 16px;
     margin-top: 0px;
@@ -1479,7 +1475,7 @@ a {
   }
 
   #portfolio .background img {
-    width: 80%;
+    width: 100%;
   }
 
   #portfolio .companies .swiper-slide .active {
@@ -2697,14 +2693,23 @@ a {
   background-color: #464646;
   padding-bottom: 15px;
   width: 60%;
-  height: 450px;
+  height: 480px;
   position: relative;
   margin: auto;
 }
 
 
+
+.lightbackground .contains .background:hover  {
+  transform: scale(1.05);
+  overflow: hidden !important;
+  transition: 0.8s;
+
+}
+
 .lightbackground .contains .seemore {
-  margin-left: 50px;
+ text-align: center;
+ width: 100%;
   position: absolute;
   top: 92% ;
   opacity: 1;
@@ -2782,10 +2787,7 @@ a {
   
 
 
-  .lightbackground .contains .seemore {
-    margin-left: 20px;
-  }
-
+  
   .lightbackground .contains .seemore span {
     font-size: 18px;
    }
@@ -2823,9 +2825,7 @@ a {
 
   
 
-  .lightbackground .contains .seemore {
-    margin-left: 20px;
-  }
+  
 
 
   .lightbackground .contains .seemore span {
@@ -2860,9 +2860,7 @@ a {
  
 
  
-  .lightbackground .contains .seemore {
-    margin-left: 20px;
-  }
+  
 
   .lightbackground .contains .seemore span {
     font-size: 14px;
@@ -5376,7 +5374,7 @@ color: #FFFFFF;
 
 
 .advertisitngBackground{
-  background-image: url("../images/Advertising@4x-100.jpg");
+  background-image: url("../images/advertising/Advertising@4x-100.jpg");
   /* background-attachment: fixed; */
   background-position: center ;
   background-size: cover;
@@ -5408,7 +5406,7 @@ color: #FFFFFF;
 }
 
 .exhibitionsBackground{
-  background-image: url("../images/cover event@4x-100.jpg");
+  background-image: url("../images/Exhibitions/cover\ event@4x-100.jpg");
   /* background-attachment: fixed; */
   background-position: center ;
   background-size: cover;
