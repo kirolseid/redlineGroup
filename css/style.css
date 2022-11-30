@@ -5454,14 +5454,15 @@ color: #FFFFFF;
 }
 
 .designingBackground{
-  background-image: url("../images/des@4x-100.jpg");
+  background-image: url("../images/designing/des@4x-100.jpg");
+
   /* background-attachment: fixed; */
   background-position: center ;
   background-size: cover;
   height: 100vh;
 }
 .designcontain{
-  background-image: url("../images/Group 361.png");
+  background-image: url("../images/designing/Group 361.png");
   background-attachment: fixed;
   background-position: center center;
   background-size: 100%;
@@ -5471,10 +5472,23 @@ color: #FFFFFF;
 
 .designcontain h3{
   margin-top: 90px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+text-align: center;
+
+color: #FFFFFF;
 }
 
 .designcontain .redline{
+   width: 11%;
+  height: 1px;
+  background-color: #dc1c22;
+
   margin: auto;
+
 }
 
 
@@ -5491,63 +5505,49 @@ text-align: center;
 color: #FFFFFF;
 }
 
-.interiordesign h3{
+.graphic{
+  background-image: url("../images/designing/Rectangle\ 69.png");
+  background-attachment: fixed;
+  background-position:center ;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.graphic h3{
   font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 50px;
 line-height: 61px;
 /* identical to box height */
-
 text-align: center;
+margin: 50px 0 22px 0;
 
-color: #ED1D24;
+color: #FFFFFF;
+
 }
 
-.interiordesign h6{
-  font-family: 'Montserrat';
+.graphic p{
+width: 90%;
+margin:40px auto;
+font-family: 'Montserrat';
 font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 49px;
-/* identical to box height */
-
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
 text-align: center;
 
 color: #FFFFFF;
+
 }
 
-.interiordesign h6 span{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 49px;
-/* identical to box height */
-
-text-align: center;
-
-color: #ED1D24;
+.graphic p span{
+margin: 0 20px ;
 }
 
-.interiordesign p{
-  width: 90%;
-  margin-top: 80px;
-}
-
-.interiordesign img{
-  width: 95%;
-  display: block;
-  margin: auto;
-}
-
-.uxdesign{
-  background-image: url("../images/UI-UX-Design-Process 1.png");
-  background-attachment: fixed;
-  background-position:center ;
-  background-size:contain cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+.mockupsimg{
+  width: 40%;
 }
 
 .developer{
@@ -5721,3 +5721,69 @@ text-align: left !important;
 
   margin: auto !important; ;
 } */
+
+.swiper-container {
+		width: 100%;
+		height: 400px;
+		margin: 20px auto;
+}
+
+.swiper-slide-container {
+  text-align: center;
+	font-size: 18px;
+	
+  height:100%;
+  max-width: 1000px;
+  margin:auto;
+		/* Center slide text vertically */
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+}
+
+/* .gallery-top {
+		height: 100%;
+		width: 100%;
+} */
+
+.gallery-top img{
+		height: 100%;
+		width: 100%;
+}
+
+.gallery-top video{
+		/* width: 500%; */
+		height: 110%;
+}
+.gallery-thumbs {
+		height: 20%;
+		box-sizing: border-box;
+		padding: 10px 0;
+}
+.gallery-thumbs .swiper-slide {
+		width: 10%;
+		height: 10% !important; 
+		opacity: 0.4;
+}
+
+.gallery-thumbs .swiper-slide img{
+		width: 100% !important;
+    height: 130px;
+}
+
+.gallery-thumbs .swiper-slide video{
+		width: 100%;
+    height: 130px;
+}
+.gallery-thumbs .swiper-slide-active {
+		opacity: 1;
+}

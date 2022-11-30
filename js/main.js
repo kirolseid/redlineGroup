@@ -56,6 +56,37 @@ var swiper = new Swiper(".arr .mySwiper", {
 });
 
 
+var swiper1 = new Swiper(".graphic .mySwiper1", {
+  navigation: {
+    nextEl: "#next",
+    prevEl: "#prev",
+  },
+});
+
+ var galleryTop = new Swiper(".gallery-top", {
+  //  spaceBetween: 10,
+  //  navigation: {
+  //    nextEl: ".gallery-top .swiper-button-next",
+  //    prevEl: ".gallery-top .swiper-button-prev",
+  //  },
+   loop: true,
+   loopedSlides: 4,
+ });
+ var galleryThumbs = new Swiper(".gallery-thumbs", {
+   spaceBetween: 10,
+   centeredSlides: true,
+   slidesPerView: "auto",
+   touchRatio: 0.2,
+   slideToClickedSlide: true,
+   loop: true,
+   loopedSlides: 4,
+ });
+ galleryTop.controller.control = galleryThumbs;
+ galleryThumbs.controller.control = galleryTop;
+
+
+ 
+
 var swiper = new Swiper(".gallery .collection .mySwiper", {
   slidesPerView: 4.5,
   slidesPerColumn: 2,
@@ -175,8 +206,6 @@ var swiper = new Swiper(".gallery .Vedios .mySwiper", {
   },
 });
 
-
-
 var swiper = new Swiper(".gatalog  .mySwiper", {
   slidesPerView: 3.5,
   slidesPerColumn: 2,
@@ -270,7 +299,6 @@ var swiper = new Swiper(".brands .mySwiper", {
     },
   },
 });
-
 
 var swiper = new Swiper(".clints .mySwiper", {
   slidesPerView: 6,
