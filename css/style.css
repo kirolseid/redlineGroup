@@ -5506,8 +5506,17 @@ color: #FFFFFF;
 }
 
 .graphic{
-  background-image: url("../images/designing/Rectangle\ 69.png");
+  background-image: url("../images/designing/Rectangle 69 (1).png");
   background-attachment: fixed;
+  background-position:center ;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.ARCHITECTURAL{
+    background-image: url("../images/designing/Rectangle 69 (1).png");
+  background-attachment: fixed !important;
   background-position:center ;
   background-size:cover ;
   background-repeat: no-repeat;
@@ -5545,6 +5554,25 @@ color: #FFFFFF;
 .graphic p span{
 margin: 0 20px ;
 }
+
+.graphic ul{
+  width: 60%;
+  
+margin:auto;
+margin-bottom: 20px;
+}
+
+.graphic li{
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+}
+
 
 .mockupsimg{
   width: 40%;
@@ -5786,4 +5814,23 @@ text-align: left !important;
 }
 .gallery-thumbs .swiper-slide-active {
 		opacity: 1;
+}
+
+
+#prev ,
+#next  {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  margin: 30px;
+
+}
+
+#prev:after,
+#next:after {
+  font-size: 0px !important;
 }
