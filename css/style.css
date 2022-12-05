@@ -5233,6 +5233,16 @@ a {
   background-size: cover;
   height: 100vh;
 }
+
+
+.conferenceBackGround{
+    background-image: url("../images/Red Line for Exhibitions, Conferences and Events Management/conference@3x-100 (1).jpg");
+
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
 .designcontain {
   background-image: url("../images/designing/Group 361.png");
   background-attachment: fixed;
@@ -5241,6 +5251,8 @@ a {
   /* height: 100vh; */
   padding: 80px 0;
 }
+
+
 
 .designcontain h3 {
   margin-top: 90px;
@@ -5984,7 +5996,7 @@ width: 95%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 100vh;
   }
   .graphic h3 {
     font-size: 20px;
