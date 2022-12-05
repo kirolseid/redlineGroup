@@ -52,13 +52,13 @@ a {
   /* height: 70vh; */
 }
 
-.vedio video{
+.vedio video {
   height: 100vh;
   object-fit: cover !important;
 }
 
 .onvedio {
-  background-color: rgb(0, 0, 0,0.2);
+  background-color: rgb(0, 0, 0, 0.2);
   height: 100vh;
   width: 100%;
   position: absolute;
@@ -89,28 +89,6 @@ a {
 
 .navbar .LoginLink {
   cursor: pointer;
-}
-
-.navbar .arbic {
-  margin-top: 34px;
-  font-size: 20px;
-  line-height: 27px;
-  margin-right: 18px;
-  color: #ffffff;
-}
-
-.navbar .arbic a {
-  font-family: "Montserrat-light";
-  font-style: normal;
-  font-weight: 100;
-  font-size: 20px;
-  line-height: 27px;
-  /* margin-right: 18px; */
-  color: #ffffffb9;
-}
-
-.navbar .arbic .ENactive {
-  color: #ffffff;
 }
 
 .navbar .nav-item .active {
@@ -191,34 +169,7 @@ a {
   color: #000000;
 }
 
-.respNav .arbic {
-  margin-top: 30px;
-}
 
-.respNav .arbic {
-  margin-top: 30px;
-  font-family: "Montserrat-light";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #000000;
-}
-
-.respNav .arbic a {
-  font-family: "Montserrat-light";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #00000087;
-}
-
-.respNav .arbic .ENactive {
-  color: #000000;
-}
 
 .respNav .social {
   margin-top: 100px;
@@ -375,7 +326,6 @@ a {
 
 /* welcome section */
 
-
 #welcomesec .contant {
   margin-left: 75px;
   position: relative;
@@ -437,8 +387,6 @@ a {
 }
 
 /*  WHY US SECTION  */
-
-
 
 #whyUs {
   background-image: url("../images/tim-russmann-d_Ti2olBog8-unsplash (1).png");
@@ -607,7 +555,6 @@ a {
   background-size: cover;
   height: 100vh;
   background-attachment: fixed;
-  
 }
 
 #serves .serve4 {
@@ -616,11 +563,7 @@ a {
   background-size: cover;
   height: 100vh;
   background-attachment: fixed;
-
-  
 }
-
-
 
 #serves .contant {
   position: relative;
@@ -733,19 +676,17 @@ a {
   margin-top: 30px;
 }
 
- #portfolio h3 {
-   
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 49px;
-/* identical to box height */
-text-align: center;
+#portfolio h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  /* identical to box height */
+  text-align: center;
 
-color: #FFFFFF !important;
-
-  }
+  color: #ffffff !important;
+}
 
 #portfolio .swiper-container {
   width: 95%;
@@ -816,14 +757,7 @@ color: #FFFFFF !important;
   background-color: transparent;
 }
 
-#portfolio .view {
-  width: 90%;
-  margin: 45px auto !important;
-}
 
-#portfolio .view img {
-  width: 100%;
-}
 
 
 
@@ -1013,36 +947,39 @@ color: #FFFFFF !important;
   padding: 13px 51px;
 }
 
-
 /* ourclient */
 
-
 .ourclient {
-  background-image:url('/images/tim-russmann-d_Ti2olBog8-unsplash (1).png') ;
+  background-image: url("/images/tim-russmann-d_Ti2olBog8-unsplash (1).png");
   background-attachment: fixed;
   padding: 100px 0;
 }
 
-.ourclient h3{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 61px;
-/* identical to box height */
+.ourclient h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  /* identical to box height */
 
-text-align: center;
-color: #FFFFFF;
+  text-align: center;
+  color: #ffffff;
 }
 
-
-.ourclient .redLine{
+.ourclient .redLine {
   width: 20%;
   margin: auto;
   height: 1px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
+
+  .ourclient img {
+ 
+width: 100%;
+ 
+}
 
 /* CONTACT SECTION */
 
@@ -1050,9 +987,6 @@ color: #FFFFFF;
   background-color: #1f1e1d;
 }
 
-#contact .container-fluid {
-  margin-left: 30px;
-}
 
 #contact h4 {
   font-family: "Montserrat";
@@ -1125,7 +1059,7 @@ color: #FFFFFF;
 }
 
 #contact .container-fluid {
-  padding: 0;
+  padding: 5px;
 }
 
 /* FOOTER SECTION */
@@ -1246,18 +1180,17 @@ color: #FFFFFF;
     top: 62%;
   }
 
-
   #portfolio .swiper-button-next {
-  position: absolute;
-  top: 50%;
-  left: 98%;
-}
+    position: absolute;
+    top: 50%;
+    left: 98%;
+  }
 
-#portfolio .swiper-button-prev {
-  position: absolute;
-  top: 50%;
-  left: 0%;
-}
+  #portfolio .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+  }
 
   #contact .container-fluid {
     margin-left: 30px;
@@ -1457,9 +1390,6 @@ color: #FFFFFF;
     height: 100%;
   }
 
-  
- 
-
   #portfolio .portfolio .p2 {
     font-size: 16px;
     margin-top: 0px;
@@ -1497,40 +1427,6 @@ color: #FFFFFF;
     font-size: 17px;
   }
 
-  #portfolio .view img {
-    width: 98%;
-  }
-
-  #portfolio .contant h3 {
-    font-size: 25px;
-  }
-
-  #portfolio .contant .line {
-    width: 28%;
-  }
-
-  #portfolio .contant .p1 {
-    font-size: 18px;
-  }
-
-  #portfolio .contant .p2 {
-    font-size: 12px;
-  }
-
-  #portfolio .contant .btns {
-    margin-top: 10%;
-  }
-
-  #portfolio .contant .btn1 {
-    font-size: 12px;
-    padding: 10px 20px;
-  }
-
-  #portfolio .contant .btn2 {
-    font-size: 12px;
-    padding: 10px 20px;
-  }
-
   #portfolio .swiper-button-next {
     top: 76%;
     left: 95%;
@@ -1566,21 +1462,7 @@ color: #FFFFFF;
     margin-bottom: 30px;
   }
 
-  #news .history {
-    width: 100px;
-    height: 50px;
-  }
-
-  #news .history h4 {
-    font-size: 12px;
-    line-height: 10px;
-  }
-
-  #news .history h5 {
-    font-size: 12px;
-    line-height: 10px;
-  }
-
+  
   #news .contant h6 {
     font-size: 12px;
     line-height: 18px;
@@ -1614,7 +1496,7 @@ color: #FFFFFF;
   }
 
   #contact .container-fluid {
-    margin-left: 0px;
+    padding-left: 5px;
   }
 
   #contact h4 {
@@ -1695,9 +1577,6 @@ color: #FFFFFF;
     width: 70%;
   }
 
-  /* .navbar-collapse{
-    background-color: #fff;
-  } */
 
   .servesHover {
     padding: 10px;
@@ -1833,63 +1712,58 @@ color: #FFFFFF;
     margin-top: 10px;
   }
 
-  
-#serves .serve1 {
-  background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png");
+  #serves .serve1 {
+    background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png");
 
-  background-position: center;
-  background-size: cover;
+    background-position: center;
+    background-size: cover;
 
-  background-attachment: scroll;
-
-    transform: translateZ(0);
-
-  background-size: cover;
-
-  height: 100vh;
-}
-
-#serves .serve2 {
-  background-image: url("../images/image\ 94.png");
-
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-
-  background-size: cover;
-/* background-attachment: scroll; */
+    background-attachment: scroll;
 
     transform: translateZ(0);
-}
 
-#serves .serve3 {
-  background-image: url("../images/image\ 95.png");
+    background-size: cover;
 
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
- 
+    height: 100vh;
+  }
 
-  background-size: cover;
+  #serves .serve2 {
+    background-image: url("../images/image\ 94.png");
 
- /* background-attachment: scroll; */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 
-    transform: translateZ(0);
-}
-
-#serves .serve4 {
-  background-image: url("../images/image\ 93.png");
-
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  /* background-attachment: scroll; */
+    background-size: cover;
+    /* background-attachment: scroll; */
 
     transform: translateZ(0);
-} 
+  }
 
+  #serves .serve3 {
+    background-image: url("../images/image\ 95.png");
 
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 
+    background-size: cover;
+
+    /* background-attachment: scroll; */
+
+    transform: translateZ(0);
+  }
+
+  #serves .serve4 {
+    background-image: url("../images/image\ 93.png");
+
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* background-attachment: scroll; */
+
+    transform: translateZ(0);
+  }
 
   #serves .contant {
     top: 40%;
@@ -1969,42 +1843,7 @@ color: #FFFFFF;
   #portfolio .features .nav-link li {
     padding: 0px;
   }
-
-  #portfolio .view img {
-    width: 98%;
-  }
-
-  #portfolio .contant h3 {
-    font-size: 25px;
-  }
-
-  #portfolio .contant .line {
-    width: 28%;
-  }
-
-  #portfolio .contant .p1 {
-    font-size: 18px;
-  }
-
-  #portfolio .contant .p2 {
-    font-size: 12px;
-  }
-
-  #portfolio .contant .btns {
-    margin-top: 10%;
-  }
-
-  #portfolio .contant .btn1 {
-    font-size: 12px;
-    padding: 10px 20px;
-  }
-
-  #portfolio .contant .btn2 {
-    font-size: 12px;
-    padding: 10px 20px;
-  }
-
-  #portfolio .swiper-button-next {
+#portfolio .swiper-button-next {
     top: 55%;
     left: 94%;
   }
@@ -2043,21 +1882,7 @@ color: #FFFFFF;
     transform: scale(1);
     transition: 1s;
   }
-  #news .history {
-    width: 100px;
-    height: 50px;
-  }
-
-  #news .history h4 {
-    font-size: 12px;
-    line-height: 10px;
-  }
-
-  #news .history h5 {
-    font-size: 12px;
-    line-height: 10px;
-  }
-
+  
   #news .contant h6 {
     font-size: 12px;
     line-height: 18px;
@@ -2091,7 +1916,7 @@ color: #FFFFFF;
   }
 
   #contact .container-fluid {
-    margin-left: 0px;
+    padding-left: 5px;
   }
 
   #contact h4 {
@@ -2165,9 +1990,7 @@ color: #FFFFFF;
 }
 
 @media all and (max-width: 480px) {
-  /* body {
-    overflow-x: hidden;
-  } */
+  
   nav .navbar-brand {
     width: 50%;
   }
@@ -2296,61 +2119,59 @@ color: #FFFFFF;
     margin-top: 0px;
   }
 
-  
   #serves .serve1 {
     background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png");
-  
+
     background-position: center;
     background-size: cover;
-  
+
     /* background-attachment: scroll; */
-  
-      transform: translateZ(0);
-  
+
+    transform: translateZ(0);
+
     background-size: cover;
-  
+
     height: 100vh;
   }
-  
+
   #serves .serve2 {
     background-image: url("../images/image\ 94.png");
-  
+
     background-position: center;
     background-size: cover;
     height: 100vh;
-  
+
     background-size: cover;
-  /* background-attachment: scroll; */
-  
-      transform: translateZ(0);
+    /* background-attachment: scroll; */
+
+    transform: translateZ(0);
   }
-  
+
   #serves .serve3 {
     background-image: url("../images/image\ 95.png");
-  
+
     background-position: center;
     background-size: cover;
     height: 100vh;
-   
-  
+
     background-size: cover;
-  
-   /* background-attachment: scroll; */
-  
-      transform: translateZ(0);
+
+    /* background-attachment: scroll; */
+
+    transform: translateZ(0);
   }
-  
+
   #serves .serve4 {
     background-image: url("../images/image\ 93.png");
-  
+
     background-position: center;
     background-size: cover;
     height: 100vh;
     background-attachment: scroll;
-  
-      transform: translateZ(0);
-  } 
-  
+
+    transform: translateZ(0);
+  }
+
   #serves .contant {
     top: 60%;
   }
@@ -2401,6 +2222,9 @@ color: #FFFFFF;
     margin-top: 0px;
   }
 
+
+
+
   #portfolio .swiper-container {
     margin-top: 50px;
     width: 100%;
@@ -2441,48 +2265,19 @@ color: #FFFFFF;
     padding: 0px;
   }
 
-  #portfolio .view img {
-    width: 98%;
-  }
+   #portfolio  .arr  img{
+width: 280px !important;
+}
+  
 
-  #portfolio .contant h3 {
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    margin-top: 10px;
-  }
+ 
 
-  #portfolio .contant .line {
-    margin: auto;
-    width: 20%;
-    margin-bottom: 10px;
-  }
 
-  #portfolio .contant .p1 {
-    font-size: 14px;
-  }
 
-  #portfolio .contant .p2 {
-    font-size: 10px;
-  }
-
-  #portfolio .contant .btns {
-    margin-top: 4%;
-  }
-
-  #portfolio .contant .btn1 {
-    font-size: 12px;
-    padding: 10px 20px;
-  }
-
-  #portfolio .contant .btn2 {
-    font-size: 12px;
-    padding: 10px 20px;
-  }
 
   #portfolio .swiper-button-next {
     top: 55%;
-    left: 88%;
+    left: 93%;
   }
   #portfolio .swiper-button-prev {
     top: 55%;
@@ -2520,21 +2315,7 @@ color: #FFFFFF;
     transform: scale(1);
     transition: 1s;
   }
-  #news .history {
-    width: 100px;
-    height: 50px;
-  }
-
-  #news .history h4 {
-    font-size: 12px;
-    line-height: 10px;
-  }
-
-  #news .history h5 {
-    font-size: 12px;
-    line-height: 10px;
-  }
-
+  
   #news .contant h6 {
     font-size: 12px;
     line-height: 18px;
@@ -2568,7 +2349,7 @@ color: #FFFFFF;
   }
 
   #contact .container-fluid {
-    margin-left: 0px;
+    padding-left: 5px;
   }
 
   #contact h4 {
@@ -2649,17 +2430,26 @@ color: #FFFFFF;
     /* margin: 15px 0; */
   }
 
-
-  .tradingBackground{
+  .tradingBackground {
     background-image: url("../images/Artboard 1@4x-100 (1).jpg");
-    
+
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    
+
     background-size: cover;
     min-height: 100vh;
   }
+
+
+
+  .ourclient h3 {
+ 
+  font-size: 30px;
+  line-height: 40px;
+ 
+}
+
 }
 
 /*===================================== treding page=============================== */
@@ -2698,29 +2488,24 @@ color: #FFFFFF;
   margin: auto;
 }
 
-
-
-.lightbackground .contains .background:hover  {
+.lightbackground .contains .background:hover {
   transform: scale(1.05);
   overflow: hidden !important;
   transition: 0.8s;
-
 }
 
 .lightbackground .contains .seemore {
- text-align: center;
- width: 100%;
+  text-align: center;
+  width: 100%;
   position: absolute;
-  top: 92% ;
+  top: 90%;
   opacity: 1;
   color: #ffffff;
 }
 
 .lightbackground .contains .seemore span {
- font-size: 25px;
+  font-size: 25px;
 }
-
-
 
 .lightbackground .contains .contant .line {
   background-color: #fff;
@@ -2733,7 +2518,7 @@ color: #FFFFFF;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  
+
   line-height: 24px;
   text-align: center;
   padding: 10px;
@@ -2750,9 +2535,6 @@ color: #FFFFFF;
     height: 350px;
   }
 
- 
-
-
   .lightbackground .contains .contant p {
     font-size: 16px;
     line-height: 24px;
@@ -2761,7 +2543,7 @@ color: #FFFFFF;
 
   .lightbackground .contains .seemore span {
     font-size: 20px;
-   }
+  }
 }
 
 @media all and (min-width: 850px) and (max-width: 1025px) {
@@ -2772,39 +2554,29 @@ color: #FFFFFF;
   }
 
   .lightbackground .contains .background {
-   
     height: 280px;
     margin: auto;
   }
   .lightbackground .contains .col-md-4 {
-   
     margin: auto;
     margin-top: 50px;
 
     /* margin-left: 20px; */
   }
 
-  
-
-
-  
   .lightbackground .contains .seemore span {
     font-size: 18px;
-   }
+  }
 
   .lightbackground .contains .contant p {
     font-size: 10px;
     line-height: 20px;
     padding: 10px;
   }
-
-
-  
 }
 
 @media all and (min-width: 768px) and (max-width: 850px) {
   .lightbackground .contains .background {
-   
     height: 280px;
     margin: auto;
   }
@@ -2815,22 +2587,15 @@ color: #FFFFFF;
     margin-bottom: 40px;
   }
 
- 
-
   .lightbackground .contains .col-md-4 {
     /* width: 30%; */
     margin: auto;
     margin-top: 50px;
   }
 
-  
-
-  
-
-
   .lightbackground .contains .seemore span {
     font-size: 14px;
-   }
+  }
   .lightbackground .contains .contant p {
     font-size: 10px;
     line-height: 20px;
@@ -2850,21 +2615,14 @@ color: #FFFFFF;
     /* margin-left: 20px; */
   }
 
-  
-
   .lightbackground .contains .background {
     /* width: 85%; */
     height: 290px;
   }
 
- 
-
- 
-  
-
   .lightbackground .contains .seemore span {
     font-size: 14px;
-   }
+  }
 
   .lightbackground .contains .contant p {
     font-size: 12px;
@@ -2886,20 +2644,14 @@ color: #FFFFFF;
     /* margin-left: 20px; */
   }
 
-
-
-  
-
   .lightbackground .contains .background {
     width: 70%;
-    height: 250px;
+    height: 240px;
   }
 
- 
-.lightbackground .contains .seemore span {
+  .lightbackground .contains .seemore span {
     font-size: 11px;
-   }
- 
+  }
 
   .lightbackground .contains .contant p {
     font-size: 10px;
@@ -2926,15 +2678,9 @@ color: #FFFFFF;
 
   .lightbackground .contains .background {
     width: 90%;
-    height: 230px;
+    height: 190px;
     margin: auto;
   }
-
-  
-
-  
-
- 
 
   .lightbackground .contains .seemore span {
     font-size: 12px;
@@ -3074,7 +2820,6 @@ color: #FFFFFF;
 
 /* ===============================gallery page===================== */
 
-
 .gallery h3,
 .about h3,
 .portofolio h3,
@@ -3109,30 +2854,33 @@ color: #FFFFFF;
   margin-top: 8px;
 }
 
- 
-
-.gallery .img{
+.gallery .img {
   margin-bottom: 20px;
 }
 
-.gallery .img img{
+.gallery .mySwiper .img img {
   width: 350px;
   height: 252px;
   display: block;
-  
-    margin: auto;
+
+  margin: auto;
 }
 
-.gallery .img video{
+.gallery  video {
   width: 350px;
   height: 252px;
   display: block;
-  
-    margin: auto;
-  
+
+  margin: auto;
 }
 
+.gallery iframe {
+width: 350px;
+  height: 252px;
+  display: block;
 
+  margin: auto;
+}
 
 .gallery .swiper-button-next {
   position: relative;
@@ -3167,34 +2915,26 @@ color: #FFFFFF;
 }
 
 @media all and (min-width: 1200px) and (max-width: 1440px) {
- 
-  
-  .gallery .img img{
-    width: 340px;
-    height: 252px;
-  }
-  .gallery .img video{
-    width: 340px;
-    height: 252px;
-    
-  }
+     .gallery .img img {
+  width:280px !important; 
+  height:280px !important;
+
 }
 
-@media all and (min-width: 768px) and (max-width: 1050px) {
+.gallery  video {
+  width:280px !important; 
+  height:280px !important;
 
-  .gallery .img img{
-  
-    width: 225px;
-    height: 200px;
-  
-  }
-
-  .gallery .img video{
-    width: 225px;
-    height: 200px;
-    
-  }
 }
+
+.gallery iframe {
+   width:280px !important; 
+  height:280px !important;
+
+}
+}
+
+
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .gallery h3,
@@ -3204,14 +2944,24 @@ color: #FFFFFF;
     font-size: 30px;
   }
 
-  /* .gallery .img{
-    margin-bottom: 20px;
-  }
-  
-  .gallery .img img{
-    width: 300px;
-    height: 252px;
-  } */
+  .gallery .img img {
+  width:220px !important; 
+  height:220px !important;
+
+}
+
+.gallery  video {
+  width:220px !important; 
+  height:220px !important;
+
+}
+
+.gallery iframe {
+   width:220px !important; 
+  height:220px !important;
+
+}
+
 
   .gallery .swiper-button-next {
     width: 12%;
@@ -3268,17 +3018,24 @@ color: #FFFFFF;
     margin-top: 8px;
   }
 
-  
-  .gallery .img img{
-    width: 275px;
-    height: 252px;
-  }
+   .gallery .mySwiper .img img {
+  width:200px;
+  height: 200px;
 
-  .gallery .img video{
-    width: 275px;
-    height: 252px;
-    
-  }
+}
+
+.gallery  video {
+  width:200px !important; 
+  height:200px !important;
+
+}
+
+.gallery iframe {
+   width:200px !important; 
+  height:200px !important;
+
+}
+
 
   .gallery .swiper-button-next {
     position: relative;
@@ -3334,16 +3091,24 @@ color: #FFFFFF;
     margin-top: 8px;
   }
 
-  .gallery .img img{
-    width: 250px;
-    height: 252px;
-  }
+   .gallery .mySwiper .img img {
+  width: 150px;
+  height: 150px;
 
-  .gallery .img video{
-    width: 250px;
-    height: 252px;
+}
 
-  }
+.gallery  video {
+  width: 150px !important; 
+  height: 150px !important;
+
+}
+
+.gallery iframe {
+   width: 150px !important; 
+  height: 150px !important;
+
+}
+
 
   .gallery .swiper-button-next {
     position: relative;
@@ -4892,7 +4657,6 @@ textarea {
 .gatalog .contains .redline {
   margin-left: 6%;
   width: 17%;
-  
 }
 
 .gatalog .container-fluid {
@@ -4948,6 +4712,21 @@ textarea {
     width: 30% !important;
     left: -25%;
   }
+
+.gatalog .collection p {
+
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.874);
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+  
+
 }
 
 /* =========================req=============================== */
@@ -5060,33 +4839,31 @@ a {
   color: #ffffffa5;
 }
 
+.design h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 145px;
+  line-height: 145px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
 
-
-.design h2{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 145px;
-line-height: 145px;
-text-align: center;
-width: 80%;
-margin: auto;
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.design p{
-  font-family: 'Montserrat';
+.design p {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
-  margin-top: 30px  ;
+  color: #ffffff;
+  margin-top: 30px;
 }
 
-.design .col-md-6 .img-fluid{
+.design .col-md-6 .img-fluid {
   display: block;
   width: 65% !important;
   margin: auto !important;
@@ -5107,19 +4884,18 @@ color: #FFFFFF;
     left: 28%;
   }
 
-  
-.design h2{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 100px;
-line-height: 122px;
-text-align: center;
-width: 80%;
-margin: auto;
+  .design h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 122px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
 
-color: #FFFFFF;
-}
+    color: #ffffff;
+  }
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .reg img {
@@ -5231,237 +5007,233 @@ color: #FFFFFF;
 
 /*                    sections             */
 
-.lightbackground .title{
+.lightbackground .title {
   display: flex;
   align-items: flex-end;
   height: 60%;
   width: 60%;
-
 }
 
-.lightbackground .title h3{
- text-align: left;
- margin-left: 70px;
- font-size: 50px;
- line-height: 80px;
+.lightbackground .title h3 {
+  text-align: left;
+  margin-left: 70px;
+  font-size: 50px;
+  line-height: 80px;
 }
 
-.lightbackground .title h3 span{
+.lightbackground .title h3 span {
   color: #b6070d;
   font-size: 80px;
- }
+}
 
-.tradingBackground{
+.tradingBackground {
   background-image: url("../images/trading/trading new@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.labelsBackGround{
+.labelsBackGround {
   background-image: url("../images/Industrial Labels/Industrial\ Labels\,\ Tags\,\ label\ printers\ and\ tools@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.saftyBackGround{
+.saftyBackGround {
   background-image: url("../images/Fire and Industrial Security equipment/Safety\,\ Fire\ and\ Industrial\ Security\ equipment@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
-  
 }
 
-.militaryBackGround{
+.militaryBackGround {
   background-image: url("../images/military/Military\,\ Police\ and\ Security\ Uniform\,@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.saftyEquiomentBackGround{
-  background-image: url("../images/Safety Equipment's/Industrial\ Safety\ Equipment\'s@4x-100.jpg");
+.saftyEquiomentBackGround {
+  background-image: url("../images/Safety Equipment's/Industrial\ Safety\ Equipment's@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.chemicalsBackGround{
+.chemicalsBackGround {
   background-image: url("../images/Chemicals/Chemicals\ and\ Laboratories\,\ Equipments\,\ tools\ and\ Supplies@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.electroicBackGround{
+.electroicBackGround {
   background-image: url("../images/Industrial electronic/Industrial\ Electronic\ devices\ and\ Home\ appliances@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.DryingBackGround{
+.DryingBackGround {
   background-image: url("../images/Drying & Sanitizer Device (KLENZ)/klenz@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.uniformBackGround{
+.uniformBackGround {
   background-image: url("../images/Uniform (Trading, Import and Export)/Uniform@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.textileBackGround{
+.textileBackGround {
   background-image: url("../images/Textile, Shoes and Accessories/Textile, Shoes and Accessories@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
-.giftsBackGround{
+.giftsBackGround {
   background-image: url("../images/Gift Items/Gift Items@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.officeBackGround{
+.officeBackGround {
   background-image: url("../images/Office and school Supplies, Furniture and Stationery/Furniture and stationery@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-
-.booksBackGround{
+.booksBackGround {
   background-image: url("../images/Books .. Publishing and Distribution/books@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.musicaleBackGround{
+.musicaleBackGround {
   background-image: url("../images/Music Instruments/Music Instruments, tools and Musical equipments@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.sportBackGround{
+.sportBackGround {
   background-image: url("../images/Sports Equipments/sports@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-
-.advertisitngBackground{
+.advertisitngBackground {
   background-image: url("../images/advertising/Advertising@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.printingBackGround{
+.printingBackGround {
   background-image: url("../images/Printing and installing/Printing\ and\ installing@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.adsmaterilesBackGround{
+.adsmaterilesBackGround {
   background-image: url("../images/Trading in the advertising Materials/Trading\ in\ the\ advertising\ Materials@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.designBackGround{
+.designBackGround {
   background-image: url("../images/Design and printing/Advertisements\,\ Brochures\,\ Magazines\,\ Paper\ publication@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.exhibitionsBackground{
+.exhibitionsBackground {
   background-image: url("../images/Exhibitions/cover\ event@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.eventBackGround{
+.eventBackGround {
   background-image: url("../images/Events Management/event 1@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.mediaproBackGround{
+.mediaproBackGround {
   background-image: url("../images/Public Relations and Media Production/media\ pro@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.marketingBackGround{
+.marketingBackGround {
   background-image: url("../images/Markting/marketing@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.tantsBackGround{
+.tantsBackGround {
   background-image: url("../images/Rental Tents/tants@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.domeBackGround{
+.domeBackGround {
   background-image: url("../images/Dome video projection/hologram@4x-100.jpg");
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.designingBackground{
+.designingBackground {
   background-image: url("../images/designing/des@4x-100.jpg");
 
   /* background-attachment: fixed; */
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
-.designcontain{
+.designcontain {
   background-image: url("../images/designing/Group 361.png");
   background-attachment: fixed;
   background-position: center center;
@@ -5470,229 +5242,172 @@ color: #FFFFFF;
   padding: 80px 0;
 }
 
-.designcontain h3{
+.designcontain h3 {
   margin-top: 90px;
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-line-height: 43px;
-text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.designcontain .redline{
-   width: 11%;
+.designcontain .redline {
+  width: 11%;
   height: 1px;
   background-color: #dc1c22;
 
   margin: auto;
-
 }
 
-
-.designcontain p{
-  font-family: 'Montserrat-Light';
+.designcontain p {
+  font-family: "Montserrat-Light";
   width: 76%;
-  margin:20px auto;
-font-style: normal;
-font-weight: 100;
-font-size: 25px;
-line-height: 30px;
-text-align: center;
+  margin: 20px auto;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.graphic{
+.graphic {
   background-image: url("../images/designing/Rectangle 69 (1).png");
   background-attachment: fixed;
-  background-position:center ;
-  background-size:cover ;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
 
-.ARCHITECTURAL{
-    background-image: url("../images/designing/Rectangle 69 (1).png");
-  background-attachment: fixed !important;
-  background-position:center ;
-  background-size:cover ;
-  background-repeat: no-repeat;
-  height: 100vh;
+.graphic h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+  /* identical to box height */
+  text-align: center;
+  margin: 50px 0 22px 0;
+
+  color: #ffffff;
 }
 
-.graphic h3{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 61px;
-/* identical to box height */
-text-align: center;
-margin: 50px 0 22px 0;
+.graphic p {
+  width: 90%;
+  margin: 40px auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
 
-color: #FFFFFF;
-
+  color: #ffffff;
 }
 
-.graphic p{
-width: 90%;
-margin:40px auto;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 37px;
-text-align: center;
-
-color: #FFFFFF;
-
+.graphic p span {
+  margin: 0 20px;
 }
 
-.graphic p span{
-margin: 0 20px ;
-}
-
-.graphic ul{
+.graphic ul {
   width: 60%;
-  
-margin:auto;
-margin-bottom: 20px;
+
+  margin: auto;
+  margin-bottom: 20px;
 }
 
-.graphic li{
- font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
+.graphic li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 
-color: #FFFFFF;
-
+  color: #ffffff;
 }
 
-
-.mockupsimg{
+.mockupsimg {
   width: 40%;
 }
 
-.developer{
-  background-image: url("../images/image 160.png");
-  background-attachment: fixed;
-  background-position: center ;
-  background-size:cover;
-  height: 120vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.developer .contant h3{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 60px;
-line-height: 73px;
-text-align: center;
-
-color: #FFFFFF;
-  
-}
-
-.developer .contant p{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-line-height: 43px;
-text-align: center;
-width: 80%;
-margin:40px auto;
-color: #FFFFFF;
-}
-
-
-.collection h4{
-  font-family: 'Montserrat-bold';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 30px;
-color: #FFFFFF;
-text-align: center;
-}
-
-
-.collection p{
+.collection h4 {
+  font-family: "Montserrat-bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
   text-align: center;
 }
 
-.collection p span{
+.collection p {
+  text-align: center;
+}
+
+.collection p span {
   margin-right: 20px;
-  font-family: 'Montserrat-bold';
+  font-family: "Montserrat-bold";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
 
   text-align: center;
-  color: #FFFFFF;
-  display:inline ;
-  
-} 
+  color: #ffffff;
+  display: inline;
+}
 
-
-
-.collection ul{
+.collection ul {
   border: none;
   display: flex;
   justify-content: center;
   margin: auto;
 }
 
-
-.collection ul li{
- 
+.collection ul li {
   border: none;
-  background-color: rgb(255, 255, 255,0.5);
+  background-color: rgb(255, 255, 255, 0.5);
   border-radius: 8px;
   margin: 0 40px;
 }
 
-.collection ul li button{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 30px;
-color: #000000 !important;
-padding: 18px 25px;
+.collection ul li button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000 !important;
+  padding: 18px 25px;
   border: none;
-  background-color: rgb(255, 255, 255,0.5);
+  background-color: rgb(255, 255, 255, 0.5);
   border-radius: 8px;
 }
 
-.collection .tab-content{
+.collection .tab-content {
   margin: auto;
   margin-top: 100px;
 }
 
-.collection .tab-content h4{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 37px;
-margin-top: 20px;
-margin: auto;
-color: #FFFFFF;
-text-align: left !important;
+.collection .tab-content h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  margin-top: 20px;
+  margin: auto;
+  color: #ffffff;
+  text-align: left !important;
 }
 
-.collection .tab-content p{
-  font-family: 'Montserrat-Light';
+.collection .tab-content p {
+  font-family: "Montserrat-Light";
   font-style: normal;
   font-weight: 300;
   font-size: 22px;
@@ -5703,8 +5418,8 @@ text-align: left !important;
   color: #ffffffb2;
 }
 
-.collection .col-md-6 p{
-  font-family: 'Montserrat-Light';
+.collection .col-md-6 p {
+  font-family: "Montserrat-Light";
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -5720,10 +5435,10 @@ text-align: left !important;
   margin: auto;
   margin-top: 30px;
 
-  width:150px ;
+  width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #FFF;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5731,18 +5446,17 @@ text-align: left !important;
 
 .collection .brands .x {
   margin-left: 7%;
-  
 }
 
-.cataloges .col-md-2{
+.cataloges .col-md-2 {
   width: 20%;
   margin: auto;
 }
 
-.cataloges .col-md-2 img{
-  display: block  ;
-  max-width:90% ;
-  margin:20px auto;
+.cataloges .col-md-2 img {
+  display: block;
+  max-width: 90%;
+  margin: 20px auto;
 }
 /* 
 .collection .tab-content img{
@@ -5750,32 +5464,32 @@ text-align: left !important;
   margin: auto !important; ;
 } */
 
-.swiper-container {
-		width: 100%;
-		height: 400px;
-		margin: 20px auto;
+.in .swiper-container {
+  width: 100%;
+  height: 400px;
+  margin: 20px auto;
 }
 
-.swiper-slide-container {
+.in .swiper-slide-container {
   text-align: center;
-	font-size: 18px;
-	
-  height:100%;
+  font-size: 18px;
+
+  height: 100%;
   max-width: 1000px;
-  margin:auto;
-		/* Center slide text vertically */
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-box-pack: center;
-		-ms-flex-pack: center;
-		-webkit-justify-content: center;
-		justify-content: center;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		-webkit-align-items: center;
-		align-items: center;
+  margin: auto;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 /* .gallery-top {
@@ -5783,42 +5497,41 @@ text-align: left !important;
 		width: 100%;
 } */
 
-.gallery-top img{
-		height: 100%;
-		width: 100%;
+.in .gallery-top img {
+  height: 100%;
+  width: 100%;
 }
 
-.gallery-top video{
-		/* width: 500%; */
-		height: 110%;
+.in .gallery-top video {
+  /* width: 500%; */
+  height: 110%;
 }
-.gallery-thumbs {
-		height: 20%;
-		box-sizing: border-box;
-		padding: 10px 0;
+.in .gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
 }
-.gallery-thumbs .swiper-slide {
-		width: 10%;
-		height: 10% !important; 
-		opacity: 0.4;
-}
-
-.gallery-thumbs .swiper-slide img{
-		width: 100% !important;
-    height: 130px;
+.in .gallery-thumbs .swiper-slide {
+  width: 10%;
+  height: 10% !important;
+  opacity: 0.4;
 }
 
-.gallery-thumbs .swiper-slide video{
-		width: 100%;
-    height: 130px;
-}
-.gallery-thumbs .swiper-slide-active {
-		opacity: 1;
+.in .gallery-thumbs .swiper-slide img {
+  width: 100% !important;
+  height: 130px;
 }
 
+.in .gallery-thumbs .swiper-slide video {
+  width: 100%;
+  height: 130px;
+}
+.in .gallery-thumbs .swiper-slide-active {
+  opacity: 1;
+}
 
-#prev ,
-#next  {
+#prev,
+#next {
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -5827,29 +5540,548 @@ text-align: left !important;
   backdrop-filter: blur(5px);
   padding: 20px;
   margin: 30px;
-
 }
 
 #prev:after,
 #next:after {
   font-size: 0px !important;
 }
-.request{
+.request {
   display: flex;
   justify-content: center;
 }
-.request a{
+.request a {
+  background: #ffffff;
+  border-radius: 4px;
 
-  background: #FFFFFF;
-border-radius: 4px;;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
+  color: #000000;
+  padding: 27px 97px;
+  margin: 20px 0;
+}
 
-color: #000000;
-padding: 27px 97px;
-margin: 20px 0;
+.rr {
+  width: 30% !important;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+
+    .lightbackground .title {
+  
+
+  width: 60%;
+}
+  .lightbackground .title h3 {
+
+  margin-left: 20px;
+  font-size: 55px;
+  line-height: 70px;
+}
+
+.lightbackground .title h3 span {
+
+  font-size:70px;
+}
+  .designcontain {
+    background-image: url("../images/designing/Group 361.png");
+    background-attachment: fixed;
+    padding: 30px 0;
+  }
+
+  .designcontain h3 {
+    margin-top: 20px;
+
+    font-size: 40px;
+    line-height: 30px;
+  }
+
+  .designcontain .redline {
+    width: 30%;
+  }
+
+  .designcontain p {
+    width: 90%;
+    margin: 10px auto;
+
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .graphic {
+    background-image: url("../images/designing/Rectangle 69 (1).png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+  }
+  .graphic h3 {
+    font-size: 40px;
+    line-height: 30px;
+    margin: 40px 0 20px 0;
+  }
+
+  .graphic p {
+    width: 95%;
+    margin: 20px auto;
+
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .graphic p span {
+    margin: 0 5px;
+  }
+
+  .graphic ul {
+    width: 100%;
+  }
+
+  .graphic li {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .graphic img {
+    width: 80%;
+  }
+
+  .mockupsimg {
+    width: 50% !important;
+  }
+
+  .rr {
+    width: 60% !important;
+  }
+
+  .in .swiper-container {
+    width: 100%;
+    height: 400px;
+    margin: 30px auto;
+  }
+
+  .in .gallery-thumbs .swiper-slide img {
+    width: 100% !important;
+    height: 55px;
+  }
+
+  .in .gallery-thumbs .swiper-slide video {
+    width: 100%;
+    height: 55px;
+  }
+
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+     .lightbackground .title {
+  
+
+  width: 60%;
+}
+  .lightbackground .title h3 {
+
+  margin-left: 20px;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+.lightbackground .title h3 span {
+
+  font-size: 65px;
+}
+  .designcontain {
+    background-image: url("../images/designing/Group 361.png");
+    background-attachment: fixed;
+    padding: 30px 0;
+  }
+
+  .designcontain h3 {
+    margin-top: 20px;
+
+    font-size: 35px;
+    line-height: 30px;
+  }
+
+  .designcontain .redline {
+    width: 30%;
+  }
+
+  .designcontain p {
+    width: 90%;
+    margin: 10px auto;
+
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .graphic {
+    background-image: url("../images/designing/Rectangle 69 (1).png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;
+  }
+  .graphic h3 {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 30px 0 10px 0;
+  }
+
+  .graphic p {
+    width: 95%;
+    margin: 20px auto;
+
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .graphic p span {
+    margin: 0 5px;
+  }
+
+  .graphic ul {
+    width: 100%;
+  }
+
+  .graphic li {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .graphic img {
+    width: 60%;
+  }
+
+  .mockupsimg {
+    width: 50% !important;
+  }
+
+  .rr {
+    width: 40% !important;
+  }
+
+  .in .swiper-container {
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+  }
+
+  .in .gallery-thumbs .swiper-slide img {
+    width: 100% !important;
+    height: 55px;
+  }
+
+  .in .gallery-thumbs .swiper-slide video {
+    width: 100%;
+    height: 55px;
+  }
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+   .lightbackground .title {
+  
+
+  width: 80%;
+}
+  .lightbackground .title h3 {
+
+  margin-left: 20px;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.lightbackground .title h3 span {
+
+  font-size: 55px;
+}
+  .designcontain {
+    background-image: url("../images/designing/Group 361.png");
+    background-attachment: fixed;
+    padding: 30px 0;
+  }
+
+  .designcontain h3 {
+    margin-top: 20px;
+
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .designcontain .redline {
+    width: 30%;
+  }
+
+  .designcontain p {
+    width: 90%;
+    margin: 10px auto;
+
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .graphic {
+    background-image: url("../images/designing/Rectangle 69 (1).png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;
+  }
+  .graphic h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 20px 0 10px 0;
+  }
+
+  .graphic p {
+    width: 95%;
+    margin: 20px auto;
+
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .graphic p span {
+    margin: 0 5px;
+  }
+
+  .graphic ul {
+    width: 100%;
+  }
+
+  .graphic li {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .graphic img {
+    width: 70%;
+  }
+
+  .mockupsimg {
+    width: 70% !important;
+  }
+
+  .rr {
+    width: 40% !important;
+  }
+
+  .in .swiper-container {
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+  }
+
+  .in .gallery-thumbs .swiper-slide img {
+    width: 100% !important;
+    height: 55px;
+  }
+
+  .in .gallery-thumbs .swiper-slide video {
+    width: 100%;
+    height: 55px;
+  }
+
+  .request a {
+  font-size: 15px;
+  line-height: 24px; 
+  padding: 15px 45px;
+  margin: 20px 0;
+}
+
+.collection .tab-content p {
+width: 95%;
+  font-size: 14px;
+  line-height: 20px;
+
+}
+
+.collection ul li {
+  margin: 5px 10px;
+}
+
+.collection ul li button {
+  font-size: 14px;
+  padding: 10px 16px;
+}
+
+
+.collection .brands .one {
+
+  margin-top: 20px;
+
+  width: 100px;
+  height: 100px;
+ 
+}
+
+.collection .tab-content h4 {
+ 
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.collection .brands .x {
+  margin-left: 0%;
+}
+
+}
+
+@media all and (max-width: 480px) {
+  .lightbackground .title {
+  
+
+  width: 80%;
+}
+  .lightbackground .title h3 {
+
+  margin-left: 20px;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.lightbackground .title h3 span {
+
+  font-size: 50px;
+}
+  .designcontain {
+    background-image: url("../images/designing/Group 361.png");
+    background-attachment: fixed;
+    padding: 30px 0;
+  }
+
+  .designcontain h3 {
+    margin-top: 20px;
+
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .designcontain .redline {
+    width: 30%;
+  }
+
+  .designcontain p {
+    width: 90%;
+    margin: 10px auto;
+
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .graphic {
+    background-image: url("../images/designing/Rectangle 69 (1).png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+  }
+  .graphic h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0 10px 0;
+  }
+
+  .graphic p {
+    width: 95%;
+    margin: 20px auto;
+
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .graphic p span {
+    margin: 0 5px;
+  }
+
+  .graphic ul {
+    width: 100%;
+  }
+
+  .graphic li {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .graphic img {
+    width: 100%;
+  }
+
+  .mockupsimg {
+    width: 80% !important;
+  }
+
+  .rr {
+    width: 50% !important;
+  }
+
+  .in .swiper-container {
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+  }
+
+  .in .gallery-thumbs .swiper-slide img {
+    width: 100% !important;
+    height: 55px;
+  }
+
+  .in .gallery-thumbs .swiper-slide video {
+    width: 100%;
+    height: 55px;
+  }
+
+  .request a {
+  font-size: 15px;
+  line-height: 24px; 
+  padding: 15px 45px;
+  margin: 20px 0;
+}
+
+.collection .tab-content p {
+width: 95%;
+  font-size: 14px;
+  line-height: 20px;
+
+}
+
+.collection ul li {
+  margin: 5px 10px;
+}
+
+.collection ul li button {
+  font-size: 14px;
+  padding: 10px 16px;
+}
+
+
+.collection .brands .one {
+
+  margin-top: 20px;
+
+  width: 80px;
+  height: 80px;
+ 
+}
+
+.collection .tab-content h4 {
+ 
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.collection .brands .x {
+  margin-left: 0%;
+}
 }
