@@ -2859,24 +2859,24 @@ width: 280px !important;
 }
 
 .gallery .mySwiper .img img {
-  width: 350px;
-  height: 252px;
+  width: 450px;
+  height: 380px;
   display: block;
 
   margin: auto;
 }
 
 .gallery  video {
-  width: 350px;
-  height: 252px;
+    width: 450px;
+  height: 380px;
   display: block;
 
   margin: auto;
 }
 
 .gallery iframe {
-width: 350px;
-  height: 252px;
+  width: 450px;
+  height: 380px;
   display: block;
 
   margin: auto;
