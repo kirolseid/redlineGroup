@@ -6058,12 +6058,16 @@ width: 95%;
 
   .in .gallery-thumbs .swiper-slide img {
     width: 100% !important;
-    height: 55px;
+    height: 33px;
   }
 
   .in .gallery-thumbs .swiper-slide video {
-    width: 100%;
-    height: 55px;
+    width: 100% !important;
+    height: 33px;
+  }
+
+  .vv{
+    margin-top: 80px;
   }
 
 
