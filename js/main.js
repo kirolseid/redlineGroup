@@ -161,7 +161,7 @@ var swiper = new Swiper(".gallery .Images .mySwiper", {
     },
 
     1400: {
-      slidesPerView: 3.5,
+      slidesPerView: 3.3,
       spaceBetween: 50,
     },
   },
@@ -200,7 +200,7 @@ var swiper = new Swiper(".gallery .Vedios .mySwiper", {
     },
 
     1400: {
-      slidesPerView: 3.5,
+      slidesPerView: 3.3,
       spaceBetween: 50,
     },
   },

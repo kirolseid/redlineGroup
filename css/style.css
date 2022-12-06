@@ -6040,7 +6040,20 @@ width: 95%;
   .in .swiper-container {
     width: 100%;
     height: 200px;
-    margin: 20px auto;
+    margin: 30px auto;
+  }
+
+
+   .in .gallery-top img{
+    width: 90%;
+    height: 200px;
+    margin: 30px auto;
+  }
+
+    .in .gallery-top video{
+    width: 90%;
+    height: 200px;
+    margin: 30px auto;
   }
 
   .in .gallery-thumbs .swiper-slide img {
@@ -6052,6 +6065,20 @@ width: 95%;
     width: 100%;
     height: 55px;
   }
+
+
+
+  #prev,
+#next {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  margin: 0px;
+}
 
   .request a {
   font-size: 15px;
