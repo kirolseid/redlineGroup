@@ -2122,27 +2122,20 @@ width: 100%;
   #serves .serve1 {
     background-image: url("../images/andy-li-CpsTAUPoScw-unsplash.png");
 
-    background-position: center;
+     background-position: center;
     background-size: cover;
-
-    /* background-attachment: scroll; */
+    height: 100vh;
+    background-attachment: scroll;
 
     transform: translateZ(0);
-
-    background-size: cover;
-
-    height: 100vh;
   }
 
   #serves .serve2 {
     background-image: url("../images/image\ 94.png");
-
-    background-position: center;
+  background-position: center;
     background-size: cover;
     height: 100vh;
-
-    background-size: cover;
-    /* background-attachment: scroll; */
+    background-attachment: scroll;
 
     transform: translateZ(0);
   }
@@ -2153,10 +2146,7 @@ width: 100%;
     background-position: center;
     background-size: cover;
     height: 100vh;
-
-    background-size: cover;
-
-    /* background-attachment: scroll; */
+    background-attachment: scroll;
 
     transform: translateZ(0);
   }
