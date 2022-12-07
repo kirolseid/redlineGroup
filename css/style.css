@@ -1180,6 +1180,10 @@ width: 100%;
     top: 62%;
   }
 
+     #portfolio  .arr  img{
+width: 1000px !important;
+}
+
   #portfolio .swiper-button-next {
     position: absolute;
     top: 50%;
@@ -1427,6 +1431,10 @@ width: 100%;
     font-size: 17px;
   }
 
+     #portfolio  .arr  img{
+width: 600px !important;
+}
+
   #portfolio .swiper-button-next {
     top: 76%;
     left: 95%;
@@ -1576,6 +1584,7 @@ width: 100%;
   .closeNav {
     width: 70%;
   }
+
 
 
   .servesHover {
@@ -1843,6 +1852,12 @@ width: 100%;
   #portfolio .features .nav-link li {
     padding: 0px;
   }
+
+   #portfolio  .arr  img{
+width: 400px !important;
+}
+  
+  
 #portfolio .swiper-button-next {
     top: 55%;
     left: 94%;
