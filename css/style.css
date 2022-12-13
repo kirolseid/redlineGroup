@@ -2856,7 +2856,6 @@ width: 280px !important;
   width: 450px;
   height: 380px;
   display: block;
-
   margin: auto;
 }
 
@@ -2864,7 +2863,6 @@ width: 280px !important;
     width: 450px;
   height: 300px;
   display: block;
-
   margin: auto;
 }
 
@@ -2872,9 +2870,9 @@ width: 280px !important;
   width: 450px;
   height: 300px;
   display: block;
-
   margin: auto;
 }
+
 
 .gallery .swiper-button-next {
   position: relative;
