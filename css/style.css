@@ -538,7 +538,7 @@ a {
 }
 
 #serves .serve2 {
-  background-image: url("../images/image\ 94.png");
+  background-image: url("../images/e2c3bebf-93cf-4a83-9f2e-a547bfd70677 1.png");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -968,7 +968,8 @@ a {
 
 .ourclient img {
   width: 100%;
-}
+
+border-radius: 20px;}
 
 /* CONTACT SECTION */
 

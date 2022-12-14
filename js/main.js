@@ -490,17 +490,17 @@ function isScrolledIntoView(elem) {
 
 window.addEventListener("scroll", function () {
   if (isScrolledIntoView(portfolioSec)) {
-    $("#portfolio .portfolio ").delay(000).animate({ opacity: "1" }, 2000);
+    $("#portfolio .portfolio ").delay(000).animate({ opacity: "1" }, 1000);
 
-    $("#portfolio  .slide1").delay(600).animate({ opacity: "1" }, 2000);
+    $("#portfolio  .slide1").delay(600).animate({ opacity: "1" }, 1000);
 
-    $("#portfolio  .slide2").delay(800).animate({ opacity: "1" }, 2000);
+    $("#portfolio  .slide2").delay(800).animate({ opacity: "1" }, 1000);
 
-    $("#portfolio  .slide3").delay(1000).animate({ opacity: "1" }, 2000);
+    $("#portfolio  .slide3").delay(1000).animate({ opacity: "1" }, 1000);
 
-    $("#portfolio  .slide4").delay(1200).animate({ opacity: "1" }, 2000);
+    $("#portfolio  .slide4").delay(1200).animate({ opacity: "1" }, 1000);
 
-    $("#portfolio  .slide5").delay(1400).animate({ opacity: "1" }, 2000);
+    $("#portfolio  .slide5").delay(1400).animate({ opacity: "1" }, 1000);
   }
 });
 
