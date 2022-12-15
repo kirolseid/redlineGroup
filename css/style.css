@@ -4910,20 +4910,23 @@ a {
 .lightbackground .title {
   display: flex;
   align-items: flex-end;
-  height: 60%;
+  height: 70%;
   width: 60%;
 }
 
 .lightbackground .title h3 {
   text-align: left;
   margin-left: 70px;
-  font-size: 50px;
-  line-height: 80px;
+  font-size: 70px;
+  line-height: 90px;
+  font-weight: 800;
+
 }
 
 .lightbackground .title h3 span {
   color: #b6070d;
   font-size: 80px;
+  font-weight: 800;
 }
 
 .tradingBackground {
@@ -5476,6 +5479,7 @@ a {
 
   .lightbackground .title h3 span {
     font-size: 70px;
+    
   }
   .designcontain {
     background-image: url("../images/designing/Group 361.png");
